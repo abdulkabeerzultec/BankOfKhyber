@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataListTables" targetNamespace="http://tempuri.org/DataListTables.xsd" xmlns:mstns="http://tempuri.org/DataListTables.xsd" xmlns="http://tempuri.org/DataListTables.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="TempDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TempDBConnectionString (MySettings)" PropertyReference="ApplicationSettings.ZulAssetsDAL.My.MySettings.GlobalReference.Default.TempDBConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SAPItemsTableAdapter" GeneratorDataComponentClassName="SAPItemsTableAdapter" Name="SAPItems" UserDataComponentName="SAPItemsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectName="ZulAssetsBETemp.dbo.SAPItems" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     GUID, SAPPartNo, Description, Warranty
+FROM         SAPItems
+order by CreationDate</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="GUID" DataSetColumn="GUID" />
+              <Mapping SourceColumn="SAPPartNo" DataSetColumn="SAPPartNo" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="Warranty" DataSetColumn="Warranty" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SAPDocumentsTableAdapter" GeneratorDataComponentClassName="SAPDocumentsTableAdapter" Name="SAPDocuments" UserDataComponentName="SAPDocumentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectName="ZulAssetsBETemp.dbo.SAPDocuments" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     GUID, DocNo, DocDate
+FROM         SAPDocuments</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="GUID" DataSetColumn="GUID" />
+              <Mapping SourceColumn="DocNo" DataSetColumn="DocNo" />
+              <Mapping SourceColumn="DocDate" DataSetColumn="DocDate" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectName="ZulAssetsBETemp.dbo.SAPDocuments" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByType" GetMethodModifier="Public" GetMethodName="GetDataByType" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByType" UserSourceName="GetDataByType">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DocDate, DocNo, GUID FROM SAPDocuments WHERE (DocType = ?) ORDER BY CreationDate</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param2" ColumnName="DocType" DataSourceName="ZulAssetsBETemp.dbo.SAPDocuments" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="DocType" Precision="0" ProviderType="WChar" Scale="0" Size="50" SourceColumn="DocType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SAPItemSerialsTableAdapter" GeneratorDataComponentClassName="SAPItemSerialsTableAdapter" Name="SAPItemSerials" UserDataComponentName="SAPItemSerialsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectName="ZulAssetsBETemp.dbo.SAPItemSerials" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     GUID, SAPPartNo, SerialNo, ManufacturePartNo
+FROM         SAPItemSerials
+ORDER BY CreationDate</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="GUID" DataSetColumn="GUID" />
+              <Mapping SourceColumn="SAPPartNo" DataSetColumn="SAPPartNo" />
+              <Mapping SourceColumn="SerialNo" DataSetColumn="SerialNo" />
+              <Mapping SourceColumn="ManufacturePartNo" DataSetColumn="ManufacturePartNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="WarrantyClaimListTableAdapter" GeneratorDataComponentClassName="WarrantyClaimListTableAdapter" Name="WarrantyClaimList" UserDataComponentName="WarrantyClaimListTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SAPItemSerialsTrans.GUID AS TransGUID, SAPDocuments.GUID, SAPDocuments.DocNo, SAPDocuments.DocDate, SAPItemSerials.SerialNo
+FROM         SAPDocuments INNER JOIN
+                      SAPItemSerialsTrans ON SAPDocuments.GUID = SAPItemSerialsTrans.DocGUID INNER JOIN
+                      SAPItemSerials ON SAPItemSerialsTrans.ItemSerialGUID = SAPItemSerials.GUID</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DocNo" DataSetColumn="DocNo" />
+              <Mapping SourceColumn="DocDate" DataSetColumn="DocDate" />
+              <Mapping SourceColumn="SerialNo" DataSetColumn="SerialNo" />
+              <Mapping SourceColumn="TransGUID" DataSetColumn="TransGUID" />
+              <Mapping SourceColumn="GUID" DataSetColumn="GUID" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByType" GetMethodModifier="Public" GetMethodName="GetDataByType" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByType" UserSourceName="GetDataByType">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SAPItemSerialsTrans.GUID AS TransGUID, SAPDocuments.GUID, SAPDocuments.DocNo, SAPDocuments.DocDate, SAPItemSerials.SerialNo
+FROM         SAPDocuments INNER JOIN
+                      SAPItemSerialsTrans ON SAPDocuments.GUID = SAPItemSerialsTrans.DocGUID INNER JOIN
+                      SAPItemSerials ON SAPItemSerialsTrans.ItemSerialGUID = SAPItemSerials.GUID
+ WHERE (DocType = ?) and LastStatus = 'WarrantyClaim' ORDER BY SAPDocuments.CreationDate</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param2" ColumnName="DocType" DataSourceName="ZulAssetsBETemp.dbo.SAPDocuments" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="DocType" Precision="0" ProviderType="WChar" Scale="0" Size="50" SourceColumn="DocType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataListTables" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataListTables" msprop:Generator_DataSetName="DataListTables" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SAPItems" msprop:Generator_UserTableName="SAPItems" msprop:Generator_RowDeletedName="SAPItemsRowDeleted" msprop:Generator_RowChangedName="SAPItemsRowChanged" msprop:Generator_RowClassName="SAPItemsRow" msprop:Generator_RowChangingName="SAPItemsRowChanging" msprop:Generator_RowEvArgName="SAPItemsRowChangeEvent" msprop:Generator_RowEvHandlerName="SAPItemsRowChangeEventHandler" msprop:Generator_TableClassName="SAPItemsDataTable" msprop:Generator_TableVarName="tableSAPItems" msprop:Generator_RowDeletingName="SAPItemsRowDeleting" msprop:Generator_TablePropName="SAPItems">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="GUID" msprop:Generator_ColumnPropNameInRow="GUID" msprop:Generator_ColumnVarNameInTable="columnGUID" msprop:Generator_ColumnPropNameInTable="GUIDColumn" type="xs:string" />
+              <xs:element name="SAPPartNo" msprop:Generator_UserColumnName="SAPPartNo" msprop:Generator_ColumnPropNameInRow="SAPPartNo" msprop:Generator_ColumnVarNameInTable="columnSAPPartNo" msprop:Generator_ColumnPropNameInTable="SAPPartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Warranty" msprop:Generator_UserColumnName="Warranty" msprop:Generator_ColumnPropNameInRow="Warranty" msprop:Generator_ColumnVarNameInTable="columnWarranty" msprop:Generator_ColumnPropNameInTable="WarrantyColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SAPDocuments" msprop:Generator_UserTableName="SAPDocuments" msprop:Generator_RowDeletedName="SAPDocumentsRowDeleted" msprop:Generator_RowChangedName="SAPDocumentsRowChanged" msprop:Generator_RowClassName="SAPDocumentsRow" msprop:Generator_RowChangingName="SAPDocumentsRowChanging" msprop:Generator_RowEvArgName="SAPDocumentsRowChangeEvent" msprop:Generator_RowEvHandlerName="SAPDocumentsRowChangeEventHandler" msprop:Generator_TableClassName="SAPDocumentsDataTable" msprop:Generator_TableVarName="tableSAPDocuments" msprop:Generator_RowDeletingName="SAPDocumentsRowDeleting" msprop:Generator_TablePropName="SAPDocuments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="GUID" msprop:Generator_ColumnPropNameInRow="GUID" msprop:Generator_ColumnVarNameInTable="columnGUID" msprop:Generator_ColumnPropNameInTable="GUIDColumn" type="xs:string" />
+              <xs:element name="DocNo" msprop:Generator_UserColumnName="DocNo" msprop:Generator_ColumnPropNameInRow="DocNo" msprop:Generator_ColumnVarNameInTable="columnDocNo" msprop:Generator_ColumnPropNameInTable="DocNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocDate" msprop:Generator_UserColumnName="DocDate" msprop:Generator_ColumnPropNameInRow="DocDate" msprop:Generator_ColumnVarNameInTable="columnDocDate" msprop:Generator_ColumnPropNameInTable="DocDateColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SAPItemSerials" msprop:Generator_UserTableName="SAPItemSerials" msprop:Generator_RowDeletedName="SAPItemSerialsRowDeleted" msprop:Generator_RowChangedName="SAPItemSerialsRowChanged" msprop:Generator_RowClassName="SAPItemSerialsRow" msprop:Generator_RowChangingName="SAPItemSerialsRowChanging" msprop:Generator_RowEvArgName="SAPItemSerialsRowChangeEvent" msprop:Generator_RowEvHandlerName="SAPItemSerialsRowChangeEventHandler" msprop:Generator_TableClassName="SAPItemSerialsDataTable" msprop:Generator_TableVarName="tableSAPItemSerials" msprop:Generator_RowDeletingName="SAPItemSerialsRowDeleting" msprop:Generator_TablePropName="SAPItemSerials">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="GUID" msprop:Generator_ColumnPropNameInRow="GUID" msprop:Generator_ColumnVarNameInTable="columnGUID" msprop:Generator_ColumnPropNameInTable="GUIDColumn" type="xs:string" />
+              <xs:element name="SAPPartNo" msprop:Generator_UserColumnName="SAPPartNo" msprop:Generator_ColumnPropNameInRow="SAPPartNo" msprop:Generator_ColumnVarNameInTable="columnSAPPartNo" msprop:Generator_ColumnPropNameInTable="SAPPartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SerialNo" msprop:Generator_UserColumnName="SerialNo" msprop:Generator_ColumnPropNameInRow="SerialNo" msprop:Generator_ColumnVarNameInTable="columnSerialNo" msprop:Generator_ColumnPropNameInTable="SerialNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ManufacturePartNo" msprop:Generator_UserColumnName="ManufacturePartNo" msprop:Generator_ColumnPropNameInRow="ManufacturePartNo" msprop:Generator_ColumnVarNameInTable="columnManufacturePartNo" msprop:Generator_ColumnPropNameInTable="ManufacturePartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WarrantyClaimList" msprop:Generator_UserTableName="WarrantyClaimList" msprop:Generator_RowDeletedName="WarrantyClaimListRowDeleted" msprop:Generator_TableClassName="WarrantyClaimListDataTable" msprop:Generator_RowChangedName="WarrantyClaimListRowChanged" msprop:Generator_RowClassName="WarrantyClaimListRow" msprop:Generator_RowChangingName="WarrantyClaimListRowChanging" msprop:Generator_RowEvArgName="WarrantyClaimListRowChangeEvent" msprop:Generator_RowEvHandlerName="WarrantyClaimListRowChangeEventHandler" msprop:Generator_TablePropName="WarrantyClaimList" msprop:Generator_TableVarName="tableWarrantyClaimList" msprop:Generator_RowDeletingName="WarrantyClaimListRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocNo" msprop:Generator_UserColumnName="DocNo" msprop:Generator_ColumnPropNameInRow="DocNo" msprop:Generator_ColumnVarNameInTable="columnDocNo" msprop:Generator_ColumnPropNameInTable="DocNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocDate" msprop:Generator_UserColumnName="DocDate" msprop:Generator_ColumnPropNameInRow="DocDate" msprop:Generator_ColumnVarNameInTable="columnDocDate" msprop:Generator_ColumnPropNameInTable="DocDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SerialNo" msprop:Generator_UserColumnName="SerialNo" msprop:Generator_ColumnPropNameInRow="SerialNo" msprop:Generator_ColumnVarNameInTable="columnSerialNo" msprop:Generator_ColumnPropNameInTable="SerialNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TransGUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="TransGUID" msprop:Generator_ColumnPropNameInRow="TransGUID" msprop:Generator_ColumnVarNameInTable="columnTransGUID" msprop:Generator_ColumnPropNameInTable="TransGUIDColumn" type="xs:string" />
+              <xs:element name="GUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="GUID" msprop:Generator_ColumnPropNameInRow="GUID" msprop:Generator_ColumnVarNameInTable="columnGUID" msprop:Generator_ColumnPropNameInTable="GUIDColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SAPItems" />
+      <xs:field xpath="mstns:GUID" />
+    </xs:unique>
+    <xs:unique name="SAPDocuments_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SAPDocuments" />
+      <xs:field xpath="mstns:GUID" />
+    </xs:unique>
+    <xs:unique name="SAPItemSerials_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SAPItemSerials" />
+      <xs:field xpath="mstns:GUID" />
+    </xs:unique>
+    <xs:unique name="WarrantyClaimList_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WarrantyClaimList" />
+      <xs:field xpath="mstns:TransGUID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

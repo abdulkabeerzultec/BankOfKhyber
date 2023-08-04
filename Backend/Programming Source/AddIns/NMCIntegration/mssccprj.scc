@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[NahdiIntegration.vbproj]
+SCC_Aux_Path = "\\Itserver\SourceSafe"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/NahdiIntegration", ADWAAAAA
+
+[NMCIntegration.vbproj]
+SCC_Aux_Path = "\\Itserver\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets4.0/ZulAssetsBackend/ZulAssets/AddIns/NMCIntegration", UKIDAAAA

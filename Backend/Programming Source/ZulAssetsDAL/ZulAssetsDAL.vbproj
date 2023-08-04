@@ -1,0 +1,501 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3239F37-C1E0-4772-8C5E-2D66446EF16E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ZulAssetsDAL</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>ZulAssetsDAL</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\AssetWarranty.vb" />
+    <Compile Include="Entity\CustomFields.vb" />
+    <Compile Include="IntegrationDAL\ABBIntegration.vb" />
+    <Compile Include="IntegrationDAL\AlHadaIntegration.vb" />
+    <Compile Include="IntegrationDAL\CMAIntegration.vb" />
+    <Compile Include="DBOperations\RemoteMachines.vb" />
+    <Compile Include="DBOperations\SysParam.vb" />
+    <Compile Include="Entity\AddCostHistory.vb" />
+    <Compile Include="Entity\AddCostType.vb" />
+    <Compile Include="Entity\AssetCoding.vb" />
+    <Compile Include="Entity\BarCode_Struct.vb" />
+    <Compile Include="Entity\BookHistory_temp.vb" />
+    <Compile Include="Entity\Company.vb" />
+    <Compile Include="Entity\CompGroups.vb" />
+    <Compile Include="Entity\CompLvl.vb" />
+    <Compile Include="Entity\OfflineMachines.vb" />
+    <Compile Include="Entity\ReportsFiles.vb" />
+    <Compile Include="Entity\DepPolicy.vb" />
+    <Compile Include="Entity\DepPolicy_History.vb" />
+    <Compile Include="Entity\GLCode.vb" />
+    <Compile Include="Entity\NonBarCoded.vb" />
+    <Compile Include="DBOperations\TransDataTemp.vb" />
+    <Compile Include="Entity\OrgHier.vb" />
+    <Compile Include="Entity\Roles.vb" />
+    <Compile Include="Entity\StandardReports.vb" />
+    <Compile Include="Entity\Units.vb" />
+    <Compile Include="Entity\Users.vb" />
+    <Compile Include="IntegrationDAL\NahdiIntegration.vb" />
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\ConnectionString.vb" />
+    <Compile Include="New DAL\DataListTables.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataListTables.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\GenericQueries.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenericQueries.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPExport.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPExport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPGI.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPGI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPGR.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPGR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPItems.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPItems.vb">
+      <DependentUpon>SAPItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPReports.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPReports.vb">
+      <DependentUpon>SAPReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPReversal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPReversal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPVendor.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPVendor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPWarranty.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPWarranty.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPWarrantyReceive.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPWarrantyReceive.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="New DAL\SAPWarrantyReceive.vb">
+      <DependentUpon>SAPWarrantyReceive.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\attAssetsCoding.vb" />
+    <Compile Include="Objects\attAssetWarranty.vb" />
+    <Compile Include="Objects\attBarCode_Struct.vb" />
+    <Compile Include="Objects\attcompany.vb" />
+    <Compile Include="DBOperations\AppConfig.vb" />
+    <Compile Include="DBOperations\DBConnection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DBOperations\DBOperations.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DBOperations\ModEncDec.vb" />
+    <Compile Include="Entity\Address.vb" />
+    <Compile Include="Entity\AssetDetails.vb" />
+    <Compile Include="Entity\AssetItems.vb" />
+    <Compile Include="Entity\AstBooks.vb" />
+    <Compile Include="Entity\Ast_Cust_history.vb" />
+    <Compile Include="Entity\Ast_History.vb" />
+    <Compile Include="Entity\InvSchedule.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Ast_Sold.vb" />
+    <Compile Include="Entity\BookHistory.vb" />
+    <Compile Include="Entity\Book.vb" />
+    <Compile Include="Entity\Brand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Category.vb" />
+    <Compile Include="Entity\CompanyInfo.vb" />
+    <Compile Include="Entity\CostCenter.vb" />
+    <Compile Include="Entity\Custodian.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Department.vb" />
+    <Compile Include="Entity\DepLogs.vb" />
+    <Compile Include="Entity\DepreciationConfig.vb" />
+    <Compile Include="Entity\DepreciationMethod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Designation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Devices.vb" />
+    <Compile Include="Entity\DisposalMethod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Location.vb" />
+    <Compile Include="Entity\HierGrps.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Insurer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Levels.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\PODetails.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Process.vb" />
+    <Compile Include="Entity\PurchaseOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Supplier.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IEntity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Interface.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attAddress.vb" />
+    <Compile Include="Objects\attAssetDetails.vb" />
+    <Compile Include="Objects\attItems.vb" />
+    <Compile Include="Objects\attAstBooks.vb" />
+    <Compile Include="Objects\attAst_Cust_history.vb" />
+    <Compile Include="Objects\attAst_History.vb" />
+    <Compile Include="Objects\attInvSchedule.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attAst_Sold.vb" />
+    <Compile Include="Objects\attBookHistory.vb" />
+    <Compile Include="Objects\attBookTempl.vb" />
+    <Compile Include="Objects\attBrand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attCategory.vb" />
+    <Compile Include="Objects\attCompanyInfo.vb" />
+    <Compile Include="Objects\attCompGroups.vb" />
+    <Compile Include="Objects\attCompLvl.vb" />
+    <Compile Include="Objects\attCostCenter.vb" />
+    <Compile Include="Objects\AttAddCostHistory.vb" />
+    <Compile Include="Objects\attAddCostType.vb" />
+    <Compile Include="Objects\attCustodian.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attDepartment.vb" />
+    <Compile Include="Objects\attDeplogs.vb" />
+    <Compile Include="Objects\attDepPolicy.vb" />
+    <Compile Include="Objects\attDepPolicy_History.vb" />
+    <Compile Include="Objects\attDepreciationConfig.vb" />
+    <Compile Include="Objects\attDepriciationMethod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attDesignation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attDevices.vb" />
+    <Compile Include="Objects\attDisposalMethod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attGLCode.vb" />
+    <Compile Include="Objects\AttLocation.vb" />
+    <Compile Include="Objects\AttHierGrps.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attInsurer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Attlevels.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\AttOfflineMachines.vb" />
+    <Compile Include="Objects\attOrgHier.vb" />
+    <Compile Include="Objects\attPODetails.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attPurchaseOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attRoles.vb" />
+    <Compile Include="Objects\attSupplier.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\attUnits.vb" />
+    <Compile Include="Objects\attUsers.vb" />
+    <Compile Include="Objects\attBookHistory_temp.vb" />
+    <Compile Include="Objects\attReportsFiles.vb" />
+    <Compile Include="Objects\attCustomFields.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\DataListTables.xsc">
+      <DependentUpon>DataListTables.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\DataListTables.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataListTables.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\DataListTables.xss">
+      <DependentUpon>DataListTables.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\GenericQueries.xsc">
+      <DependentUpon>GenericQueries.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\GenericQueries.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenericQueries.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\GenericQueries.xss">
+      <DependentUpon>GenericQueries.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPExport.xsc">
+      <DependentUpon>SAPExport.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPExport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPExport.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPExport.xss">
+      <DependentUpon>SAPExport.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPGI.xsc">
+      <DependentUpon>SAPGI.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPGI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPGI.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPGI.xss">
+      <DependentUpon>SAPGI.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPGR.xsc">
+      <DependentUpon>SAPGR.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPGR.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPGR.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPGR.xss">
+      <DependentUpon>SAPGR.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPItems.xsc">
+      <DependentUpon>SAPItems.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPItems.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPItems.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPItems.xss">
+      <DependentUpon>SAPItems.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPReports.xsc">
+      <DependentUpon>SAPReports.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPReports.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPReports.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPReports.xss">
+      <DependentUpon>SAPReports.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPReversal.xsc">
+      <DependentUpon>SAPReversal.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPReversal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPReversal.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPReversal.xss">
+      <DependentUpon>SAPReversal.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPVendor.xsc">
+      <DependentUpon>SAPVendor.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPVendor.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPVendor.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPVendor.xss">
+      <DependentUpon>SAPVendor.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPWarranty.xsc">
+      <DependentUpon>SAPWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPWarranty.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPWarranty.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPWarranty.xss">
+      <DependentUpon>SAPWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPWarrantyReceive.xsc">
+      <DependentUpon>SAPWarrantyReceive.xsd</DependentUpon>
+    </None>
+    <None Include="New DAL\SAPWarrantyReceive.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAPWarrantyReceive.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="New DAL\SAPWarrantyReceive.xss">
+      <DependentUpon>SAPWarrantyReceive.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

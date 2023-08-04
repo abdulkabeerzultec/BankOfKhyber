@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[RetajIntegration.vbproj]
+SCC_Aux_Path = "\\ITServer\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/RetajIntegration", YEDAAAAA
+
+[UBLInsuranceIntegration.vbproj]
+SCC_Aux_Path = "\\ITServer\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/AddIns/UBLInsuranceIntegration", BIGCAAAA
+
+[PAKBOSPlugin.vbproj]
+SCC_Aux_Path = "\\Itserver\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets4.0/ZulAssetsBackend/ZulAssets/AddIns/British Overseas School BOS", MTHDAAAA

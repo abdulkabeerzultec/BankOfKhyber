@@ -1,0 +1,30 @@
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\ZulAssetsBL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\ZulAssetsBL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.Strings.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.vbproj.GenerateResource.Cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\ZulAssetsBL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\ZulAssetsBL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ResolveAssemblyReference.cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.Strings.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.vbproj.GenerateResource.Cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\bin\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\bin\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\bin\GenericDAL.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.Strings.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.vbproj.GenerateResource.Cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\ZulAssetsBL\obj\Debug\ZulAssetsBL.pdb

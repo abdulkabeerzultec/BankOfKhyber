@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterDefault" xml:space="preserve">
+    <value>Book set to default successfully</value>
+  </data>
+  <data name="AfterDeleteImg" xml:space="preserve">
+    <value>Image deleted successfully</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Purchase Order approved</value>
+  </data>
+  <data name="AssetBCodeError" xml:space="preserve">
+    <value>Please select assets </value>
+  </data>
+  <data name="AssetFirst" xml:space="preserve">
+    <value>Asset must be selected </value>
+  </data>
+  <data name="AssetNotFound" xml:space="preserve">
+    <value>Asset not found, please try again</value>
+  </data>
+  <data name="AssetTransferred" xml:space="preserve">
+    <value>Asset transferred successfully</value>
+  </data>
+  <data name="AstSameCompError" xml:space="preserve">
+    <value>Asset cannot be transferred in same Company</value>
+  </data>
+  <data name="AtLeastBook" xml:space="preserve">
+    <value>Please select at least one book</value>
+  </data>
+  <data name="AtLeastPOError" xml:space="preserve">
+    <value>There must be at least one item in Purchase Order</value>
+  </data>
+  <data name="BeforeApproved" xml:space="preserve">
+    <value>Do you really want to Approve ?</value>
+  </data>
+  <data name="BeforeBookAdd" xml:space="preserve">
+    <value>Book needs to be added</value>
+  </data>
+  <data name="BeforeBookUpdate" xml:space="preserve">
+    <value>Book needs to be updated</value>
+  </data>
+  <data name="BeforeDefault" xml:space="preserve">
+    <value>Do you really want to set Book default ?</value>
+  </data>
+  <data name="BeforeDeleted" xml:space="preserve">
+    <value>Do you really want to delete this record ?</value>
+  </data>
+  <data name="BeforeDeletedAsset" xml:space="preserve">
+    <value>Deleting this Asset will delete all its Depreciation and transfer history , Do you want to continue</value>
+  </data>
+  <data name="BeforeDeletedImg" xml:space="preserve">
+    <value>Do you really want to delete this image ?</value>
+  </data>
+  <data name="BeforePolicyApply" xml:space="preserve">
+    <value>Do you really want to apply BarCode Structure</value>
+  </data>
+  <data name="BookAlreadyClosed" xml:space="preserve">
+    <value>Book already closed for this date</value>
+  </data>
+  <data name="CantDelete" xml:space="preserve">
+    <value>This record cannot be deleted as related records exists.</value>
+  </data>
+  <data name="ClosedCannotDelete" xml:space="preserve">
+    <value>Closed Ranges cannot be deleted or updated</value>
+  </data>
+  <data name="CompAccess" xml:space="preserve">
+    <value>Role must have access on at least on Company</value>
+  </data>
+  <data name="CopyLimit" xml:space="preserve">
+    <value>Asset Number must be between 1 and 100</value>
+  </data>
+  <data name="DBLoginFail" xml:space="preserve">
+    <value>Invalid database login information</value>
+  </data>
+  <data name="DefinePolicy" xml:space="preserve">
+    <value>Please define Depreciation Policy for this category</value>
+  </data>
+  <data name="DefineRange" xml:space="preserve">
+    <value>Assets Range for this company must be defined first</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Record deleted successfully</value>
+  </data>
+  <data name="DepRuntoAuto" xml:space="preserve">
+    <value>You are switching to Auto - Depreciation Mode </value>
+  </data>
+  <data name="DepRuntoMan" xml:space="preserve">
+    <value>You are switching to Manual - Depreciation Mode</value>
+  </data>
+  <data name="DiscountExeed" xml:space="preserve">
+    <value>Discount cannot exeed the total amount.</value>
+  </data>
+  <data name="DuplicompGroup" xml:space="preserve">
+    <value>Company Group ID exist please try again</value>
+  </data>
+  <data name="ExceedBarCode" xml:space="preserve">
+    <value>Allowed barcode size exceeded</value>
+  </data>
+  <data name="InValid" xml:space="preserve">
+    <value>Invalid resgistration key !</value>
+  </data>
+  <data name="InvalidAstNum" xml:space="preserve">
+    <value>Please enter valid Asset Number</value>
+  </data>
+  <data name="InvalidCBV" xml:space="preserve">
+    <value>Invalid current book value </value>
+  </data>
+  <data name="InvalidCost" xml:space="preserve">
+    <value>Cost must be greater then zero</value>
+  </data>
+  <data name="InvalidDB" xml:space="preserve">
+    <value>Please enter valid database information</value>
+  </data>
+  <data name="InvalidMonth" xml:space="preserve">
+    <value>Invalid month</value>
+  </data>
+  <data name="InvalidNum" xml:space="preserve">
+    <value>Please enter valid number</value>
+  </data>
+  <data name="InvalidPrefix" xml:space="preserve">
+    <value>Prefix cannot be LOC</value>
+  </data>
+  <data name="InvalidRange" xml:space="preserve">
+    <value>Start Serial cannot be greater than End Serial</value>
+  </data>
+  <data name="InvalidRegisfound" xml:space="preserve">
+    <value>Invalid registration found</value>
+  </data>
+  <data name="LocBCodeError" xml:space="preserve">
+    <value>Please select Location</value>
+  </data>
+  <data name="MaxTreeLevel" xml:space="preserve">
+    <value>There can be max. 10 levels of Hierarchy</value>
+  </data>
+  <data name="NonTranSuccess" xml:space="preserve">
+    <value>Anonymous Asset is successfully registered</value>
+  </data>
+  <data name="NotDigit" xml:space="preserve">
+    <value>Enter a numeric value</value>
+  </data>
+  <data name="OutPercentRange" xml:space="preserve">
+    <value>Entered value is out of percentage range(1,1200)</value>
+  </data>
+  <data name="PoCompTransfer" xml:space="preserve">
+    <value>Purcahse Order is completely tansfered successfully</value>
+  </data>
+  <data name="PONoChange" xml:space="preserve">
+    <value>No changes can be made to Approved and Transferred PO</value>
+  </data>
+  <data name="RangeComExist" xml:space="preserve">
+    <value>Range already exists for this company</value>
+  </data>
+  <data name="RangeExceedCreateNew" xml:space="preserve">
+    <value>Serial Range exceeded for this company, please define new range</value>
+  </data>
+  <data name="RangeExist" xml:space="preserve">
+    <value>Range already exists</value>
+  </data>
+  <data name="RefIDExist" xml:space="preserve">
+    <value>Oracle reference ID exists !</value>
+  </data>
+  <data name="SameCoError" xml:space="preserve">
+    <value>Asset cannot be transferred in same company</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Record saved successfully</value>
+  </data>
+  <data name="SelectDevice" xml:space="preserve">
+    <value>Please select device </value>
+  </data>
+  <data name="SelectTranfer" xml:space="preserve">
+    <value>Please select tranfser method</value>
+  </data>
+  <data name="SelectTransItem" xml:space="preserve">
+    <value>Please select item to transfer</value>
+  </data>
+  <data name="SendErConfrm" xml:space="preserve">
+    <value>Error reported successfully, You will be contacted shortly</value>
+  </data>
+  <data name="SendErrError" xml:space="preserve">
+    <value>Internet connection could not be found </value>
+  </data>
+  <data name="Settingupdated" xml:space="preserve">
+    <value>System setting updated successfully</value>
+  </data>
+  <data name="StartEndDate" xml:space="preserve">
+    <value>Inventory End Date cannot be earlier than Start Date</value>
+  </data>
+  <data name="SystemValueDeleted" xml:space="preserve">
+    <value>System values cannot be deleted</value>
+  </data>
+  <data name="SystemValueEdit" xml:space="preserve">
+    <value>System values cannot be edited</value>
+  </data>
+  <data name="TransferReqInfo" xml:space="preserve">
+    <value>Please select a value before transfer</value>
+  </data>
+  <data name="TransferSame" xml:space="preserve">
+    <value>Asset cannot be Transferred with same information</value>
+  </data>
+  <data name="UserLoginFail" xml:space="preserve">
+    <value>Invalid Login Name or Password</value>
+  </data>
+  <data name="UserLoginMandatory" xml:space="preserve">
+    <value>Please enter Login Name and Password</value>
+  </data>
+  <data name="ValidKey" xml:space="preserve">
+    <value>ZulAsset registered successfully</value>
+  </data>
+  <data name="CanNotCopyDisposes" xml:space="preserve">
+    <value>Asset can not be copied if it is disposed</value>
+  </data>
+  <data name="CanNotCopyNotSavedAssets" xml:space="preserve">
+    <value>Please save before making the copy</value>
+  </data>
+  <data name="BeforeAddAdditionalCost" xml:space="preserve">
+    <value>Are you sure to save additional cost?</value>
+  </data>
+  <data name="PurchaseDateShouldBeLessThanServiceDate" xml:space="preserve">
+    <value>Purchase Date should be less than Service Date, change it and try again</value>
+  </data>
+  <data name="CantChangeAdditionalCost" xml:space="preserve">
+    <value>Cannot change Additional Cost after Depreciation is made</value>
+  </data>
+  <data name="CantDeleteAdditionalCost" xml:space="preserve">
+    <value>Cannot delete Additional Cost after Depreciation is made</value>
+  </data>
+  <data name="NoCompanyBookSelected" xml:space="preserve">
+    <value>No Asset Book associated with selected company, Asset cannot be saved.</value>
+  </data>
+  <data name="CompanyRelatedRecords" xml:space="preserve">
+    <value>Cannot delete the selected company, because there are related asset records or book records to it.</value>
+  </data>
+  <data name="NotSaved" xml:space="preserve">
+    <value>Record can't be saved, check the fields that have error and try again.</value>
+  </data>
+  <data name="ReportNotFound" xml:space="preserve">
+    <value>Report not found!, restore all reports from Report Designer first.</value>
+  </data>
+  <data name="ExportAstImgSucc" xml:space="preserve">
+    <value>Assets images exported successfully</value>
+  </data>
+  <data name="ExportItmImgSucc" xml:space="preserve">
+    <value>Items images exported successfully</value>
+  </data>
+  <data name="ImportAstImgSucc" xml:space="preserve">
+    <value>Assets images imported successfully</value>
+  </data>
+  <data name="ImportItmImgSucc" xml:space="preserve">
+    <value>Items images imported successfully</value>
+  </data>
+  <data name="ClearAstImgSucc" xml:space="preserve">
+    <value>Assets images cleared successfully</value>
+  </data>
+  <data name="ClearItmImgSucc" xml:space="preserve">
+    <value>Items images cleared successfully</value>
+  </data>
+  <data name="CanNotTransferDisposes" xml:space="preserve">
+    <value>Asset can not be transferred if it is disposed</value>
+  </data>
+  <data name="CancelReport" xml:space="preserve">
+    <value>Are you sure to close the report wizard?</value>
+  </data>
+  <data name="DemoAssetCount" xml:space="preserve">
+    <value>Evaluation, Assets Count exceed 10, Application will close now.</value>
+  </data>
+  <data name="BeforeDeleteCompanyHaveAsset" xml:space="preserve">
+    <value>Company have related assets, do you really want to delete this record ?</value>
+  </data>
+  <data name="ProcessComplete" xml:space="preserve">
+    <value>Process Completed.</value>
+  </data>
+  <data name="SelectOptionFirst" xml:space="preserve">
+    <value>Please select one option first.</value>
+  </data>
+  <data name="CatDescAlreadyExist" xml:space="preserve">
+    <value>Category description already exist in the same level.</value>
+  </data>
+  <data name="LocDescAlreadyExist" xml:space="preserve">
+    <value>Location description already exist in the same level.</value>
+  </data>
+  <data name="AssetCategoryminlevel" xml:space="preserve">
+    <value>Assets can't be transferred to this level, because "Asset Category Min Level" Parameter is bigger.</value>
+  </data>
+  <data name="AssetlocationMinlevel" xml:space="preserve">
+    <value>Assets can't be transferred to this level, because "Asset Location Min Level" Parameter is bigger.</value>
+  </data>
+  <data name="NoRecordSelected" xml:space="preserve">
+    <value>No Record(s) selected.</value>
+  </data>
+  <data name="ConfirmProcessData" xml:space="preserve">
+    <value>Are you sure to process the selected assets data?</value>
+  </data>
+  <data name="ConfirmSendData" xml:space="preserve">
+    <value>Are sure to send the data to the selected device, all data on the device will be replaced?</value>
+  </data>
+  <data name="NoSelectedAssets" xml:space="preserve">
+    <value>No selected assets, please select some assets and try again.</value>
+  </data>
+  <data name="TransferAssetConfirm" xml:space="preserve">
+    <value>Scanned asset barcode does not belong to the selected location. Do you want to transfer the asset?</value>
+  </data>
+  <data name="PasswordChangedSucc" xml:space="preserve">
+    <value>Password Changed Successfully.</value>
+  </data>
+  <data name="OldPasswordNotCorrect" xml:space="preserve">
+    <value>Invalid old password, try again.</value>
+  </data>
+  <data name="PasswordAndConfirmNotMatched" xml:space="preserve">
+    <value>Password and Confirm Password must be same</value>
+  </data>
+  <data name="SelectReportFirst" xml:space="preserve">
+    <value>Please select report from the left side, and try again!.</value>
+  </data>
+  <data name="CatCodeAlreadyExist" xml:space="preserve">
+    <value>Category code already exist in the same level.</value>
+  </data>
+  <data name="LocCodeAlreadyExist" xml:space="preserve">
+    <value>Location code already exist in the same level.</value>
+  </data>
+  <data name="SelectRowValidation" xml:space="preserve">
+    <value>Please select row from below grid before clicking on delete!.</value>
+  </data>
+  <data name="WarrantyDateValidate" xml:space="preserve">
+    <value>Warranty already exists for the selected period, please change the start date and try again.</value>
+  </data>
+  <data name="WarrantyDismiss" xml:space="preserve">
+    <value>Are you sure to dismiss?</value>
+  </data>
+  <data name="WarrantyDismissAll" xml:space="preserve">
+    <value>Are you sure to dismiss all?</value>
+  </data>
+  <data name="WarrantyMonthValidate" xml:space="preserve">
+    <value>Warranty months must be more than zero.</value>
+  </data>
+</root>

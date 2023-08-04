@@ -1,0 +1,17 @@
+SCC = This is a Source Code Control file
+
+[BalsharafImport.vbproj]
+SCC_Aux_Path = "\\Itserver\SourceSafe"
+SCC_Project_Name = "$/ZulMartNet.root/ZulMartNet/AddIns/Balsharaf Import Utility", IVDBAAAA
+
+[AbunayyanPlugin.vbproj]
+SCC_Aux_Path = "\\ITServer\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/AddIns/Abunayyan", OSCAAAAA
+
+[ElafPlugin.vbproj]
+SCC_Aux_Path = "\\ITServer\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/AddIns/Elaf", WGIAAAAA
+
+[SABBPlugin.vbproj]
+SCC_Aux_Path = "\\Itserver\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets4.0/ZulAssetsBackend/ZulAssets/AddIns/SABB", PPIDAAAA

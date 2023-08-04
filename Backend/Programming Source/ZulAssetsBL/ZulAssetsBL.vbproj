@@ -1,0 +1,236 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D50B773-7BD4-420F-91B4-06869F9E8F5B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ZulAssetsBL</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>ZulAssetsBL</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\GenericDAL\GenericDAL.vbproj">
+      <Project>{0F734536-2A18-4F0A-9D2C-BB0E696C55AF}</Project>
+      <Name>GenericDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZulAssetsDAL\ZulAssetsDAL.vbproj">
+      <Name>ZulAssetsDAL</Name>
+      <Project>{F3239F37-C1E0-4772-8C5E-2D66446EF16E}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALAddCostHistory.vb" />
+    <Compile Include="BALAddCostType.vb" />
+    <Compile Include="BALAddress.vb" />
+    <Compile Include="BALAppConfig.vb" />
+    <Compile Include="BALAssetDetails.vb" />
+    <Compile Include="BALAssetWarranty.vb" />
+    <Compile Include="BALItems.vb" />
+    <Compile Include="BALAssetsCoding.vb" />
+    <Compile Include="BALAstBooks.vb" />
+    <Compile Include="BALAst_Cust_history.vb" />
+    <Compile Include="BALAst_History.vb" />
+    <Compile Include="BALAst_INV_Schedule.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALAst_Sold.vb" />
+    <Compile Include="BALBarCode_Struct.vb" />
+    <Compile Include="BALBookHistory.vb" />
+    <Compile Include="BALBookHistory_temp.vb" />
+    <Compile Include="BALBooks.vb" />
+    <Compile Include="BALbrand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALCategory.vb" />
+    <Compile Include="BALCustomFields.vb" />
+    <Compile Include="BALDepreciation.vb" />
+    <Compile Include="IntegrationBAL\BALABBIntegration.vb" />
+    <Compile Include="IntegrationBAL\BALAlhadaIntegration.vb" />
+    <Compile Include="IntegrationBAL\BALCMAIntegration.vb" />
+    <Compile Include="BALCompanies.vb" />
+    <Compile Include="BALCompanyInfo.vb" />
+    <Compile Include="BALCostCenter.vb" />
+    <Compile Include="BALCustodian.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALDepartment.vb" />
+    <Compile Include="BALDepLogs.vb" />
+    <Compile Include="BALDepPolicy.vb" />
+    <Compile Include="BALDepPolicy_History.vb" />
+    <Compile Include="BALDepreciationConfig.vb" />
+    <Compile Include="BALDepreciationMethod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALDesignation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALDevices.vb" />
+    <Compile Include="BALDisposalMethod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALGLCode.vb" />
+    <Compile Include="BALLocation.vb" />
+    <Compile Include="BALHierGrps.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALInsurer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALCompLvl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALCompGroups.vb" />
+    <Compile Include="BALOfflineMachines.vb" />
+    <Compile Include="BALOrgHier.vb" />
+    <Compile Include="BALPODetails.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALPurchaseOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALRoles.vb" />
+    <Compile Include="BALStandardReports.vb" />
+    <Compile Include="BALSupplier.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALSysParam.vb" />
+    <Compile Include="BALUnits.vb" />
+    <Compile Include="BALUsers.vb" />
+    <Compile Include="BaseClass\BALNonBarCode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseClass\BALTransDataTemp.vb" />
+    <Compile Include="BaseClass\BLBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BALReportsFiles.vb" />
+    <Compile Include="IntegrationBAL\BALNahdiIntegration.vb" />
+    <Compile Include="NewBLL\BaseBLL.vb" />
+    <Compile Include="NewBLL\IBusLayer.vb" />
+    <Compile Include="NewBLL\SAPDocTypesBLL.vb" />
+    <Compile Include="NewBLL\SAPDocumentsBLL.vb" />
+    <Compile Include="NewBLL\SAPExportBLL.vb" />
+    <Compile Include="NewBLL\SAPItemsBLL.vb" />
+    <Compile Include="NewBLL\SAPItemSerialsBLL.vb" />
+    <Compile Include="NewBLL\SAPItemSerialsTransBLL.vb" />
+    <Compile Include="NewBLL\SAPReportsBLL.vb" />
+    <Compile Include="NewBLL\Strings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NewBLL\Strings.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,6 @@
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Release\ZultecScreenCapture.dll
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Release\ZultecScreenCapture.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Release\ZultecScreenCapture.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Release\ZultecScreenCapture.dll

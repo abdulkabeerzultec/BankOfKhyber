@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[OberoiHotelPlugin.vbproj]
+SCC_Aux_Path = "\\ITServer\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/AddIns/Oberoi Hotel Plugin", VRTAAAAA
+
+[SanofiPlugin.vbproj]
+SCC_Aux_Path = "\\Itserver\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets4.0/ZulAssetsBackend/ZulAssets/AddIns/Sanofi Plugin", PVIDAAAA

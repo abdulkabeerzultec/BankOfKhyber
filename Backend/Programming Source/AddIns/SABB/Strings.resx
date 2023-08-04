@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddMissingItems" xml:space="preserve">
+    <value>Are you sure to add missing items.</value>
+  </data>
+  <data name="AssignRouteConfirm" xml:space="preserve">
+    <value>Are you sure to assign customers to seleceted  route ?</value>
+  </data>
+  <data name="BarcodelengthNotValid" xml:space="preserve">
+    <value>Barcode length must be greater than the sum of (IdentifierLength+PLULength+TokenLength)</value>
+  </data>
+  <data name="BarcodeRange" xml:space="preserve">
+    <value>All the barcodes has been defined in specified range</value>
+  </data>
+  <data name="btnApproveCaption" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="btnChangePassCaption" xml:space="preserve">
+    <value>&amp;Change Password</value>
+  </data>
+  <data name="btnChangePassHint" xml:space="preserve">
+    <value>Change Selected User Password</value>
+  </data>
+  <data name="btnPOClosing" xml:space="preserve">
+    <value>Close PO</value>
+  </data>
+  <data name="btnPOOpen" xml:space="preserve">
+    <value>Reopen</value>
+  </data>
+  <data name="btnDOReceiving" xml:space="preserve">
+    <value>Receive Items</value>
+  </data>
+  <data name="btnPostCaption" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="btnReject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="btnReturn" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="btnWOClosing" xml:space="preserve">
+    <value>Close WO</value>
+  </data>
+  <data name="btnWOIssuing" xml:space="preserve">
+    <value>Issue Items</value>
+  </data>
+  <data name="btnWOOpen" xml:space="preserve">
+    <value>Reopen</value>
+  </data>
+  <data name="CanNotLogout" xml:space="preserve">
+    <value>Can not logout from the application, please close all opened forms and try again!.</value>
+  </data>
+  <data name="ClearDatabase" xml:space="preserve">
+    <value>Are you sure you want to clear all data?</value>
+  </data>
+  <data name="CreatePOConfirmation" xml:space="preserve">
+    <value>Are you sure to create PO for the selected Items?</value>
+  </data>
+  <data name="DataLoss" xml:space="preserve">
+    <value>All data will be lost.Do you want to continue?</value>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>No data found for the selected date and filtration.</value>
+  </data>
+  <data name="DataxmlNotFound" xml:space="preserve">
+    <value>Data.xml file not found in the application path.</value>
+  </data>
+  <data name="DBParameters" xml:space="preserve">
+    <value>Enter database Parameters</value>
+  </data>
+  <data name="DecimalPositionsNotValid" xml:space="preserve">
+    <value>Decimal Positions must be less than Token Length</value>
+  </data>
+  <data name="DeleteDatabaseSettings" xml:space="preserve">
+    <value>Are you sure to delete company settings({0})?</value>
+  </data>
+  <data name="DeleteRouteCustomer" xml:space="preserve">
+    <value>Are you sure to delete route customer ?</value>
+  </data>
+  <data name="DeleteTransaction" xml:space="preserve">
+    <value>Are you sure you want to delete all transactions?</value>
+  </data>
+  <data name="DeselectInventoryWarehouse" xml:space="preserve">
+    <value>This warehouse already has prepared inventory,first post that inventory.</value>
+  </data>
+  <data name="DiscountEqualOrGreaterThanZero" xml:space="preserve">
+    <value>Discount should be equal or greater than 0.</value>
+  </data>
+  <data name="EnterLotNumber" xml:space="preserve">
+    <value>Please enter Lot Numbers for lot items.</value>
+  </data>
+  <data name="EnterSerialNumber" xml:space="preserve">
+    <value>Please enter Serial Numbers for serialized items.</value>
+  </data>
+  <data name="ErrorImportingReport" xml:space="preserve">
+    <value>Error while importing report</value>
+  </data>
+  <data name="FromToLocationsSame" xml:space="preserve">
+    <value>From/To Locations should not be same.</value>
+  </data>
+  <data name="FromToWarehouseSame" xml:space="preserve">
+    <value>From and To warehouse must be different from each others.</value>
+  </data>
+  <data name="GenerateGTN" xml:space="preserve">
+    <value>Are you sure you want to generate GTN ?</value>
+  </data>
+  <data name="GetReportData" xml:space="preserve">
+    <value>Get report data...</value>
+  </data>
+  <data name="GettingData" xml:space="preserve">
+    <value>Getting Data - Please Wait...</value>
+  </data>
+  <data name="HelpFileNotFound" xml:space="preserve">
+    <value>Help file not found in the following path</value>
+  </data>
+  <data name="ImportsReports" xml:space="preserve">
+    <value>This will overwrite all reports have the same name, are you sure?</value>
+  </data>
+  <data name="InvalidLicenseKey" xml:space="preserve">
+    <value>Invalid license key.</value>
+  </data>
+  <data name="InventoryItem" xml:space="preserve">
+    <value>Inventory must contain at least one item.</value>
+  </data>
+  <data name="InventoryPost" xml:space="preserve">
+    <value>No changes can be made once Inventory is posted. Do you want to continue?</value>
+  </data>
+  <data name="InventoryPosted" xml:space="preserve">
+    <value>Cannot modify.Inventory already posted.</value>
+  </data>
+  <data name="InvoiceItem" xml:space="preserve">
+    <value>Invoice must contain at least one item.</value>
+  </data>
+  <data name="InvoicePost" xml:space="preserve">
+    <value>No changes can be made once invoice is posted. Do you want to continue?</value>
+  </data>
+  <data name="InvoicePosted" xml:space="preserve">
+    <value>Cannot modify.Invoice already posted.</value>
+  </data>
+  <data name="InvoiceReturn" xml:space="preserve">
+    <value>Are you sure want to return invoice?</value>
+  </data>
+  <data name="ItemAlreadyExisted" xml:space="preserve">
+    <value>Item already existed in the grid.</value>
+  </data>
+  <data name="ItemDoesntExist" xml:space="preserve">
+    <value>Item does not exist.</value>
+  </data>
+  <data name="ItemRequiredPriceUpdate" xml:space="preserve">
+    <value>Item Requires Price Update.</value>
+  </data>
+  <data name="ItemsNotSelected" xml:space="preserve">
+    <value>Please select item first.</value>
+  </data>
+  <data name="ItemUpdatePriceDiscard" xml:space="preserve">
+    <value>({0}) Prices will be discarded, are you sure to continue?</value>
+  </data>
+  <data name="ItemUpdatePricePost" xml:space="preserve">
+    <value>({0}) Prices will be posted, are you sure to continue?</value>
+  </data>
+  <data name="LanguageChangedRestart" xml:space="preserve">
+    <value>Language has been changed, Please run the application again.</value>
+  </data>
+  <data name="LoadingData" xml:space="preserve">
+    <value>Loading Data. Please Wait.</value>
+  </data>
+  <data name="LogoutConfrim" xml:space="preserve">
+    <value>Are you sure that you want to logout? all opened forms will be closed.</value>
+  </data>
+  <data name="LogoutFailed" xml:space="preserve">
+    <value>Failed to logout from the application, please close all the forms and try again.</value>
+  </data>
+  <data name="NoItemsRequested" xml:space="preserve">
+    <value>Cannot post.No items are requested,add items and try again.</value>
+  </data>
+  <data name="NoQTY" xml:space="preserve">
+    <value>Cannot post.Please review transfer quantity of all items.It cannot be zero.</value>
+  </data>
+  <data name="NoRecord" xml:space="preserve">
+    <value>No record(s) selected.</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>Insufficient Permission, current logged in user is not authorized to perform this action.</value>
+  </data>
+  <data name="OldPasswordNotCorrect" xml:space="preserve">
+    <value>Old Password not correct!.</value>
+  </data>
+  <data name="OpenDocument" xml:space="preserve">
+    <value>Open Document.</value>
+  </data>
+  <data name="OpenItemCard" xml:space="preserve">
+    <value>Open Item Card.</value>
+  </data>
+  <data name="OrderCancel" xml:space="preserve">
+    <value>No changes can be made once order is canceled.Do you want to continue?</value>
+  </data>
+  <data name="OrderClose" xml:space="preserve">
+    <value>Do you want to close the PO again?</value>
+  </data>
+  <data name="OrderConfirm" xml:space="preserve">
+    <value>No changes can be made once order is approved. Do you want to continue?</value>
+  </data>
+  <data name="OrderItemsNotFound" xml:space="preserve">
+    <value>Order must contain at least one item</value>
+  </data>
+  <data name="OrderMustApproved" xml:space="preserve">
+    <value>Request must be approved for further process</value>
+  </data>
+  <data name="OrderOpen" xml:space="preserve">
+    <value>Do you want to open the PO again?</value>
+  </data>
+  <data name="OrderPosted" xml:space="preserve">
+    <value>Cannot modify. Order already posted.</value>
+  </data>
+  <data name="ParentMustBeDifferent" xml:space="preserve">
+    <value>The parent must be diffrent from the current item.</value>
+  </data>
+  <data name="PasswordChangedSucc" xml:space="preserve">
+    <value>Password Changed Successfully.</value>
+  </data>
+  <data name="Passwordnotverified" xml:space="preserve">
+    <value>The password was not correctly confirmed.  Please ensure that the password and confirmation match exactly.</value>
+  </data>
+  <data name="PKGNotFound" xml:space="preserve">
+    <value>PKG Type not found in any SKU related to this item, first add SKU with the same PKG and then try again</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please Wait....</value>
+  </data>
+  <data name="PLUStartNotValid" xml:space="preserve">
+    <value>PLU Start must be more than Identifier length</value>
+  </data>
+  <data name="POCreatedSuccessfully" xml:space="preserve">
+    <value>PO with code({0}) created successfully, please navigate to PO to complete the information.</value>
+  </data>
+  <data name="PopulateReport" xml:space="preserve">
+    <value>Populating report.</value>
+  </data>
+  <data name="PreventEmptySerialNumber" xml:space="preserve">
+    <value>All serial numbers must be entered.</value>
+  </data>
+  <data name="PriceEqualOrGreaterThanZero" xml:space="preserve">
+    <value>Price should be equal or greater than 0.</value>
+  </data>
+  <data name="PriceGreaterThanZero" xml:space="preserve">
+    <value>Price should be greater than 0.</value>
+  </data>
+  <data name="PriceUpdateConfirm" xml:space="preserve">
+    <value>Are you sure you want to update the the price for all items?</value>
+  </data>
+  <data name="PriceUpdatedSuccessfully" xml:space="preserve">
+    <value>Item(s) price updated successfully.</value>
+  </data>
+  <data name="PrintLabelConfirm" xml:space="preserve">
+    <value>Labels for {0} {1} will be printed. Do you want to continue?</value>
+  </data>
+  <data name="PrintReportConfirmation" xml:space="preserve">
+    <value>Are you sure you want to print?</value>
+  </data>
+  <data name="ProcessingRequest" xml:space="preserve">
+    <value>Processing Request...</value>
+  </data>
+  <data name="ProcessUnknownBarcodeConfirm" xml:space="preserve">
+    <value>Are you sure that you process the selected Unknown Barcode?</value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="QTYCreaterThanZero" xml:space="preserve">
+    <value>QTY should be greater than 0.</value>
+  </data>
+  <data name="ReceiptPost" xml:space="preserve">
+    <value>No changes can be made once receipt is posted. Do you want to continue</value>
+  </data>
+  <data name="ReceiptPosted" xml:space="preserve">
+    <value>Cannot save. Receipt already posted</value>
+  </data>
+  <data name="RecordsDeleted" xml:space="preserve">
+    <value>Records has been deleted successfully.</value>
+  </data>
+  <data name="ReportNotFound" xml:space="preserve">
+    <value>Report({0}) not found in database, please restore or import the report from Tools-&gt;Report Designer and try again.</value>
+  </data>
+  <data name="RequestOrders" xml:space="preserve">
+    <value>No sales order(s) to process</value>
+  </data>
+  <data name="RestoreAllReports" xml:space="preserve">
+    <value>The restoration of all the reports has been successful.</value>
+  </data>
+  <data name="RestoreBackupFailed" xml:space="preserve">
+    <value>Failed to restore data.  Check that the file selected is accessible.</value>
+  </data>
+  <data name="RestoreProcess" xml:space="preserve">
+    <value>Restore process will undo all the changes made by the user in report(s) {0} Do you still want to restore the orginal report(s)?</value>
+  </data>
+  <data name="RestoreReports" xml:space="preserve">
+    <value>The restoration of the report was successful.</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Please select From and To Date.</value>
+  </data>
+  <data name="SelectDoc" xml:space="preserve">
+    <value>Select document number.</value>
+  </data>
+  <data name="SelectInventory" xml:space="preserve">
+    <value>Please select inventory first.</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Please select item first.</value>
+  </data>
+  <data name="SelectItemsFromGrid" xml:space="preserve">
+    <value>Select items from below grid first.</value>
+  </data>
+  <data name="SelectSession" xml:space="preserve">
+    <value>Please select session first.</value>
+  </data>
+  <data name="SelectWarehouseBeforeScaning" xml:space="preserve">
+    <value>Please select warehouse before scaning/selecting items.</value>
+  </data>
+  <data name="SessionsNotFound" xml:space="preserve">
+    <value>Sessions not found in database.</value>
+  </data>
+  <data name="SumDiscount" xml:space="preserve">
+    <value>Sum Discount</value>
+  </data>
+  <data name="TokenStartNotValid" xml:space="preserve">
+    <value>Token Start must be more than Identifier length + PLU Length</value>
+  </data>
+  <data name="TotalDiscountMoreThanTotalAmount" xml:space="preserve">
+    <value>Total discount should be less or equal to sub total amount.</value>
+  </data>
+  <data name="TotalEqualOrCreaterThanZero" xml:space="preserve">
+    <value>Total should be equal or greater than 0.</value>
+  </data>
+  <data name="TransactionLoss" xml:space="preserve">
+    <value>All transactions will be lost.Do you want to continue?</value>
+  </data>
+  <data name="TransferPost" xml:space="preserve">
+    <value>No changes can be made once transfer is posted. Do you want to continue?</value>
+  </data>
+  <data name="TransferPosted" xml:space="preserve">
+    <value>Cannot modify. Transfer already posted.</value>
+  </data>
+  <data name="TransferQty" xml:space="preserve">
+    <value>Transfer quantity cannot be greater than current quantity</value>
+  </data>
+  <data name="TransferSuccess" xml:space="preserve">
+    <value>Stock transfer created successfully</value>
+  </data>
+  <data name="UpdateDatabaseConfirm" xml:space="preserve">
+    <value>There may be other users logged into application.{0} You must kick them off immediately before proceed with the database upgrade. {0}Are you sure you want to update the database?</value>
+  </data>
+  <data name="UpdateDatabaseError" xml:space="preserve">
+    <value>Error when doing DBUpdate.</value>
+  </data>
+  <data name="UpdateDatabaseMessage" xml:space="preserve">
+    <value>Your copy of {0} Application has been updated, your database must be updated as well to be able to open it.</value>
+  </data>
+  <data name="UpdateDatabaseRequired" xml:space="preserve">
+    <value>Updating database is required, you can not skip updating database, Please try again.</value>
+  </data>
+  <data name="UpdatingDatabase" xml:space="preserve">
+    <value>Updating database.  Might take a few minutes...</value>
+  </data>
+  <data name="UpdatingDatabaseSuccess" xml:space="preserve">
+    <value>Database updated successfully, you can continue with the login.</value>
+  </data>
+  <data name="valRuleGreaterOrEqualZero" xml:space="preserve">
+    <value>Enter a value greater or equal zero.</value>
+  </data>
+  <data name="valRuleGreaterThanZero" xml:space="preserve">
+    <value>Enter a value greater than zero.</value>
+  </data>
+  <data name="valRuleNotContainMinus" xml:space="preserve">
+    <value>Enter a positive value.</value>
+  </data>
+  <data name="valRulenotEmpty" xml:space="preserve">
+    <value>Enter a value, Field must not be empty.</value>
+  </data>
+  <data name="WarehouseNotSelected" xml:space="preserve">
+    <value>Please select warehouse first.</value>
+  </data>
+  <data name="Warning_RestoreBackup" xml:space="preserve">
+    <value>Warning: Any data saved after the backup will be lost when restoring to an older backup file. Are you sure to continue?</value>
+  </data>
+</root>

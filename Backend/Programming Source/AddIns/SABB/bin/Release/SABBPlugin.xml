@@ -1,0 +1,2376 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SABBPlugin
+</name>
+</assembly>
+<members>
+<member name="P:SABBPlugin.My.Resources.Messages.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AfterDefault">
+	<summary>
+  Looks up a localized string similar to Book set to default successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AfterDeleteImg">
+	<summary>
+  Looks up a localized string similar to Image deleted successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.Approved">
+	<summary>
+  Looks up a localized string similar to Purchase Order approved.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AssetBCodeError">
+	<summary>
+  Looks up a localized string similar to Please select assets .
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AssetCategoryminlevel">
+	<summary>
+  Looks up a localized string similar to Assets can't be transferred to this level, because "Asset Category Min Level" Parameter is bigger..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AssetFirst">
+	<summary>
+  Looks up a localized string similar to Asset must be selected .
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AssetlocationMinlevel">
+	<summary>
+  Looks up a localized string similar to Assets can't be transferred to this level, because "Asset Location Min Level" Parameter is bigger..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AssetNotFound">
+	<summary>
+  Looks up a localized string similar to Asset not found, please try again.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AssetTransferred">
+	<summary>
+  Looks up a localized string similar to Asset transferred successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AstSameCompError">
+	<summary>
+  Looks up a localized string similar to Asset cannot be transferred in same Company.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AtLeastBook">
+	<summary>
+  Looks up a localized string similar to Please select at least one book.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.AtLeastPOError">
+	<summary>
+  Looks up a localized string similar to There must be at least one item in Purchase Order.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeAddAdditionalCost">
+	<summary>
+  Looks up a localized string similar to Are you sure to save additional cost?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeApproved">
+	<summary>
+  Looks up a localized string similar to Do you really want to Approve ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeBookAdd">
+	<summary>
+  Looks up a localized string similar to Book needs to be added.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeBookUpdate">
+	<summary>
+  Looks up a localized string similar to Book needs to be updated.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeDefault">
+	<summary>
+  Looks up a localized string similar to Do you really want to set Book default ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeDeleteCompanyHaveAsset">
+	<summary>
+  Looks up a localized string similar to Company have related assets, do you really want to delete this record ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeDeleted">
+	<summary>
+  Looks up a localized string similar to Do you really want to delete this record ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeDeletedAsset">
+	<summary>
+  Looks up a localized string similar to Deleting this Asset will delete all its Depreciation and transfer history , Do you want to continue.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforeDeletedImg">
+	<summary>
+  Looks up a localized string similar to Do you really want to delete this image ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BeforePolicyApply">
+	<summary>
+  Looks up a localized string similar to Do you really want to apply BarCode Structure.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.BookAlreadyClosed">
+	<summary>
+  Looks up a localized string similar to Book already closed for this date.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CancelReport">
+	<summary>
+  Looks up a localized string similar to Are you sure to close the report wizard?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CanNotCopyDisposes">
+	<summary>
+  Looks up a localized string similar to Asset can not be copied if it is disposed.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CanNotCopyNotSavedAssets">
+	<summary>
+  Looks up a localized string similar to Please save before making the copy.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CanNotTransferDisposes">
+	<summary>
+  Looks up a localized string similar to Asset can not be transferred if it is disposed.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CantChangeAdditionalCost">
+	<summary>
+  Looks up a localized string similar to Cannot change Additional Cost after Depreciation is made.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CantDelete">
+	<summary>
+  Looks up a localized string similar to This record cannot be deleted as related records exists..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CantDeleteAdditionalCost">
+	<summary>
+  Looks up a localized string similar to Cannot delete Additional Cost after Depreciation is made.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CatCodeAlreadyExist">
+	<summary>
+  Looks up a localized string similar to Category code already exist in the same level..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CatDescAlreadyExist">
+	<summary>
+  Looks up a localized string similar to Category description already exist in the same level..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ClearAstImgSucc">
+	<summary>
+  Looks up a localized string similar to Assets images cleared successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ClearItmImgSucc">
+	<summary>
+  Looks up a localized string similar to Items images cleared successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ClosedCannotDelete">
+	<summary>
+  Looks up a localized string similar to Closed Ranges cannot be deleted or updated.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CompAccess">
+	<summary>
+  Looks up a localized string similar to Role must have access on at least on Company.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CompanyRelatedRecords">
+	<summary>
+  Looks up a localized string similar to Cannot delete the selected company, because there are related asset records or book records to it..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ConfirmProcessData">
+	<summary>
+  Looks up a localized string similar to Are you sure to process the selected assets data?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ConfirmSendData">
+	<summary>
+  Looks up a localized string similar to Are sure to send the data to the selected device, all data on the device will be replaced?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.CopyLimit">
+	<summary>
+  Looks up a localized string similar to Asset Number must be between 1 and 100.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DBLoginFail">
+	<summary>
+  Looks up a localized string similar to Invalid database login information.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DefinePolicy">
+	<summary>
+  Looks up a localized string similar to Please define Depreciation Policy for this category.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DefineRange">
+	<summary>
+  Looks up a localized string similar to Assets Range for this company must be defined first.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.Deleted">
+	<summary>
+  Looks up a localized string similar to Record deleted successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DemoAssetCount">
+	<summary>
+  Looks up a localized string similar to Evaluation, Assets Count exceed 10, Application will close now..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DepRuntoAuto">
+	<summary>
+  Looks up a localized string similar to You are switching to Auto - Depreciation Mode .
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DepRuntoMan">
+	<summary>
+  Looks up a localized string similar to You are switching to Manual - Depreciation Mode.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DiscountExeed">
+	<summary>
+  Looks up a localized string similar to Discount cannot exeed the total amount..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.DuplicompGroup">
+	<summary>
+  Looks up a localized string similar to Company Group ID exist please try again.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ExceedBarCode">
+	<summary>
+  Looks up a localized string similar to Allowed barcode size exceeded.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ExportAstImgSucc">
+	<summary>
+  Looks up a localized string similar to Assets images exported successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ExportItmImgSucc">
+	<summary>
+  Looks up a localized string similar to Items images exported successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ImportAstImgSucc">
+	<summary>
+  Looks up a localized string similar to Assets images imported successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ImportItmImgSucc">
+	<summary>
+  Looks up a localized string similar to Items images imported successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InValid">
+	<summary>
+  Looks up a localized string similar to Invalid resgistration key !.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidAstNum">
+	<summary>
+  Looks up a localized string similar to Please enter valid Asset Number.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidCBV">
+	<summary>
+  Looks up a localized string similar to Invalid current book value .
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidCost">
+	<summary>
+  Looks up a localized string similar to Cost must be greater then zero.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidDB">
+	<summary>
+  Looks up a localized string similar to Please enter valid database information.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidMonth">
+	<summary>
+  Looks up a localized string similar to Invalid month.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidNum">
+	<summary>
+  Looks up a localized string similar to Please enter valid number.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidPrefix">
+	<summary>
+  Looks up a localized string similar to Prefix cannot be LOC.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidRange">
+	<summary>
+  Looks up a localized string similar to Start Serial cannot be greater than End Serial.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.InvalidRegisfound">
+	<summary>
+  Looks up a localized string similar to Invalid registration found.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.LocBCodeError">
+	<summary>
+  Looks up a localized string similar to Please select Location.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.LocCodeAlreadyExist">
+	<summary>
+  Looks up a localized string similar to Location code already exist in the same level..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.LocDescAlreadyExist">
+	<summary>
+  Looks up a localized string similar to Location description already exist in the same level..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.MaxTreeLevel">
+	<summary>
+  Looks up a localized string similar to There can be max. 10 levels of Hierarchy.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.NoCompanyBookSelected">
+	<summary>
+  Looks up a localized string similar to No Asset Book associated with selected company, Asset cannot be saved..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.NonTranSuccess">
+	<summary>
+  Looks up a localized string similar to Anonymous Asset is successfully registered.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.NoRecordSelected">
+	<summary>
+  Looks up a localized string similar to No Record(s) selected..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.NoSelectedAssets">
+	<summary>
+  Looks up a localized string similar to No selected assets, please select some assets and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.NotDigit">
+	<summary>
+  Looks up a localized string similar to Enter a numeric value.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.NotSaved">
+	<summary>
+  Looks up a localized string similar to Record can't be saved, check the fields that have error and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.OldPasswordNotCorrect">
+	<summary>
+  Looks up a localized string similar to Invalid old password, try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.OutPercentRange">
+	<summary>
+  Looks up a localized string similar to Entered value is out of percentage range(1,1200).
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.PasswordAndConfirmNotMatched">
+	<summary>
+  Looks up a localized string similar to Password and Confirm Password must be same.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.PasswordChangedSucc">
+	<summary>
+  Looks up a localized string similar to Password Changed Successfully..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.PoCompTransfer">
+	<summary>
+  Looks up a localized string similar to Purcahse Order is completely tansfered successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.PONoChange">
+	<summary>
+  Looks up a localized string similar to No changes can be made to PartialReceived and Received PO..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ProcessComplete">
+	<summary>
+  Looks up a localized string similar to Process Completed..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.PurchaseDateShouldBeLessThanServiceDate">
+	<summary>
+  Looks up a localized string similar to Purchase Date should be less than Service Date, change it and try again.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.RangeComExist">
+	<summary>
+  Looks up a localized string similar to Range already exists for this company.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.RangeExceedCreateNew">
+	<summary>
+  Looks up a localized string similar to Serial Range exceeded for this company, please define new range.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.RangeExist">
+	<summary>
+  Looks up a localized string similar to Range already exists.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.RefIDExist">
+	<summary>
+  Looks up a localized string similar to Oracle reference ID exists !.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ReportNotFound">
+	<summary>
+  Looks up a localized string similar to Report not found!, restore all reports from Report Designer first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SameCoError">
+	<summary>
+  Looks up a localized string similar to Asset cannot be transferred in same company.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.Saved">
+	<summary>
+  Looks up a localized string similar to Record saved successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SelectDevice">
+	<summary>
+  Looks up a localized string similar to Please select device .
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SelectOptionFirst">
+	<summary>
+  Looks up a localized string similar to Please select one option first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SelectReportFirst">
+	<summary>
+  Looks up a localized string similar to Please select report from the left side, and try again!..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SelectTranfer">
+	<summary>
+  Looks up a localized string similar to Please select tranfser method.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SelectTransItem">
+	<summary>
+  Looks up a localized string similar to Please select item to transfer.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SendErConfrm">
+	<summary>
+  Looks up a localized string similar to Error reported successfully, You will be contacted shortly.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SendErrError">
+	<summary>
+  Looks up a localized string similar to Internet connection could not be found .
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.Settingupdated">
+	<summary>
+  Looks up a localized string similar to System setting updated successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.StartEndDate">
+	<summary>
+  Looks up a localized string similar to Inventory End Date cannot be earlier than Start Date.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SystemValueDeleted">
+	<summary>
+  Looks up a localized string similar to System values cannot be deleted.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.SystemValueEdit">
+	<summary>
+  Looks up a localized string similar to System values cannot be edited.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.TransferAssetConfirm">
+	<summary>
+  Looks up a localized string similar to Scanned asset barcode does not belong to the selected location. Do you want to transfer the asset?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.TransferReqInfo">
+	<summary>
+  Looks up a localized string similar to Please select a value before transfer.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.TransferSame">
+	<summary>
+  Looks up a localized string similar to Asset cannot be Transferred with same information.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.UserLoginFail">
+	<summary>
+  Looks up a localized string similar to Invalid Login Name or Password.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.UserLoginMandatory">
+	<summary>
+  Looks up a localized string similar to Please enter Login Name and Password.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Messages.ValidKey">
+	<summary>
+  Looks up a localized string similar to ZulAsset registered successfully.
+</summary>
+</member><member name="T:SABBPlugin.My.Resources.Messages">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SABBPlugin.frmRoles.SetCheckBoxValue(System.Object,System.Boolean)">
+	<summary>
+ Sets all CheckBoxs contains in the FrameName to the value specified
+ </summary>
+	<param name="FrameName"></param>
+	<param name="value"></param>
+	<remarks>by Wael Dalloul</remarks>
+</member><member name="P:SABBPlugin.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Resources.CanNotSave">
+	<summary>
+  Looks up a localized string similar to This record cannot be saved because errors exists, please check the errors in the form and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Resources.NoItemsFound">
+	<summary>
+  Looks up a localized string similar to Can't save without items, add some items first and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Resources.valRuleGreaterOrEqualZero">
+	<summary>
+  Looks up a localized string similar to Please enter a value greater or equal zero..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Resources.valRuleGreaterThanZero">
+	<summary>
+  Looks up a localized string similar to Please enter a value greater than zero..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Resources.valRuleNotContainMinus">
+	<summary>
+  Looks up a localized string similar to Please enter a positive value..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Resources.valRulenotEmpty">
+	<summary>
+  Looks up a localized string similar to Please enter a value, Field must not be empty..
+</summary>
+</member><member name="T:SABBPlugin.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.AddressDetailsColumn">
+	<summary>
+  Looks up a localized string similar to Address Details.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Amount">
+	<summary>
+  Looks up a localized string similar to Amount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ArabicCaptionColumn">
+	<summary>
+  Looks up a localized string similar to ArabicCaption.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ArName">
+	<summary>
+  Looks up a localized string similar to ArName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.AvailableQTYColumn">
+	<summary>
+  Looks up a localized string similar to Available QTY.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.BarcodeColumn">
+	<summary>
+  Looks up a localized string similar to Barcode.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CategoryArName">
+	<summary>
+  Looks up a localized string similar to Category Ar Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CategoryEngColumn">
+	<summary>
+  Looks up a localized string similar to Category Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ClassificationEngName">
+	<summary>
+  Looks up a localized string similar to Classification Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ClassificationName">
+	<summary>
+  Looks up a localized string similar to Classification ArName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CloseAmountColumn">
+	<summary>
+  Looks up a localized string similar to CloseAmount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CloseDateTimeColumn">
+	<summary>
+  Looks up a localized string similar to CloseDateTime.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Code">
+	<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ControlNameColumn">
+	<summary>
+  Looks up a localized string similar to ControlName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CreationDate">
+	<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CreditColumn">
+	<summary>
+  Looks up a localized string similar to Credit.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CurrentQTYColumn">
+	<summary>
+  Looks up a localized string similar to Current QTY.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Custodian">
+	<summary>
+  Looks up a localized string similar to Custodian.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CustomerAccountNumber">
+	<summary>
+  Looks up a localized string similar to Account Number.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CustomerEngName">
+	<summary>
+  Looks up a localized string similar to Customer Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CustomerName">
+	<summary>
+  Looks up a localized string similar to Customer ArName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CustomerTypesEngName">
+	<summary>
+  Looks up a localized string similar to Customer Type.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.CustomerTypesName">
+	<summary>
+  Looks up a localized string similar to Customer ArType.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.DebitColumn">
+	<summary>
+  Looks up a localized string similar to Debit.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.DeviceEngNameColumn">
+	<summary>
+  Looks up a localized string similar to DeviceName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.DifferenceColumn">
+	<summary>
+  Looks up a localized string similar to Difference.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Discount">
+	<summary>
+  Looks up a localized string similar to Discount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.DocTypeEngNameColumn">
+	<summary>
+  Looks up a localized string similar to DocType.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.DocTypeNameColumn">
+	<summary>
+  Looks up a localized string similar to DocTypeAr.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.EmailColumn">
+	<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.EmpEngName">
+	<summary>
+  Looks up a localized string similar to Emp Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.EmpName">
+	<summary>
+  Looks up a localized string similar to Emp ArName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.EngCaptionColumn">
+	<summary>
+  Looks up a localized string similar to EngCaption.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.EngName">
+	<summary>
+  Looks up a localized string similar to EngName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ExampleColumn">
+	<summary>
+  Looks up a localized string similar to Example.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.FormNameColumn">
+	<summary>
+  Looks up a localized string similar to FormName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.FromLocation">
+	<summary>
+  Looks up a localized string similar to FromLocation.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.HardwareIDColumn">
+	<summary>
+  Looks up a localized string similar to HardwareID.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.InventoryDateColumn">
+	<summary>
+  Looks up a localized string similar to Inventory Date.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.InvoiceNumber">
+	<summary>
+  Looks up a localized string similar to Invoice Number.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.InvoiceStatus">
+	<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.InvoiceTotalAmount">
+	<summary>
+  Looks up a localized string similar to TotalAmount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.InvoiceTotalDiscount">
+	<summary>
+  Looks up a localized string similar to TotalDiscount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.InvoiceTypesEngName">
+	<summary>
+  Looks up a localized string similar to TypesEngName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ItemCodeColumn">
+	<summary>
+  Looks up a localized string similar to Item Code.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ItemCostPrice">
+	<summary>
+  Looks up a localized string similar to Cost Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ItemNameEngColumn">
+	<summary>
+  Looks up a localized string similar to Item Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.LicKeyColumn">
+	<summary>
+  Looks up a localized string similar to LicKey.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.LocationCodeColumn">
+	<summary>
+  Looks up a localized string similar to Location Code.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.LocationEngNameColumn">
+	<summary>
+  Looks up a localized string similar to Location Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.LocationNameColumn">
+	<summary>
+  Looks up a localized string similar to Location ArName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.LocationTypeCodeColumn">
+	<summary>
+  Looks up a localized string similar to Location Type Code.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.LocationTypeEngNameColumn">
+	<summary>
+  Looks up a localized string similar to Location Type.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.LocationTypeNameColumn">
+	<summary>
+  Looks up a localized string similar to Location ArType.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.NewCostPrice">
+	<summary>
+  Looks up a localized string similar to New Cost Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.NewPrice">
+	<summary>
+  Looks up a localized string similar to New Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.NewSellingPrice">
+	<summary>
+  Looks up a localized string similar to New Selling Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.OldCostPrice">
+	<summary>
+  Looks up a localized string similar to Old Cost Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.OldPrice">
+	<summary>
+  Looks up a localized string similar to Old Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.OldSellingPrice">
+	<summary>
+  Looks up a localized string similar to Old Selling Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.OnOrderQTYColumn">
+	<summary>
+  Looks up a localized string similar to On Order QTY.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.OpenAmountColumn">
+	<summary>
+  Looks up a localized string similar to OpenAmount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PackageNameArColumn">
+	<summary>
+  Looks up a localized string similar to Ar Package.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PackageNameEngColumn">
+	<summary>
+  Looks up a localized string similar to Package.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PackSizeColumn">
+	<summary>
+  Looks up a localized string similar to Package Size.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentArName">
+	<summary>
+  Looks up a localized string similar to Ar Payment Type.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentEngName">
+	<summary>
+  Looks up a localized string similar to Payment Type.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentMediaAmountColumn">
+	<summary>
+  Looks up a localized string similar to Amount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentMediaArNameColumn">
+	<summary>
+  Looks up a localized string similar to NameArabic.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentMediaEnNameColumn">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentMediaPhotoColumn">
+	<summary>
+  Looks up a localized string similar to Photo.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentMediaPiecesCountColumn">
+	<summary>
+  Looks up a localized string similar to Pieces Count.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PaymentMediaTypeColumn">
+	<summary>
+  Looks up a localized string similar to Type.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PermissionCategory">
+	<summary>
+  Looks up a localized string similar to Permission Category.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Phone1Column">
+	<summary>
+  Looks up a localized string similar to Phone1.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Phone2Column">
+	<summary>
+  Looks up a localized string similar to Phone2.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PhysicalQTYColumn">
+	<summary>
+  Looks up a localized string similar to Physical QTY.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.POSArName">
+	<summary>
+  Looks up a localized string similar to Ar POS Machine.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.POSEngName">
+	<summary>
+  Looks up a localized string similar to POS Machine.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.PrintedQTYColumn">
+	<summary>
+  Looks up a localized string similar to Printed QTY.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.QTY">
+	<summary>
+  Looks up a localized string similar to QTY.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ReceiptNumber">
+	<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ReceiptTypeColumn">
+	<summary>
+  Looks up a localized string similar to ReceiptType.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ReorderPointColumn">
+	<summary>
+  Looks up a localized string similar to Reorder Point.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ReorderQtyColumn">
+	<summary>
+  Looks up a localized string similar to Reorder Qty.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ReportNameColumn">
+	<summary>
+  Looks up a localized string similar to ReportName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ReportTypeColumn">
+	<summary>
+  Looks up a localized string similar to ReportType.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ScanDateTimeColumn">
+	<summary>
+  Looks up a localized string similar to Scan DateTime.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Selection">
+	<summary>
+  Looks up a localized string similar to Selection.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.SellingPriceColumn">
+	<summary>
+  Looks up a localized string similar to Price.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.SKUColumn">
+	<summary>
+  Looks up a localized string similar to Item Barcode.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.SNColumn">
+	<summary>
+  Looks up a localized string similar to SN.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.StartDateTimeColumn">
+	<summary>
+  Looks up a localized string similar to StartDateTime.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Status">
+	<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.SupplierEngNameColumn">
+	<summary>
+  Looks up a localized string similar to Supplier En Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.SupplierItemCodeColumn">
+	<summary>
+  Looks up a localized string similar to Supplier Item Code.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.SupplierNameColumn">
+	<summary>
+  Looks up a localized string similar to Supplier Ar Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.SupplierRefColumn">
+	<summary>
+  Looks up a localized string similar to Supplier Ref.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.ToLocation">
+	<summary>
+  Looks up a localized string similar to ToLocation.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Total">
+	<summary>
+  Looks up a localized string similar to Total.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.TotalDiscountColumn">
+	<summary>
+  Looks up a localized string similar to TotalDiscount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.TotalExchangeColumn">
+	<summary>
+  Looks up a localized string similar to TotalExchange.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.TotalReturnAmountColumn">
+	<summary>
+  Looks up a localized string similar to TotalReturnAmount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.TotalSalesAmountColumn">
+	<summary>
+  Looks up a localized string similar to TotalSalesAmount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Type">
+	<summary>
+  Looks up a localized string similar to Type.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.UrduCaptionColumn">
+	<summary>
+  Looks up a localized string similar to UrduCaption.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.UserEngNameColumn">
+	<summary>
+  Looks up a localized string similar to UserName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.Value">
+	<summary>
+  Looks up a localized string similar to Value.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.WarehouseCodeColumn">
+	<summary>
+  Looks up a localized string similar to Warehouse Code.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.WarehouseEngNameColumn">
+	<summary>
+  Looks up a localized string similar to Warehouse Name.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.WarehouseNameColumn">
+	<summary>
+  Looks up a localized string similar to Warehouse ArName.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.ColsName.WarrantyExpireDateColumn">
+	<summary>
+  Looks up a localized string similar to Warranty Date.
+</summary>
+</member><member name="T:SABBPlugin.My.Resources.ColsName">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:SABBPlugin.Items.ItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.Items.AssetDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.Items.AssetDetailsAstIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.Items.IssuancItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.Items.ItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.Items.AssetDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.Items.AssetDetailsAstIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.Items.IssuancItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.Items.ItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.Items.AssetDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.Items.AssetDetailsAstIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.Items.IssuancItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.Items">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SABBPlugin.ItemsTableAdapters.ItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.ItemsTableAdapters.AssetDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.ItemsTableAdapters.AssetDetailsAstIDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.ItemsTableAdapters.IssuancItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SABBPlugin.ItemsTableAdapters.TableAdapterManager.UpdateUpdatedRows(SABBPlugin.Items,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.ItemsTableAdapters.TableAdapterManager.UpdateInsertedRows(SABBPlugin.Items,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.ItemsTableAdapters.TableAdapterManager.UpdateDeletedRows(SABBPlugin.Items,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SABBPlugin.ItemsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SABBPlugin.ItemsTableAdapters.TableAdapterManager.UpdateAll(SABBPlugin.Items)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SABBPlugin.ItemsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SABBPlugin.ItemsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SABBPlugin.ItemsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PurchaseOrderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PODetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PurchaseOrderListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PurchaseOrderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PODetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PurchaseOrderListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PurchaseOrderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PODetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder.PurchaseOrderListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrder">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrderTableAdapters.PurchaseOrderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrderTableAdapters.PODetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrderTableAdapters.PurchaseOrderListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager.UpdateUpdatedRows(SABBPlugin.PurchaseOrder,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager.UpdateInsertedRows(SABBPlugin.PurchaseOrder,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager.UpdateDeletedRows(SABBPlugin.PurchaseOrder,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager.UpdateAll(SABBPlugin.PurchaseOrder)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SABBPlugin.PurchaseOrderTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Add">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Approved">
+	<summary>
+  Looks up a localized string similar to Approved.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.btnShowSessions">
+	<summary>
+  Looks up a localized string similar to Show Sessions.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Canceled">
+	<summary>
+  Looks up a localized string similar to Canceled.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Closed">
+	<summary>
+  Looks up a localized string similar to Closed.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.CustomerFilteration">
+	<summary>
+  Looks up a localized string similar to Customer Filteration.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.CustomerReturn">
+	<summary>
+  Looks up a localized string similar to Customer Return.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Customers">
+	<summary>
+  Looks up a localized string similar to Customers.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.DirectReceiving">
+	<summary>
+  Looks up a localized string similar to Direct Receiving.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.DocNum">
+	<summary>
+  Looks up a localized string similar to Doc#.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.DOReceiving">
+	<summary>
+  Looks up a localized string similar to DO Receiving.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Edit">
+	<summary>
+  Looks up a localized string similar to Edit.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Exchanged">
+	<summary>
+  Looks up a localized string similar to Exchanged.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.FieldConstraint">
+	<summary>
+  Looks up a localized string similar to Field Constraint.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.FieldEmptynotallowed">
+	<summary>
+  Looks up a localized string similar to Empty not allowed..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.FieldMaxLength">
+	<summary>
+  Looks up a localized string similar to Max length ={0}.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.FieldUnique">
+	<summary>
+  Looks up a localized string similar to Field value must be unique..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.FromCustomer">
+	<summary>
+  Looks up a localized string similar to From Customer.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.FromWarehouse">
+	<summary>
+  Looks up a localized string similar to From Warehouse.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.GrandTotal">
+	<summary>
+  Looks up a localized string similar to Grand Total=.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.GTNNum">
+	<summary>
+  Looks up a localized string similar to GTN #.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Inventory">
+	<summary>
+  Looks up a localized string similar to Inventory.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.IssuanceDate">
+	<summary>
+  Looks up a localized string similar to Issuance Date.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Issued">
+	<summary>
+  Looks up a localized string similar to Issued.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ItemPrintingList">
+	<summary>
+  Looks up a localized string similar to Item Printing List.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ItemReturn">
+	<summary>
+  Looks up a localized string similar to Supplier Return.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Items">
+	<summary>
+  Looks up a localized string similar to Items.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.LocationFilteration">
+	<summary>
+  Looks up a localized string similar to Location Filteration.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Locations">
+	<summary>
+  Looks up a localized string similar to Locations.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.MovementDate">
+	<summary>
+  Looks up a localized string similar to Movement Date.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.MRNNum">
+	<summary>
+  Looks up a localized string similar to MRN #.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.NewPO">
+	<summary>
+  Looks up a localized string similar to New.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.NewWO">
+	<summary>
+  Looks up a localized string similar to New.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Paid">
+	<summary>
+  Looks up a localized string similar to Paid.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.PartialIssued">
+	<summary>
+  Looks up a localized string similar to Partial Issued.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.PartialPayment">
+	<summary>
+  Looks up a localized string similar to Partial.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.PartialReceived">
+	<summary>
+  Looks up a localized string similar to Partial Received.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Pending">
+	<summary>
+  Looks up a localized string similar to Pending.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Posted">
+	<summary>
+  Looks up a localized string similar to Posted.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Prepared">
+	<summary>
+  Looks up a localized string similar to Prepared.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Received">
+	<summary>
+  Looks up a localized string similar to Received.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Refresh">
+	<summary>
+  Looks up a localized string similar to Refresh.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ReturnDate">
+	<summary>
+  Looks up a localized string similar to Return Date.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Returned">
+	<summary>
+  Looks up a localized string similar to Returned.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ShowAllCategories">
+	<summary>
+  Looks up a localized string similar to Show all categories.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ShowAllCustomers">
+	<summary>
+  Looks up a localized string similar to Show all customers.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ShowAllLocations">
+	<summary>
+  Looks up a localized string similar to Show All Locations.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ShowReport">
+	<summary>
+  Looks up a localized string similar to Show Report.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ShowSpecificCategories">
+	<summary>
+  Looks up a localized string similar to Show specific categories.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ShowSpecificCustomers">
+	<summary>
+  Looks up a localized string similar to Show specific customers.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ShowSpecificLocations">
+	<summary>
+  Looks up a localized string similar to Show Specific Locations.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Stock">
+	<summary>
+  Looks up a localized string similar to Stock:.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.StockIssuance">
+	<summary>
+  Looks up a localized string similar to Stock Issuance.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.StockMovement">
+	<summary>
+  Looks up a localized string similar to Stock Movement.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.SumDiscount">
+	<summary>
+  Looks up a localized string similar to Sum Discount=.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.SumQTY">
+	<summary>
+  Looks up a localized string similar to Sum QTY=.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Supplier">
+	<summary>
+  Looks up a localized string similar to Supplier.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ToCustodian">
+	<summary>
+  Looks up a localized string similar to To Custodian.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.ToSupplier">
+	<summary>
+  Looks up a localized string similar to To Supplier.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Transfered">
+	<summary>
+  Looks up a localized string similar to Transfered.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.User">
+	<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.Warehouse">
+	<summary>
+  Looks up a localized string similar to Warehouse.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.WarehouseTransfer">
+	<summary>
+  Looks up a localized string similar to Warehouse Transfer.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.AppInterface.WOIssuance">
+	<summary>
+  Looks up a localized string similar to WO Issuance.
+</summary>
+</member><member name="T:SABBPlugin.My.Resources.AppInterface">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:SABBPlugin.DataListTables.StockTransferDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.DataListTables.StockTransferRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.DataListTables.StockTransferRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.DataListTables">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SABBPlugin.DataListTablesTableAdapters.StockTransferTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager.UpdateUpdatedRows(SABBPlugin.DataListTables,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager.UpdateInsertedRows(SABBPlugin.DataListTables,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager.UpdateDeletedRows(SABBPlugin.DataListTables,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager.UpdateAll(SABBPlugin.DataListTables)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SABBPlugin.DataListTablesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.AddMissingItems">
+	<summary>
+  Looks up a localized string similar to Are you sure to add missing items..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.AssignRouteConfirm">
+	<summary>
+  Looks up a localized string similar to Are you sure to assign customers to seleceted  route ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.BarcodelengthNotValid">
+	<summary>
+  Looks up a localized string similar to Barcode length must be greater than the sum of (IdentifierLength+PLULength+TokenLength).
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.BarcodeRange">
+	<summary>
+  Looks up a localized string similar to All the barcodes has been defined in specified range.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnApproveCaption">
+	<summary>
+  Looks up a localized string similar to Approve.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnChangePassCaption">
+	<summary>
+  Looks up a localized string similar to &amp;Change Password.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnChangePassHint">
+	<summary>
+  Looks up a localized string similar to Change Selected User Password.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnDOReceiving">
+	<summary>
+  Looks up a localized string similar to Receive Items.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnPOClosing">
+	<summary>
+  Looks up a localized string similar to Close PO.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnPOOpen">
+	<summary>
+  Looks up a localized string similar to Reopen.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnPostCaption">
+	<summary>
+  Looks up a localized string similar to Post.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnReject">
+	<summary>
+  Looks up a localized string similar to Reject.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnReturn">
+	<summary>
+  Looks up a localized string similar to Return.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnWOClosing">
+	<summary>
+  Looks up a localized string similar to Close WO.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnWOIssuing">
+	<summary>
+  Looks up a localized string similar to Issue Items.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.btnWOOpen">
+	<summary>
+  Looks up a localized string similar to Reopen.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.CanNotLogout">
+	<summary>
+  Looks up a localized string similar to Can not logout from the application, please close all opened forms and try again!..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ClearDatabase">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to clear all data?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.CreatePOConfirmation">
+	<summary>
+  Looks up a localized string similar to Are you sure to create PO for the selected Items?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DataLoss">
+	<summary>
+  Looks up a localized string similar to All data will be lost.Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DataNotFound">
+	<summary>
+  Looks up a localized string similar to No data found for the selected date and filtration..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DataxmlNotFound">
+	<summary>
+  Looks up a localized string similar to Data.xml file not found in the application path..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DBParameters">
+	<summary>
+  Looks up a localized string similar to Enter database Parameters.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DecimalPositionsNotValid">
+	<summary>
+  Looks up a localized string similar to Decimal Positions must be less than Token Length.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DeleteDatabaseSettings">
+	<summary>
+  Looks up a localized string similar to Are you sure to delete company settings({0})?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DeleteRouteCustomer">
+	<summary>
+  Looks up a localized string similar to Are you sure to delete route customer ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DeleteTransaction">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to delete all transactions?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DeselectInventoryWarehouse">
+	<summary>
+  Looks up a localized string similar to This warehouse already has prepared inventory,first post that inventory..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.DiscountEqualOrGreaterThanZero">
+	<summary>
+  Looks up a localized string similar to Discount should be equal or greater than 0..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.EnterLotNumber">
+	<summary>
+  Looks up a localized string similar to Please enter Lot Numbers for lot items..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.EnterSerialNumber">
+	<summary>
+  Looks up a localized string similar to Please enter Serial Numbers for serialized items..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ErrorImportingReport">
+	<summary>
+  Looks up a localized string similar to Error while importing report.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.FromToLocationsSame">
+	<summary>
+  Looks up a localized string similar to From/To Locations should not be same..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.FromToWarehouseSame">
+	<summary>
+  Looks up a localized string similar to From and To warehouse must be different from each others..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.GenerateGTN">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to generate GTN ?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.GetReportData">
+	<summary>
+  Looks up a localized string similar to Get report data....
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.GettingData">
+	<summary>
+  Looks up a localized string similar to Getting Data - Please Wait....
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.HelpFileNotFound">
+	<summary>
+  Looks up a localized string similar to Help file not found in the following path.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ImportsReports">
+	<summary>
+  Looks up a localized string similar to This will overwrite all reports have the same name, are you sure?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InvalidLicenseKey">
+	<summary>
+  Looks up a localized string similar to Invalid license key..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InventoryItem">
+	<summary>
+  Looks up a localized string similar to Inventory must contain at least one item..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InventoryPost">
+	<summary>
+  Looks up a localized string similar to No changes can be made once Inventory is posted. Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InventoryPosted">
+	<summary>
+  Looks up a localized string similar to Cannot modify.Inventory already posted..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InvoiceItem">
+	<summary>
+  Looks up a localized string similar to Invoice must contain at least one item..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InvoicePost">
+	<summary>
+  Looks up a localized string similar to No changes can be made once invoice is posted. Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InvoicePosted">
+	<summary>
+  Looks up a localized string similar to Cannot modify.Invoice already posted..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.InvoiceReturn">
+	<summary>
+  Looks up a localized string similar to Are you sure want to return invoice?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ItemAlreadyExisted">
+	<summary>
+  Looks up a localized string similar to Item already existed in the grid..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ItemDoesntExist">
+	<summary>
+  Looks up a localized string similar to Item does not exist..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ItemRequiredPriceUpdate">
+	<summary>
+  Looks up a localized string similar to Item Requires Price Update..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ItemsNotSelected">
+	<summary>
+  Looks up a localized string similar to Please select item first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ItemUpdatePriceDiscard">
+	<summary>
+  Looks up a localized string similar to ({0}) Prices will be discarded, are you sure to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ItemUpdatePricePost">
+	<summary>
+  Looks up a localized string similar to ({0}) Prices will be posted, are you sure to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.LanguageChangedRestart">
+	<summary>
+  Looks up a localized string similar to Language has been changed, Please run the application again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.LoadingData">
+	<summary>
+  Looks up a localized string similar to Loading Data. Please Wait..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.LogoutConfrim">
+	<summary>
+  Looks up a localized string similar to Are you sure that you want to logout? all opened forms will be closed..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.LogoutFailed">
+	<summary>
+  Looks up a localized string similar to Failed to logout from the application, please close all the forms and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.NoItemsRequested">
+	<summary>
+  Looks up a localized string similar to Cannot post.No items are requested,add items and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.NoQTY">
+	<summary>
+  Looks up a localized string similar to Cannot post.Please review transfer quantity of all items.It cannot be zero..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.NoRecord">
+	<summary>
+  Looks up a localized string similar to No record(s) selected..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.NotAuthorized">
+	<summary>
+  Looks up a localized string similar to Insufficient Permission, current logged in user is not authorized to perform this action..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OldPasswordNotCorrect">
+	<summary>
+  Looks up a localized string similar to Old Password not correct!..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OpenDocument">
+	<summary>
+  Looks up a localized string similar to Open Document..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OpenItemCard">
+	<summary>
+  Looks up a localized string similar to Open Item Card..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OrderCancel">
+	<summary>
+  Looks up a localized string similar to No changes can be made once order is canceled.Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OrderClose">
+	<summary>
+  Looks up a localized string similar to Do you want to close the PO again?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OrderConfirm">
+	<summary>
+  Looks up a localized string similar to No changes can be made once order is approved. Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OrderItemsNotFound">
+	<summary>
+  Looks up a localized string similar to Order must contain at least one item.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OrderMustApproved">
+	<summary>
+  Looks up a localized string similar to Request must be approved for further process.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OrderOpen">
+	<summary>
+  Looks up a localized string similar to Do you want to open the PO again?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.OrderPosted">
+	<summary>
+  Looks up a localized string similar to Cannot modify. Order already posted..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ParentMustBeDifferent">
+	<summary>
+  Looks up a localized string similar to The parent must be diffrent from the current item..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PasswordChangedSucc">
+	<summary>
+  Looks up a localized string similar to Password Changed Successfully..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.Passwordnotverified">
+	<summary>
+  Looks up a localized string similar to The password was not correctly confirmed.  Please ensure that the password and confirmation match exactly..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PKGNotFound">
+	<summary>
+  Looks up a localized string similar to PKG Type not found in any SKU related to this item, first add SKU with the same PKG and then try again.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PleaseWait">
+	<summary>
+  Looks up a localized string similar to Please Wait.....
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PLUStartNotValid">
+	<summary>
+  Looks up a localized string similar to PLU Start must be more than Identifier length.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.POCreatedSuccessfully">
+	<summary>
+  Looks up a localized string similar to PO with code({0}) created successfully, please navigate to PO to complete the information..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PopulateReport">
+	<summary>
+  Looks up a localized string similar to Populating report..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PreventEmptySerialNumber">
+	<summary>
+  Looks up a localized string similar to All serial numbers must be entered..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PriceEqualOrGreaterThanZero">
+	<summary>
+  Looks up a localized string similar to Price should be equal or greater than 0..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PriceGreaterThanZero">
+	<summary>
+  Looks up a localized string similar to Price should be greater than 0..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PriceUpdateConfirm">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to update the the price for all items?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PriceUpdatedSuccessfully">
+	<summary>
+  Looks up a localized string similar to Item(s) price updated successfully..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PrintLabelConfirm">
+	<summary>
+  Looks up a localized string similar to Labels for {0} {1} will be printed. Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.PrintReportConfirmation">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to print?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ProcessingRequest">
+	<summary>
+  Looks up a localized string similar to Processing Request....
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ProcessUnknownBarcodeConfirm">
+	<summary>
+  Looks up a localized string similar to Are you sure that you process the selected Unknown Barcode?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.QTY">
+	<summary>
+  Looks up a localized string similar to Quantity.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.QTYCreaterThanZero">
+	<summary>
+  Looks up a localized string similar to QTY should be greater than 0..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ReceiptPost">
+	<summary>
+  Looks up a localized string similar to No changes can be made once receipt is posted. Do you want to continue.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ReceiptPosted">
+	<summary>
+  Looks up a localized string similar to Cannot save. Receipt already posted.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.RecordsDeleted">
+	<summary>
+  Looks up a localized string similar to Records has been deleted successfully..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.ReportNotFound">
+	<summary>
+  Looks up a localized string similar to Report({0}) not found in database, please restore or import the report from Tools-&gt;Report Designer and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.RequestOrders">
+	<summary>
+  Looks up a localized string similar to No sales order(s) to process.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.RestoreAllReports">
+	<summary>
+  Looks up a localized string similar to The restoration of all the reports has been successful..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.RestoreBackupFailed">
+	<summary>
+  Looks up a localized string similar to Failed to restore data.  Check that the file selected is accessible..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.RestoreProcess">
+	<summary>
+  Looks up a localized string similar to Restore process will undo all the changes made by the user in report(s) {0} Do you still want to restore the orginal report(s)?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.RestoreReports">
+	<summary>
+  Looks up a localized string similar to The restoration of the report was successful..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SelectDate">
+	<summary>
+  Looks up a localized string similar to Please select From and To Date..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SelectDoc">
+	<summary>
+  Looks up a localized string similar to Select document number..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SelectInventory">
+	<summary>
+  Looks up a localized string similar to Please select inventory first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SelectItem">
+	<summary>
+  Looks up a localized string similar to Please select item first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SelectItemsFromGrid">
+	<summary>
+  Looks up a localized string similar to Select items from below grid first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SelectSession">
+	<summary>
+  Looks up a localized string similar to Please select session first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SelectWarehouseBeforeScaning">
+	<summary>
+  Looks up a localized string similar to Please select warehouse before scaning/selecting items..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SessionsNotFound">
+	<summary>
+  Looks up a localized string similar to Sessions not found in database..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.SumDiscount">
+	<summary>
+  Looks up a localized string similar to Sum Discount.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TokenStartNotValid">
+	<summary>
+  Looks up a localized string similar to Token Start must be more than Identifier length + PLU Length.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TotalDiscountMoreThanTotalAmount">
+	<summary>
+  Looks up a localized string similar to Total discount should be less or equal to sub total amount..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TotalEqualOrCreaterThanZero">
+	<summary>
+  Looks up a localized string similar to Total should be equal or greater than 0..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TransactionLoss">
+	<summary>
+  Looks up a localized string similar to All transactions will be lost.Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TransferPost">
+	<summary>
+  Looks up a localized string similar to No changes can be made once transfer is posted. Do you want to continue?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TransferPosted">
+	<summary>
+  Looks up a localized string similar to Cannot modify. Transfer already posted..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TransferQty">
+	<summary>
+  Looks up a localized string similar to Transfer quantity cannot be greater than current quantity.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.TransferSuccess">
+	<summary>
+  Looks up a localized string similar to Stock transfer created successfully.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.UpdateDatabaseConfirm">
+	<summary>
+  Looks up a localized string similar to There may be other users logged into application.{0} You must kick them off immediately before proceed with the database upgrade. {0}Are you sure you want to update the database?.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.UpdateDatabaseError">
+	<summary>
+  Looks up a localized string similar to Error when doing DBUpdate..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.UpdateDatabaseMessage">
+	<summary>
+  Looks up a localized string similar to Your copy of {0} Application has been updated, your database must be updated as well to be able to open it..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.UpdateDatabaseRequired">
+	<summary>
+  Looks up a localized string similar to Updating database is required, you can not skip updating database, Please try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.UpdatingDatabase">
+	<summary>
+  Looks up a localized string similar to Updating database.  Might take a few minutes....
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.UpdatingDatabaseSuccess">
+	<summary>
+  Looks up a localized string similar to Database updated successfully, you can continue with the login..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.valRuleGreaterOrEqualZero">
+	<summary>
+  Looks up a localized string similar to Enter a value greater or equal zero..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.valRuleGreaterThanZero">
+	<summary>
+  Looks up a localized string similar to Enter a value greater than zero..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.valRuleNotContainMinus">
+	<summary>
+  Looks up a localized string similar to Enter a positive value..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.valRulenotEmpty">
+	<summary>
+  Looks up a localized string similar to Enter a value, Field must not be empty..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.WarehouseNotSelected">
+	<summary>
+  Looks up a localized string similar to Please select warehouse first..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.Strings.Warning_RestoreBackup">
+	<summary>
+  Looks up a localized string similar to Warning: Any data saved after the backup will be lost when restoring to an older backup file. Are you sure to continue?.
+</summary>
+</member><member name="T:SABBPlugin.My.Resources.Strings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.CanNotDelete">
+	<summary>
+  Looks up a localized string similar to This record cannot be deleted as related records exists..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.CantChangeAdminRole">
+	<summary>
+  Looks up a localized string similar to Administrator Role can not be modified..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.CantChangeAdminUser">
+	<summary>
+  Looks up a localized string similar to SysAdmin user can not be modified..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.CantDeleteAdminRole">
+	<summary>
+  Looks up a localized string similar to Administrator Role can not be deleted..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.CantDeleteAdminUser">
+	<summary>
+  Looks up a localized string similar to SysAdmin User can not be deleted..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.CheckParentItem">
+	<summary>
+  Looks up a localized string similar to The selected item can not be under selected parent..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.CurrencyNotFound">
+	<summary>
+  Looks up a localized string similar to Default currency not found, please select default currency from backend and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.DeviceAlreadyLinkedWithEmp">
+	<summary>
+  Looks up a localized string similar to Device already linked with different employee, it's not posible to link more than one employee with same device..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.ErrorWhileDelete">
+	<summary>
+  Looks up a localized string similar to Error while deleting the record!..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.ErrorWhileSaving">
+	<summary>
+  Looks up a localized string similar to Error while saving the record!..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.FromToWarehouseSame">
+	<summary>
+  Looks up a localized string similar to From and To warehouse must be different from each others..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.InvalidReceiptAmount">
+	<summary>
+  Looks up a localized string similar to Total receipts amount cannot be greater than invoice total amount..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.ItemPriceAlreadyExist">
+	<summary>
+  Looks up a localized string similar to The item SKU already available in this price list, please choose another SKU item and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.LoginFailed">
+	<summary>
+  Looks up a localized string similar to Invalid user name or password. Please try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.NotAuthorized">
+	<summary>
+  Looks up a localized string similar to Insufficient Permission, current logged in user is not authorized to perform this action..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.PasswordCantBeEmpty">
+	<summary>
+  Looks up a localized string similar to Password can not be empty..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.PasswordLengthshouldbethree">
+	<summary>
+  Looks up a localized string similar to Password must be at least three chars..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.QTYEqualZero">
+	<summary>
+  Looks up a localized string similar to Quantity must be not equal to zero..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.RecordNotFound">
+	<summary>
+  Looks up a localized string similar to Record not found, it could be deleted or modified, refersh current view and try again..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.TransferItem">
+	<summary>
+  Looks up a localized string similar to Transfer must contain at least one item..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.UserAlreadyLinkedWithEmp">
+	<summary>
+  Looks up a localized string similar to User already linked with different employee, it's not posible to link more than one employee with same user..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.UserInactive">
+	<summary>
+  Looks up a localized string similar to The user can not complete the logon process, because the selected user is inactive..
+</summary>
+</member><member name="P:SABBPlugin.My.Resources.BLLStrings.VehicleAlreadyLinkedWithEmp">
+	<summary>
+  Looks up a localized string similar to Vehicle already linked with different employee, it's not posible to link more than one employee with same vehicle..
+</summary>
+</member><member name="T:SABBPlugin.My.Resources.BLLStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:SABBPlugin.AppSettings.DocumentNumbersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.AppSettings.GrdDocNumberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.AppSettings.DocumentNumbersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.AppSettings.GrdDocNumberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.AppSettings.DocumentNumbersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.AppSettings.GrdDocNumberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.AppSettings">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SABBPlugin.AppSettingsTableAdapters.DocumentNumbersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.AppSettingsTableAdapters.GrdDocNumberTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager.UpdateUpdatedRows(SABBPlugin.AppSettings,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager.UpdateInsertedRows(SABBPlugin.AppSettings,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager.UpdateDeletedRows(SABBPlugin.AppSettings,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager.UpdateAll(SABBPlugin.AppSettings)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SABBPlugin.AppSettingsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.TransferItemsGridDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.GRNItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferItemsDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.TransHistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.LabelPrintingGridDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.TransferItemsGridRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.GRNItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferItemsDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.TransHistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.LabelPrintingGridRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.TransferItemsGridRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.GRNItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.StockTransferItemsDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.TransHistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer.LabelPrintingGridRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.StockTransfer">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.StockTransferTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.StockTransferItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.TransferItemsGridTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.GRNItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.StockTransferItemsDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.TransHistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.LabelPrintingGridTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SABBPlugin.StockTransferTableAdapters.TableAdapterManager.UpdateUpdatedRows(SABBPlugin.StockTransfer,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.StockTransferTableAdapters.TableAdapterManager.UpdateInsertedRows(SABBPlugin.StockTransfer,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.StockTransferTableAdapters.TableAdapterManager.UpdateDeletedRows(SABBPlugin.StockTransfer,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SABBPlugin.StockTransferTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SABBPlugin.StockTransferTableAdapters.TableAdapterManager.UpdateAll(SABBPlugin.StockTransfer)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SABBPlugin.StockTransferTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSet.rptStockIssuanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSet.rptAssetAdminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSet.rptStockIssuanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSet.rptAssetAdminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSet.rptStockIssuanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSet.rptAssetAdminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSetTableAdapters.rptStockIssuanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSetTableAdapters.rptAssetAdminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SABBPlugin.ZulAssetsBEDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SABBPlugin.ZulAssetsBEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SABBPlugin.ZulAssetsBEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager.UpdateAll(SABBPlugin.ZulAssetsBEDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SABBPlugin.ZulAssetsBEDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

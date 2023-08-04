@@ -1,0 +1,189 @@
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.dll.config
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\Interop.ASPEMAILLib.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\OpenNETCF.Desktop.Communication.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\PingLib.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\TaskScheduler.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsBL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLOV.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulTree.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLOV.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulTree.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsBL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ar\ZulLib.resources.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBDataProcessing.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBReports.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmAnonymousRemarks.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmAssetsDetails.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmExport.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmImport.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBSend.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBRoles.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBSettings.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.Resources.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyReceiving.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlGoodsIssue.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlGoodsReceiving.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlReversalDoc.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlSAPItems.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlVendorReturn.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyClaim.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyStatus.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.PreviewControl.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetsLog.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyReceiveReplace.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyReceiveSame.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyClaim.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptVendorReturn.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptReversalDoc.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuance2.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuance1.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuanceDetails.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsReceiveStandard.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsReceiveDetails.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptMisplacedAssets.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAnonymousAssets.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetRetirement.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptPhysicalInventory.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetValue.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptCompanyAssets.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.vbproj.GenerateResource.Cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.dll.licenses
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.dll.config
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\Interop.ASPEMAILLib.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\OpenNETCF.Desktop.Communication.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\PingLib.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\TaskScheduler.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsBL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLOV.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulTree.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLOV.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulTree.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsBL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ar\ZulLib.resources.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ResolveAssemblyReference.cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBDataProcessing.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBReports.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmAnonymousRemarks.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmAssetsDetails.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmExport.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmImport.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBSend.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBRoles.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBSettings.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.Resources.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyReceiving.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlGoodsIssue.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlGoodsReceiving.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlReversalDoc.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlSAPItems.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlVendorReturn.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyClaim.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyStatus.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.PreviewControl.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetsLog.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyReceiveReplace.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyReceiveSame.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyClaim.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptVendorReturn.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptReversalDoc.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuance2.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuance1.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuanceDetails.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsReceiveStandard.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsReceiveDetails.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptMisplacedAssets.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAnonymousAssets.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetRetirement.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptPhysicalInventory.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetValue.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptCompanyAssets.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.vbproj.GenerateResource.Cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.dll.licenses
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.dll.config
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ABBIntegration.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\Interop.ASPEMAILLib.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\OpenNETCF.Desktop.Communication.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\PingLib.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\TaskScheduler.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLOV.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulTree.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLib.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulLOV.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulTree.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\GenericDAL.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ZulAssetsDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\bin\Debug\ar\ZulLib.resources.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBDataProcessing.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBReports.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmAnonymousRemarks.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmAssetsDetails.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmExport.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmImport.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBSend.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBRoles.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.frmABBSettings.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.Resources.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyReceiving.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlGoodsIssue.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlGoodsReceiving.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlReversalDoc.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlSAPItems.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlVendorReturn.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyClaim.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.ctlWarrantyStatus.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.PreviewControl.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetsLog.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyReceiveReplace.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyReceiveSame.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptWarrantyClaim.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptVendorReturn.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptReversalDoc.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuance2.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuance1.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsIssuanceDetails.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsReceiveStandard.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptGoodsReceiveDetails.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptMisplacedAssets.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAnonymousAssets.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetRetirement.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptPhysicalInventory.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptAssetValue.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.rptCompanyAssets.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.vbproj.GenerateResource.Cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.dll.licenses
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBIntegration\obj\Debug\ABBIntegration.pdb

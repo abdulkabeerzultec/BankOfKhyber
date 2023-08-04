@@ -1,0 +1,280 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmAstBooks
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmAstBooks))
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.btnNewCompany = New System.Windows.Forms.Button
+        Me.txtDepCode = New ZulLOV.ZulLOV
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.cmbComp = New ZulLOV.ZulLOV
+        Me.btnNew = New System.Windows.Forms.Button
+        Me.Label23 = New System.Windows.Forms.Label
+        Me.txtDesc = New DevExpress.XtraEditors.TextEdit
+        Me.Label25 = New System.Windows.Forms.Label
+        Me.btnSave = New System.Windows.Forms.Button
+        Me.btnExit = New System.Windows.Forms.Button
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.btnDelete = New System.Windows.Forms.Button
+        Me.grd = New DevExpress.XtraGrid.GridControl
+        Me.grdView = New DevExpress.XtraGrid.Views.Grid.GridView
+        Me.pb = New System.Windows.Forms.ProgressBar
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.txtDesc.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grd, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdView, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.BackColor = System.Drawing.Color.White
+        Me.GroupBox1.Controls.Add(Me.btnNewCompany)
+        Me.GroupBox1.Controls.Add(Me.txtDepCode)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.cmbComp)
+        Me.GroupBox1.Controls.Add(Me.btnNew)
+        Me.GroupBox1.Controls.Add(Me.Label23)
+        Me.GroupBox1.Controls.Add(Me.txtDesc)
+        Me.GroupBox1.Controls.Add(Me.Label25)
+        Me.GroupBox1.Location = New System.Drawing.Point(5, 80)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(740, 118)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Asset Books"
+        '
+        'btnNewCompany
+        '
+        Me.btnNewCompany.Location = New System.Drawing.Point(660, 34)
+        Me.btnNewCompany.Name = "btnNewCompany"
+        Me.btnNewCompany.Size = New System.Drawing.Size(40, 23)
+        Me.btnNewCompany.TabIndex = 3
+        Me.btnNewCompany.Text = "Add"
+        '
+        'txtDepCode
+        '
+        Me.txtDepCode.BackColor = System.Drawing.Color.White
+        Me.txtDepCode.DataSource = Nothing
+        Me.txtDepCode.DisplayMember = ""
+        Me.txtDepCode.Location = New System.Drawing.Point(131, 34)
+        Me.txtDepCode.Name = "txtDepCode"
+        Me.txtDepCode.SelectedIndex = -1
+        Me.txtDepCode.SelectedText = ""
+        Me.txtDepCode.SelectedValue = ""
+        Me.txtDepCode.Size = New System.Drawing.Size(201, 24)
+        Me.txtDepCode.TabIndex = 0
+        Me.txtDepCode.ValueMember = ""
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(384, 39)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(60, 13)
+        Me.Label1.TabIndex = 41
+        Me.Label1.Text = "Company"
+        '
+        'cmbComp
+        '
+        Me.cmbComp.BackColor = System.Drawing.Color.White
+        Me.cmbComp.DataSource = Nothing
+        Me.cmbComp.DisplayMember = ""
+        Me.cmbComp.Location = New System.Drawing.Point(450, 34)
+        Me.cmbComp.Name = "cmbComp"
+        Me.cmbComp.SelectedIndex = -1
+        Me.cmbComp.SelectedText = ""
+        Me.cmbComp.SelectedValue = ""
+        Me.cmbComp.Size = New System.Drawing.Size(206, 24)
+        Me.cmbComp.TabIndex = 2
+        Me.cmbComp.ValueMember = ""
+        '
+        'btnNew
+        '
+        Me.btnNew.Location = New System.Drawing.Point(334, 34)
+        Me.btnNew.Name = "btnNew"
+        Me.btnNew.Size = New System.Drawing.Size(40, 23)
+        Me.btnNew.TabIndex = 1
+        Me.btnNew.Text = "&New"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(6, 39)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(125, 13)
+        Me.Label23.TabIndex = 19
+        Me.Label23.Text = "Depreciation Method"
+        '
+        'txtDesc
+        '
+        Me.txtDesc.Location = New System.Drawing.Point(131, 77)
+        Me.txtDesc.Name = "txtDesc"
+        Me.txtDesc.Properties.MaxLength = 200
+        Me.txtDesc.Size = New System.Drawing.Size(569, 19)
+        Me.txtDesc.TabIndex = 4
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(6, 77)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(71, 13)
+        Me.Label25.TabIndex = 18
+        Me.Label25.Text = "Description"
+        '
+        'btnSave
+        '
+        Me.btnSave.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnSave.Image = Global.ZulAssets.My.Resources.Icons.save
+        Me.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnSave.Location = New System.Drawing.Point(557, 494)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(86, 27)
+        Me.btnSave.TabIndex = 3
+        Me.btnSave.Text = "&Save"
+        '
+        'btnExit
+        '
+        Me.btnExit.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnExit.Image = Global.ZulAssets.My.Resources.Icons.Close
+        Me.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnExit.Location = New System.Drawing.Point(660, 494)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(85, 27)
+        Me.btnExit.TabIndex = 4
+        Me.btnExit.Text = "&Close"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(5, 5)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(402, 69)
+        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabStop = False
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnDelete.Image = Global.ZulAssets.My.Resources.Icons.delete
+        Me.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDelete.Location = New System.Drawing.Point(471, 494)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(80, 27)
+        Me.btnDelete.TabIndex = 2
+        Me.btnDelete.Text = "&Delete"
+        Me.btnDelete.Visible = False
+        '
+        'grd
+        '
+        Me.grd.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.grd.Location = New System.Drawing.Point(5, 204)
+        Me.grd.MainView = Me.grdView
+        Me.grd.Name = "grd"
+        Me.grd.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.grd.Size = New System.Drawing.Size(740, 268)
+        Me.grd.TabIndex = 1
+        Me.grd.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grdView})
+        '
+        'grdView
+        '
+        Me.grdView.Appearance.FooterPanel.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grdView.Appearance.FooterPanel.Options.UseFont = True
+        Me.grdView.Appearance.HeaderPanel.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grdView.Appearance.HeaderPanel.Options.UseFont = True
+        Me.grdView.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
+        Me.grdView.GridControl = Me.grd
+        Me.grdView.HorzScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Never
+        Me.grdView.Name = "grdView"
+        Me.grdView.OptionsBehavior.Editable = False
+        Me.grdView.OptionsCustomization.AllowGroup = False
+        Me.grdView.OptionsNavigation.UseTabKey = False
+        Me.grdView.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.grdView.OptionsView.ShowAutoFilterRow = True
+        Me.grdView.OptionsView.ShowGroupPanel = False
+        Me.grdView.OptionsView.ShowIndicator = False
+        Me.grdView.ScrollStyle = DevExpress.XtraGrid.Views.Grid.ScrollStyleFlags.LiveHorzScroll
+        Me.grdView.ShowButtonMode = DevExpress.XtraGrid.Views.Base.ShowButtonModeEnum.ShowForFocusedRow
+        '
+        'pb
+        '
+        Me.pb.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pb.Location = New System.Drawing.Point(3, 475)
+        Me.pb.Name = "pb"
+        Me.pb.Size = New System.Drawing.Size(742, 13)
+        Me.pb.TabIndex = 46
+        Me.pb.Visible = False
+        '
+        'frmAstBooks
+        '
+        Me.AcceptButton = Me.btnSave
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CancelButton = Me.btnExit
+        Me.ClientSize = New System.Drawing.Size(750, 531)
+        Me.Controls.Add(Me.grd)
+        Me.Controls.Add(Me.pb)
+        Me.Controls.Add(Me.btnDelete)
+        Me.Controls.Add(Me.btnSave)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.DoubleBuffered = True
+        Me.MinimumSize = New System.Drawing.Size(725, 516)
+        Me.Name = "frmAstBooks"
+        Me.Text = "Asset Books"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.txtDesc.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grd, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdView, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents txtDesc As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents Label25 As System.Windows.Forms.Label
+    Friend WithEvents btnSave As System.Windows.Forms.Button
+    Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents btnDelete As System.Windows.Forms.Button
+    Friend WithEvents btnNew As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents btnNewCompany As System.Windows.Forms.Button
+    Friend WithEvents cmbComp As ZulLOV.ZulLOV
+    Friend WithEvents txtDepCode As ZulLOV.ZulLOV
+    Friend WithEvents pb As System.Windows.Forms.ProgressBar
+    Friend WithEvents grd As DevExpress.XtraGrid.GridControl
+    Friend WithEvents grdView As DevExpress.XtraGrid.Views.Grid.GridView
+End Class

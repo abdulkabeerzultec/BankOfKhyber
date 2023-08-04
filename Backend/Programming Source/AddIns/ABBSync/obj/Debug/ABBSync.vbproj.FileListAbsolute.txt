@@ -1,0 +1,89 @@
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.exe.config
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.exe
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBIntegration.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLOV.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\Interop.ASPEMAILLib.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulTree.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsBL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\TaskScheduler.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\OpenNETCF.Desktop.Communication.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\Xceed.Ftp.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLOV.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBIntegration.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulTree.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsBL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ar\ZulLib.resources.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.frmMain.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.Resources.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.vbproj.GenerateResource.Cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.exe
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.exe.config
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.exe
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBIntegration.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLOV.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\Interop.ASPEMAILLib.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulTree.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsBL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\TaskScheduler.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\OpenNETCF.Desktop.Communication.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\Xceed.Ftp.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLOV.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBIntegration.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulTree.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsBL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ar\ZulLib.resources.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ResolveAssemblyReference.cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.frmMain.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.Resources.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.vbproj.GenerateResource.Cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.exe
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.exe.config
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.exe
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBSync.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBIntegration.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLOV.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\Interop.ASPEMAILLib.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulTree.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\TaskScheduler.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\OpenNETCF.Desktop.Communication.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\GenericDAL.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLib.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulLOV.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ABBIntegration.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulTree.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ZulAssetsDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\bin\Debug\ar\ZulLib.resources.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.frmMain.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.Resources.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.vbproj.GenerateResource.Cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.exe
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\ABBSync\obj\Debug\ABBSync.pdb

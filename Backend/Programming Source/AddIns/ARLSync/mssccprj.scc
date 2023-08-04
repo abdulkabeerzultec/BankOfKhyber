@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[NMCSync.vbproj]
+SCC_Aux_Path = "\\ITServer\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/NMCSync", JEDAAAAA
+
+[CITCSync.vbproj]
+SCC_Aux_Path = "\\ITServer\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets.root/ZulAssets/AddIns/CITCSync", IYUAAAAA
+
+[ARLSync.vbproj]
+SCC_Aux_Path = "\\Itserver\SourceSaveData"
+SCC_Project_Name = "$/ZulAssets4.0/ZulAssetsBackend/ZulAssets/AddIns/ARLSync", XSHDAAAA

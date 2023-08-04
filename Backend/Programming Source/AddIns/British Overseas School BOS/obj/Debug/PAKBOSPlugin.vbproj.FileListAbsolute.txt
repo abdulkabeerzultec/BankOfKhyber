@@ -1,0 +1,63 @@
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.frmImportData.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.Resources.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKBOSPlugin.vbproj.GenerateResource.Cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll.licenses
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\ResolveAssemblyReference.cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.frmImportData.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.Resources.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKBOSPlugin.vbproj.GenerateResource.Cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll.licenses
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.frmImportData.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.Resources.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKBOSPlugin.vbproj.GenerateResource.Cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll.licenses
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.pdb

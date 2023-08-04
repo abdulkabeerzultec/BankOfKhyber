@@ -1,0 +1,63 @@
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsBL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsBL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.frmImportData.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.Resources.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsuranceIntegration.vbproj.GenerateResource.Cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.dll.licenses
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.xml
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsBL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsDAL.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsDAL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsBL.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\ResolveAssemblyReference.cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.frmImportData.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.Resources.resources
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsuranceIntegration.vbproj.GenerateResource.Cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.dll.licenses
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.xml
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\UBLInsurancePlugin.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\AddInInterface.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\GenericDAL.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Debug\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.frmImportData.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.Resources.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsuranceIntegration.vbproj.GenerateResource.Cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.dll.licenses
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\UBLInsuranceIntegration\obj\Debug\UBLInsurancePlugin.pdb

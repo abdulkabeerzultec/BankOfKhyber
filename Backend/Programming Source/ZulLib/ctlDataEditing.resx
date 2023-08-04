@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BarManager1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="btnNew.Caption" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="btnNew.Hint" xml:space="preserve">
+    <value>New Item</value>
+  </data>
+  <data name="btnSave.Caption" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="btnSave.Hint" xml:space="preserve">
+    <value>Save item to database</value>
+  </data>
+  <data name="btnSaveAndNew.Caption" xml:space="preserve">
+    <value>Save&amp;&amp;New</value>
+  </data>
+  <data name="btnSaveAndNew.Hint" xml:space="preserve">
+    <value>Save and New</value>
+  </data>
+  <data name="btnDelete.Caption" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="btnDelete.Hint" xml:space="preserve">
+    <value>Delete Item</value>
+  </data>
+  <data name="btnRefresh.Caption" xml:space="preserve">
+    <value>&amp;Refresh</value>
+  </data>
+  <data name="btnRefresh.Hint" xml:space="preserve">
+    <value>Refersh current view</value>
+  </data>
+  <data name="btnCancel.Caption" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="btnCancel.Hint" xml:space="preserve">
+    <value>Cancel the modification</value>
+  </data>
+  <data name="btnFirst.Caption" xml:space="preserve">
+    <value>&amp;First</value>
+  </data>
+  <data name="btnFirst.Hint" xml:space="preserve">
+    <value>Go to first record</value>
+  </data>
+  <data name="btnPrev.Caption" xml:space="preserve">
+    <value>&amp;Previous</value>
+  </data>
+  <data name="btnPrev.Hint" xml:space="preserve">
+    <value>Go to previous record</value>
+  </data>
+  <data name="btnNext.Caption" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="btnNext.Hint" xml:space="preserve">
+    <value>Go to next record</value>
+  </data>
+  <data name="btnLast.Caption" xml:space="preserve">
+    <value>&amp;Last</value>
+  </data>
+  <data name="btnLast.Hint" xml:space="preserve">
+    <value>Go to last record</value>
+  </data>
+  <data name="cmbList.Caption" xml:space="preserve">
+    <value>cmbList</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbListRep.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+   <data name="cmbListRep.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbListRep.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbList.Hint" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="cmbList.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="btnClose.Caption" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="btnClose.Hint" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="MainBar.Text" xml:space="preserve">
+    <value>Main ToolBar</value>
+  </data>
+  <data name="barStatus.Text" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="barPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>751, 430</value>
+  </data>
+  <data name="&gt;&gt;BarManager1.Name" xml:space="preserve">
+    <value>BarManager1</value>
+  </data>
+  <data name="&gt;&gt;MainBar.Name" xml:space="preserve">
+    <value>MainBar</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Name" xml:space="preserve">
+    <value>btnNew</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAndNew.Name" xml:space="preserve">
+    <value>btnSaveAndNew</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnFirst.Name" xml:space="preserve">
+    <value>btnFirst</value>
+  </data>
+  <data name="&gt;&gt;btnPrev.Name" xml:space="preserve">
+    <value>btnPrev</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Name" xml:space="preserve">
+    <value>btnNext</value>
+  </data>
+  <data name="&gt;&gt;btnLast.Name" xml:space="preserve">
+    <value>btnLast</value>
+  </data>
+  <data name="&gt;&gt;cmbList.Name" xml:space="preserve">
+    <value>cmbList</value>
+  </data>
+  <data name="&gt;&gt;cmbListRep.Name" xml:space="preserve">
+    <value>cmbListRep</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemGridLookUpEdit1View.Name" xml:space="preserve">
+    <value>RepositoryItemGridLookUpEdit1View</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;barStatus.Name" xml:space="preserve">
+    <value>barStatus</value>
+  </data>
+  <data name="&gt;&gt;lblCreatedLabel.Name" xml:space="preserve">
+    <value>lblCreatedLabel</value>
+  </data>
+  <data name="&gt;&gt;lblCreated.Name" xml:space="preserve">
+    <value>lblCreated</value>
+  </data>
+  <data name="&gt;&gt;lblModifiedLabel.Name" xml:space="preserve">
+    <value>lblModifiedLabel</value>
+  </data>
+  <data name="&gt;&gt;lblModified.Name" xml:space="preserve">
+    <value>lblModified</value>
+  </data>
+  <data name="&gt;&gt;barPrint.Name" xml:space="preserve">
+    <value>barPrint</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Name" xml:space="preserve">
+    <value>btnPrint</value>
+  </data>
+  <data name="&gt;&gt;btnPreview.Name" xml:space="preserve">
+    <value>btnPreview</value>
+  </data>
+  <data name="&gt;&gt;barItemCreate.Name" xml:space="preserve">
+    <value>barItemCreate</value>
+  </data>
+  <data name="&gt;&gt;barItemModify.Name" xml:space="preserve">
+    <value>barItemModify</value>
+  </data>
+  <data name="&gt;&gt;BarStaticCreation.Name" xml:space="preserve">
+    <value>BarStaticCreation</value>
+  </data>
+  <data name="&gt;&gt;lblRecordStatus.Name" xml:space="preserve">
+    <value>lblRecordStatus</value>
+  </data>
+  <data name="&gt;&gt;errProv.Name" xml:space="preserve">
+    <value>errProv</value>
+  </data>
+  <data name="&gt;&gt;valProvMain.Name" xml:space="preserve">
+    <value>valProvMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlDataEditing</value>
+  </data>
+  <data name="barItemCreate.Caption" xml:space="preserve">
+    <value>BarStaticItem1</value>
+  </data>
+  <data name="barItemModify.Caption" xml:space="preserve">
+    <value>BarStaticItem2</value>
+  </data>
+  <data name="BarStaticCreation.Caption" xml:space="preserve">
+    <value>BarStaticItem1</value>
+  </data>
+  <data name="lblCreatedLabel.Caption" xml:space="preserve">
+    <value>Created at:</value>
+  </data>
+  <data name="lblCreated.Caption" xml:space="preserve">
+    <value>18-5-2010 10:12:33 By Administrator</value>
+  </data>
+  <data name="lblModifiedLabel.Caption" xml:space="preserve">
+    <value>Modified at:</value>
+  </data>
+  <data name="lblModified.Caption" xml:space="preserve">
+    <value>18-5-2010 10:12:33 By Administrator</value>
+  </data>
+  <data name="btnPrint.Caption" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="btnPreview.Caption" xml:space="preserve">
+    <value>&amp;Preview</value>
+  </data>
+  <data name="lblRecordStatus.Caption" xml:space="preserve">
+    <value>RecordStatus</value>
+  </data>
+  <data name="errProv.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="valProvMain.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>221, 17</value>
+  </data>
+</root>

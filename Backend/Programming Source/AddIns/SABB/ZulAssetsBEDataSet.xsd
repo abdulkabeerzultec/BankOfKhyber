@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ZulAssetsBEDataSet" targetNamespace="http://tempuri.org/ZulAssetsBEDataSet.xsd" xmlns:mstns="http://tempuri.org/ZulAssetsBEDataSet.xsd" xmlns="http://tempuri.org/ZulAssetsBEDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ZulAssetsBEConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ZulAssetsBEConnectionString (MySettings)" PropertyReference="ApplicationSettings.SABBPlugin.My.MySettings.GlobalReference.Default.ZulAssetsBEConnectionString" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.SABBPlugin.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rptStockIssuanceTableAdapter" GeneratorDataComponentClassName="rptStockIssuanceTableAdapter" Name="rptStockIssuance" UserDataComponentName="rptStockIssuanceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>select AssetDetails.Barcode,AssetDetails.AstID,AssetDetails.AstNum,Assets.AstDesc
+,AssetDetails.AstModel,SerailNo,Location.LocationFullPath as AstLocation,CatFullPath as AstCategory,Custodian.CustodianName as AstCustodian,
+Custodian.CustodianID,Location.LocID from 
+Assets inner join(AssetDetails  left outer join Location on AssetDetails.LocID = Location.LocID  
+left outer join Brand on AssetDetails.AstBrandID = Brand.AstBrandID 
+ left outer join Custodian on AssetDetails.CustodianID = custodian.CustodianID ) on Assets.ItemCode = AssetDetails.ItemCode 
+ inner join Category on Assets.AstCatID = Category.AstCatID 
+ where AssetDetails.Disposed=1 and  AssetDetails.IsDeleted = 0  order by Barcode</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Barcode" DataSetColumn="Barcode" />
+              <Mapping SourceColumn="AstID" DataSetColumn="AstID" />
+              <Mapping SourceColumn="AstNum" DataSetColumn="AstNum" />
+              <Mapping SourceColumn="AstDesc" DataSetColumn="AstDesc" />
+              <Mapping SourceColumn="AstModel" DataSetColumn="AstModel" />
+              <Mapping SourceColumn="SerailNo" DataSetColumn="SerailNo" />
+              <Mapping SourceColumn="AstLocation" DataSetColumn="AstLocation" />
+              <Mapping SourceColumn="AstCategory" DataSetColumn="AstCategory" />
+              <Mapping SourceColumn="AstCustodian" DataSetColumn="AstCustodian" />
+              <Mapping SourceColumn="CustodianID" DataSetColumn="CustodianID" />
+              <Mapping SourceColumn="LocID" DataSetColumn="LocID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rptAssetAdminTableAdapter" GeneratorDataComponentClassName="rptAssetAdminTableAdapter" Name="rptAssetAdmin" UserDataComponentName="rptAssetAdminTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select AssetDetails.AstID, AssetDetails.BarCode,astnum as AssetNumber,AssetDetails.SrvDate as ReceiveDate
+,Assets.AstDesc as Description,AssetDetails.SerailNo as 'Serial Number',PurchaseOrder.Quotation as DoNumber,CustomFld1, AssetStatus.Status , CustomFld3
+,Custodian.CustodianName,Location.LocationFullPath,Category.CatFullPath,PurchaseOrder.ModeDelivery as DoDescription, CustomFld2, EvaluationGroup1
+,Supplier.SuppName as SupplierName,AssetDetails.BaseCost + Tax - AssetDetails.Discount as TotalCost, CustomFld5
+, Assetdetails.AstDesc as AssetDescription1, Brand.AstBrandName,AssetDetails.Warranty
+from Assets
+      inner join(AssetDetails 
+          left outer join Location on AssetDetails.LocID = Location.LocID 
+       left outer join Companies on AssetDetails.CompanyID = Companies.CompanyID 
+              left outer join AstBooks on AssetDetails.AstID = AstBooks.AstID 
+          left outer join Custodian on AssetDetails.CustodianID = custodian.CustodianID 
+       left outer join CostCenter on AssetDetails.CostCenterID = CostCenter.CostID )
+          on Assets.ItemCode = AssetDetails.ItemCode 
+left outer join Category on Assets.AstCatID = Category.AstCatID 
+left outer join Brand on AssetDetails.AstBrandId = Brand.AstBrandID 
+left outer join AssetStatus on AssetDetails.StatusID = AssetStatus.ID 
+left outer join Supplier on AssetDetails.SuppID = Supplier.SuppID 
+left outer join PurchaseOrder on AssetDetails.POCode = PurchaseOrder.POCode 
+Where AssetDetails.IsDeleted = 0 and Disposed = 0
+order by Barcode
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="AstID" DataSetColumn="AstID" />
+              <Mapping SourceColumn="BarCode" DataSetColumn="BarCode" />
+              <Mapping SourceColumn="AssetNumber" DataSetColumn="AssetNumber" />
+              <Mapping SourceColumn="ReceiveDate" DataSetColumn="ReceiveDate" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="Serial Number" DataSetColumn="Serial Number" />
+              <Mapping SourceColumn="DoNumber" DataSetColumn="DoNumber" />
+              <Mapping SourceColumn="CustomFld1" DataSetColumn="CustomFld1" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="CustomFld3" DataSetColumn="CustomFld3" />
+              <Mapping SourceColumn="CustodianName" DataSetColumn="CustodianName" />
+              <Mapping SourceColumn="LocationFullPath" DataSetColumn="LocationFullPath" />
+              <Mapping SourceColumn="CatFullPath" DataSetColumn="CatFullPath" />
+              <Mapping SourceColumn="DoDescription" DataSetColumn="DoDescription" />
+              <Mapping SourceColumn="CustomFld2" DataSetColumn="CustomFld2" />
+              <Mapping SourceColumn="EvaluationGroup1" DataSetColumn="EvaluationGroup1" />
+              <Mapping SourceColumn="SupplierName" DataSetColumn="SupplierName" />
+              <Mapping SourceColumn="TotalCost" DataSetColumn="TotalCost" />
+              <Mapping SourceColumn="CustomFld5" DataSetColumn="CustomFld5" />
+              <Mapping SourceColumn="AssetDescription1" DataSetColumn="AssetDescription1" />
+              <Mapping SourceColumn="AstBrandName" DataSetColumn="AstBrandName" />
+              <Mapping SourceColumn="Warranty" DataSetColumn="Warranty" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ZulAssetsBEDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ZulAssetsBEDataSet" msprop:Generator_DataSetName="ZulAssetsBEDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptStockIssuance" msprop:Generator_UserTableName="rptStockIssuance" msprop:Generator_RowDeletedName="rptStockIssuanceRowDeleted" msprop:Generator_RowChangedName="rptStockIssuanceRowChanged" msprop:Generator_RowClassName="rptStockIssuanceRow" msprop:Generator_RowChangingName="rptStockIssuanceRowChanging" msprop:Generator_RowEvArgName="rptStockIssuanceRowChangeEvent" msprop:Generator_RowEvHandlerName="rptStockIssuanceRowChangeEventHandler" msprop:Generator_TableClassName="rptStockIssuanceDataTable" msprop:Generator_TableVarName="tablerptStockIssuance" msprop:Generator_RowDeletingName="rptStockIssuanceRowDeleting" msprop:Generator_TablePropName="rptStockIssuance">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Barcode" msprop:Generator_UserColumnName="Barcode" msprop:Generator_ColumnVarNameInTable="columnBarcode" msprop:Generator_ColumnPropNameInRow="Barcode" msprop:Generator_ColumnPropNameInTable="BarcodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AstID" msprop:Generator_UserColumnName="AstID" msprop:Generator_ColumnVarNameInTable="columnAstID" msprop:Generator_ColumnPropNameInRow="AstID" msprop:Generator_ColumnPropNameInTable="AstIDColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AstNum" msprop:Generator_UserColumnName="AstNum" msprop:Generator_ColumnVarNameInTable="columnAstNum" msprop:Generator_ColumnPropNameInRow="AstNum" msprop:Generator_ColumnPropNameInTable="AstNumColumn" type="xs:long" />
+              <xs:element name="AstDesc" msprop:Generator_UserColumnName="AstDesc" msprop:Generator_ColumnVarNameInTable="columnAstDesc" msprop:Generator_ColumnPropNameInRow="AstDesc" msprop:Generator_ColumnPropNameInTable="AstDescColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AstModel" msprop:Generator_UserColumnName="AstModel" msprop:Generator_ColumnVarNameInTable="columnAstModel" msprop:Generator_ColumnPropNameInRow="AstModel" msprop:Generator_ColumnPropNameInTable="AstModelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SerailNo" msprop:Generator_UserColumnName="SerailNo" msprop:Generator_ColumnVarNameInTable="columnSerailNo" msprop:Generator_ColumnPropNameInRow="SerailNo" msprop:Generator_ColumnPropNameInTable="SerailNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AstLocation" msprop:Generator_UserColumnName="AstLocation" msprop:Generator_ColumnVarNameInTable="columnAstLocation" msprop:Generator_ColumnPropNameInRow="AstLocation" msprop:Generator_ColumnPropNameInTable="AstLocationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AstCategory" msprop:Generator_UserColumnName="AstCategory" msprop:Generator_ColumnVarNameInTable="columnAstCategory" msprop:Generator_ColumnPropNameInRow="AstCategory" msprop:Generator_ColumnPropNameInTable="AstCategoryColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AstCustodian" msprop:Generator_UserColumnName="AstCustodian" msprop:Generator_ColumnVarNameInTable="columnAstCustodian" msprop:Generator_ColumnPropNameInRow="AstCustodian" msprop:Generator_ColumnPropNameInTable="AstCustodianColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustodianID" msprop:Generator_UserColumnName="CustodianID" msprop:Generator_ColumnVarNameInTable="columnCustodianID" msprop:Generator_ColumnPropNameInRow="CustodianID" msprop:Generator_ColumnPropNameInTable="CustodianIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocID" msprop:Generator_UserColumnName="LocID" msprop:Generator_ColumnVarNameInTable="columnLocID" msprop:Generator_ColumnPropNameInRow="LocID" msprop:Generator_ColumnPropNameInTable="LocIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rptAssetAdmin" msprop:Generator_UserTableName="rptAssetAdmin" msprop:Generator_RowDeletedName="rptAssetAdminRowDeleted" msprop:Generator_TableClassName="rptAssetAdminDataTable" msprop:Generator_RowChangedName="rptAssetAdminRowChanged" msprop:Generator_RowClassName="rptAssetAdminRow" msprop:Generator_RowChangingName="rptAssetAdminRowChanging" msprop:Generator_RowEvArgName="rptAssetAdminRowChangeEvent" msprop:Generator_RowEvHandlerName="rptAssetAdminRowChangeEventHandler" msprop:Generator_TablePropName="rptAssetAdmin" msprop:Generator_TableVarName="tablerptAssetAdmin" msprop:Generator_RowDeletingName="rptAssetAdminRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AstID" msprop:Generator_UserColumnName="AstID" msprop:Generator_ColumnPropNameInRow="AstID" msprop:Generator_ColumnVarNameInTable="columnAstID" msprop:Generator_ColumnPropNameInTable="AstIDColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BarCode" msprop:Generator_UserColumnName="BarCode" msprop:Generator_ColumnPropNameInRow="BarCode" msprop:Generator_ColumnVarNameInTable="columnBarCode" msprop:Generator_ColumnPropNameInTable="BarCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AssetNumber" msprop:Generator_UserColumnName="AssetNumber" msprop:Generator_ColumnPropNameInRow="AssetNumber" msprop:Generator_ColumnVarNameInTable="columnAssetNumber" msprop:Generator_ColumnPropNameInTable="AssetNumberColumn" type="xs:long" />
+              <xs:element name="ReceiveDate" msprop:Generator_UserColumnName="ReceiveDate" msprop:Generator_ColumnPropNameInRow="ReceiveDate" msprop:Generator_ColumnVarNameInTable="columnReceiveDate" msprop:Generator_ColumnPropNameInTable="ReceiveDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Serial_x0020_Number" msprop:Generator_UserColumnName="Serial Number" msprop:Generator_ColumnPropNameInRow="Serial_Number" msprop:Generator_ColumnVarNameInTable="columnSerial_Number" msprop:Generator_ColumnPropNameInTable="Serial_NumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoNumber" msprop:Generator_UserColumnName="DoNumber" msprop:Generator_ColumnPropNameInRow="DoNumber" msprop:Generator_ColumnVarNameInTable="columnDoNumber" msprop:Generator_ColumnPropNameInTable="DoNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustomFld1" msprop:Generator_UserColumnName="CustomFld1" msprop:Generator_ColumnPropNameInRow="CustomFld1" msprop:Generator_ColumnVarNameInTable="columnCustomFld1" msprop:Generator_ColumnPropNameInTable="CustomFld1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustomFld3" msprop:Generator_UserColumnName="CustomFld3" msprop:Generator_ColumnPropNameInRow="CustomFld3" msprop:Generator_ColumnVarNameInTable="columnCustomFld3" msprop:Generator_ColumnPropNameInTable="CustomFld3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustodianName" msprop:Generator_UserColumnName="CustodianName" msprop:Generator_ColumnPropNameInRow="CustodianName" msprop:Generator_ColumnVarNameInTable="columnCustodianName" msprop:Generator_ColumnPropNameInTable="CustodianNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocationFullPath" msprop:Generator_UserColumnName="LocationFullPath" msprop:Generator_ColumnPropNameInRow="LocationFullPath" msprop:Generator_ColumnVarNameInTable="columnLocationFullPath" msprop:Generator_ColumnPropNameInTable="LocationFullPathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CatFullPath" msprop:Generator_UserColumnName="CatFullPath" msprop:Generator_ColumnPropNameInRow="CatFullPath" msprop:Generator_ColumnVarNameInTable="columnCatFullPath" msprop:Generator_ColumnPropNameInTable="CatFullPathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoDescription" msprop:Generator_UserColumnName="DoDescription" msprop:Generator_ColumnPropNameInRow="DoDescription" msprop:Generator_ColumnVarNameInTable="columnDoDescription" msprop:Generator_ColumnPropNameInTable="DoDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustomFld2" msprop:Generator_UserColumnName="CustomFld2" msprop:Generator_ColumnPropNameInRow="CustomFld2" msprop:Generator_ColumnVarNameInTable="columnCustomFld2" msprop:Generator_ColumnPropNameInTable="CustomFld2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EvaluationGroup1" msprop:Generator_UserColumnName="EvaluationGroup1" msprop:Generator_ColumnPropNameInRow="EvaluationGroup1" msprop:Generator_ColumnVarNameInTable="columnEvaluationGroup1" msprop:Generator_ColumnPropNameInTable="EvaluationGroup1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SupplierName" msprop:Generator_UserColumnName="SupplierName" msprop:Generator_ColumnPropNameInRow="SupplierName" msprop:Generator_ColumnVarNameInTable="columnSupplierName" msprop:Generator_ColumnPropNameInTable="SupplierNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalCost" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalCost" msprop:Generator_ColumnPropNameInRow="TotalCost" msprop:Generator_ColumnVarNameInTable="columnTotalCost" msprop:Generator_ColumnPropNameInTable="TotalCostColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CustomFld5" msprop:Generator_UserColumnName="CustomFld5" msprop:Generator_ColumnPropNameInRow="CustomFld5" msprop:Generator_ColumnVarNameInTable="columnCustomFld5" msprop:Generator_ColumnPropNameInTable="CustomFld5Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AssetDescription1" msprop:Generator_UserColumnName="AssetDescription1" msprop:Generator_ColumnPropNameInRow="AssetDescription1" msprop:Generator_ColumnVarNameInTable="columnAssetDescription1" msprop:Generator_ColumnPropNameInTable="AssetDescription1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AstBrandName" msprop:Generator_UserColumnName="AstBrandName" msprop:Generator_ColumnPropNameInRow="AstBrandName" msprop:Generator_ColumnVarNameInTable="columnAstBrandName" msprop:Generator_ColumnPropNameInTable="AstBrandNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Warranty" msprop:Generator_UserColumnName="Warranty" msprop:Generator_ColumnPropNameInRow="Warranty" msprop:Generator_ColumnVarNameInTable="columnWarranty" msprop:Generator_ColumnPropNameInTable="WarrantyColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:rptAssetAdmin" />
+      <xs:field xpath="mstns:AstID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,42 @@
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.dll
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.pdb
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.xml
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.dll
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.dll
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.dll
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.dll
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.pdb
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.xml
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.pdb
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.xml
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.pdb
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.pdb
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\ResolveAssemblyReference.cache
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.frmImportData.resources
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.Resources.resources
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKBOSPlugin.vbproj.GenerateResource.Cache
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll.licenses
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.xml
+D:\source codes\For BASF try2 first in project may\try3\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\PAKPOSPlugin.xml
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.xml
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\ResolveAssemblyReference.cache
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.frmImportData.resources
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.Resources.resources
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKBOSPlugin.vbproj.GenerateResource.Cache
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll.licenses
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.xml
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\PAKPOSPlugin.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.xml

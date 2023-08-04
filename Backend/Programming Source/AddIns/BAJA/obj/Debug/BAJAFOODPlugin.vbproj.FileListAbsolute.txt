@@ -1,0 +1,84 @@
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.xml
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.xml
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\ResolveAssemblyReference.cache
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.vbproj.GenerateResource.Cache
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.frmImportData.resources
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.Resources.resources
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.dll.licenses
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\BAJAFOODPlugin.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\BAJAFOODPlugin.pdb
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\BAJAFOODPlugin.xml
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.dll
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.xml
+D:\source codes\ZulAssets Baja\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.pdb
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\BAJAFOODPlugin.dll
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\BAJAFOODPlugin.pdb
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\BAJAFOODPlugin.xml
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.dll
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.dll
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.dll
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.dll
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.pdb
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\GenericDAL.xml
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.pdb
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\AddInInterface.xml
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsDAL.pdb
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Debug\ZulAssetsBL.pdb
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\ResolveAssemblyReference.cache
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.frmImportData.resources
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.Resources.resources
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.vbproj.GenerateResource.Cache
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.dll.licenses
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.dll
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.xml
+F:\Docs_Source Codes_SDKs\JEDDAH\Baaja\Backend\Backend\Programming Source\AddIns\British Overseas School BOS\obj\Debug\BAJAFOODPlugin.pdb
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.frmImportData.resources
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.Resources.resources
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.vbproj.GenerateResource.Cache
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.dll.licenses
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.dll
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.xml
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.pdb
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\BAJAFOODPlugin.dll
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\BAJAFOODPlugin.pdb
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\BAJAFOODPlugin.xml
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\AddInInterface.dll
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\GenericDAL.dll
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsDAL.dll
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\AddInInterface.pdb
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\AddInInterface.xml
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\GenericDAL.pdb
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\GenericDAL.xml
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsDAL.pdb
+D:\Desktopprojects\Projects\Aramco\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\BAJAFOODPlugin.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\BAJAFOODPlugin.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\BAJAFOODPlugin.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\AddInInterface.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\GenericDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsBL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsDAL.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\AddInInterface.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\AddInInterface.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\GenericDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\GenericDAL.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsDAL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\bin\Debug\ZulAssetsBL.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.frmImportData.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.Resources.resources
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.vbproj.GenerateResource.Cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.dll.licenses
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.xml
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\AddIns\BAJA\obj\Debug\BAJAFOODPlugin.pdb

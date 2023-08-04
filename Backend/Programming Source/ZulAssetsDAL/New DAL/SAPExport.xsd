@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SAPExport" targetNamespace="http://tempuri.org/SAPExport.xsd" xmlns:mstns="http://tempuri.org/SAPExport.xsd" xmlns="http://tempuri.org/SAPExport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="TempDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TempDBConnectionString (MySettings)" PropertyReference="ApplicationSettings.ZulAssetsDAL.My.MySettings.GlobalReference.Default.TempDBConnectionString" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ZulAssetsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ZulAssetsConnectionString (MySettings)" PropertyReference="ApplicationSettings.ZulAssetsDAL.My.MySettings.GlobalReference.Default.ZulAssetsConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GoodsReceivingExportTableAdapter" GeneratorDataComponentClassName="GoodsReceivingExportTableAdapter" Name="GoodsReceivingExport" UserDataComponentName="GoodsReceivingExportTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText> select SAPDocuments.PONo,DeliveryNo,convert(varchar, DocDate, 104) as PostingDate,ManufacturePartNo ,SAPPartNo,LineItemNo,SeqNo,SerialNo,
+case LastStatus 
+when 'GR' then 0
+else 1
+end as Status
+
+ from SAPItemSerialsTrans inner join SAPDocuments on SAPDocuments.GUID = SAPItemSerialsTrans.DocGUID
+ inner join SAPItemSerials on SAPItemSerials.GUID = SAPItemSerialsTrans.ItemSerialGUID
+ where DocType= 'GR' and (ExportedFlag = 0 or ExportedFlag is null )</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PONo" DataSetColumn="PONo" />
+              <Mapping SourceColumn="DeliveryNo" DataSetColumn="DeliveryNo" />
+              <Mapping SourceColumn="PostingDate" DataSetColumn="PostingDate" />
+              <Mapping SourceColumn="ManufacturePartNo" DataSetColumn="ManufacturePartNo" />
+              <Mapping SourceColumn="SAPPartNo" DataSetColumn="SAPPartNo" />
+              <Mapping SourceColumn="LineItemNo" DataSetColumn="LineItemNo" />
+              <Mapping SourceColumn="SeqNo" DataSetColumn="SeqNo" />
+              <Mapping SourceColumn="SerialNo" DataSetColumn="SerialNo" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GoodsIssuingExportTableAdapter" GeneratorDataComponentClassName="GoodsIssuingExportTableAdapter" Name="GoodsIssuingExport" UserDataComponentName="GoodsIssuingExportTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select 'GI' as DocType,MovementType,SAPItemSerialsTrans.InvProposalNo,SAPItemSerialsTrans.PORequisitionNo as PRNo,convert(varchar,DocDate, 104) as IssueDate,
+SAPItemSerialsTrans.EmpNo,SAPItemSerialsTrans.AssetNo,SAPPartNo,ManufacturePartNo,SerialNo,SAPItemSerialsTrans.CostCenter,SAPItemSerialsTrans.BusinessArea,SAPItemSerialsTrans.GLAC
+from SAPItemSerialsTrans inner join SAPDocuments on SAPDocuments.GUID = SAPItemSerialsTrans.DocGUID
+inner join SAPItemSerials on SAPItemSerials.GUID = SAPItemSerialsTrans.ItemSerialGUID
+where (DocType= 'GINV' or DocType= 'GIPOR') and (ExportedFlag = 0 or ExportedFlag is null )
+
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DocType" DataSetColumn="DocType" />
+              <Mapping SourceColumn="MovementType" DataSetColumn="MovementType" />
+              <Mapping SourceColumn="InvProposalNo" DataSetColumn="InvProposalNo" />
+              <Mapping SourceColumn="PRNo" DataSetColumn="PRNo" />
+              <Mapping SourceColumn="IssueDate" DataSetColumn="IssueDate" />
+              <Mapping SourceColumn="EmpNo" DataSetColumn="EmpNo" />
+              <Mapping SourceColumn="AssetNo" DataSetColumn="AssetNo" />
+              <Mapping SourceColumn="SAPPartNo" DataSetColumn="SAPPartNo" />
+              <Mapping SourceColumn="ManufacturePartNo" DataSetColumn="ManufacturePartNo" />
+              <Mapping SourceColumn="SerialNo" DataSetColumn="SerialNo" />
+              <Mapping SourceColumn="CostCenter" DataSetColumn="CostCenter" />
+              <Mapping SourceColumn="BusinessArea" DataSetColumn="BusinessArea" />
+              <Mapping SourceColumn="GLAC" DataSetColumn="GLAC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ReversalExportGITableAdapter" GeneratorDataComponentClassName="ReversalExportGITableAdapter" Name="ReversalExportGI" UserDataComponentName="ReversalExportGITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SAPItemSerialsTrans.MovementType, SAPItemSerialsTrans.Plant, SAPItemSerialsTrans.Location, 
+                      SAPItemSerialsTrans.ReasonOfFault AS ReasonOfMovement, SAPItemSerialsTrans.GLAC, SAPItemSerialsTrans.CostCenter, 
+                      SAPItemSerialsTrans.BusinessArea, SAPItemSerialsTrans.AssetNo, SAPItemSerials.SAPPartNo, 1 AS Quantity
+FROM         SAPItemSerialsTrans INNER JOIN
+                      SAPItemSerials ON SAPItemSerialsTrans.ItemSerialGUID = SAPItemSerials.GUID
+WHERE     (SAPItemSerialsTrans.TransName = 'ReversalInvPro' or SAPItemSerialsTrans.TransName = 'ReversalPOR' ) AND (SAPItemSerialsTrans.ExportedFlag = 0 OR
+                      SAPItemSerialsTrans.ExportedFlag IS NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MovementType" DataSetColumn="MovementType" />
+              <Mapping SourceColumn="Plant" DataSetColumn="Plant" />
+              <Mapping SourceColumn="Location" DataSetColumn="Location" />
+              <Mapping SourceColumn="ReasonOfMovement" DataSetColumn="ReasonOfMovement" />
+              <Mapping SourceColumn="GLAC" DataSetColumn="GLAC" />
+              <Mapping SourceColumn="CostCenter" DataSetColumn="CostCenter" />
+              <Mapping SourceColumn="BusinessArea" DataSetColumn="BusinessArea" />
+              <Mapping SourceColumn="AssetNo" DataSetColumn="AssetNo" />
+              <Mapping SourceColumn="SAPPartNo" DataSetColumn="SAPPartNo" />
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VendorReturnExportTableAdapter" GeneratorDataComponentClassName="VendorReturnExportTableAdapter" Name="VendorReturnExport" UserDataComponentName="VendorReturnExportTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectName="ZulAssetsBETemp.dbo.SAPItemSerialsTrans" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SAPItemSerialsTrans.PONo, SAPItemSerialsTrans.POLineNo, SAPItemSerialsTrans.Plant, SAPItemSerialsTrans.Location, 1 AS Quantity
+FROM         SAPItemSerialsTrans INNER JOIN
+                      SAPDocuments ON SAPDocuments.GUID = SAPItemSerialsTrans.DocGUID INNER JOIN
+                      SAPItemSerials ON SAPItemSerials.GUID = SAPItemSerialsTrans.ItemSerialGUID
+WHERE     (SAPDocuments.DocType = 'VendorReturn') AND (SAPItemSerialsTrans.ExportedFlag = 0 OR
+                      SAPItemSerialsTrans.ExportedFlag IS NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PONo" DataSetColumn="PONo" />
+              <Mapping SourceColumn="POLineNo" DataSetColumn="POLineNo" />
+              <Mapping SourceColumn="Plant" DataSetColumn="Plant" />
+              <Mapping SourceColumn="Location" DataSetColumn="Location" />
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ReversalExportGRTableAdapter" GeneratorDataComponentClassName="ReversalExportGRTableAdapter" Name="ReversalExportGR" UserDataComponentName="ReversalExportGRTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectName="ZulAssetsBETemp.dbo.SAPItemSerialsTrans" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SAPItemSerialsTrans.MovementType, SAPItemSerialsTrans.PONo, SAPItemSerialsTrans.LineItemNo ,SAPItemSerialsTrans.Plant, SAPItemSerialsTrans.Location, 
+                      SAPItemSerialsTrans.ReasonOfFault AS ReasonOfMovement, 1 AS Quantity
+FROM         SAPItemSerialsTrans
+WHERE     (SAPItemSerialsTrans.TransName = 'ReversalGR') AND (SAPItemSerialsTrans.ExportedFlag = 0 OR                      SAPItemSerialsTrans.ExportedFlag IS NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MovementType" DataSetColumn="MovementType" />
+              <Mapping SourceColumn="PONo" DataSetColumn="PONo" />
+              <Mapping SourceColumn="LineItemNo" DataSetColumn="LineItemNo" />
+              <Mapping SourceColumn="Plant" DataSetColumn="Plant" />
+              <Mapping SourceColumn="Location" DataSetColumn="Location" />
+              <Mapping SourceColumn="ReasonOfMovement" DataSetColumn="ReasonOfMovement" />
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="TempDBConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="SetExportFlag" MethodsParameterType="CLR" Modifier="Public" Name="SetExportFlag" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="SetExportFlag">
+            <UpdateCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>update SAPItemSerialsTrans set ExportedFlag = 1
+where TransName=?</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="Param2" ColumnName="TransName" DataSourceName="ZulAssetsBETemp.dbo.SAPItemSerialsTrans" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="TransName" Precision="0" ProviderType="VarWChar" Scale="0" Size="50" SourceColumn="TransName" SourceColumnNullMapping="false" SourceVersion="Original" />
+                </Parameters>
+              </DbCommand>
+            </UpdateCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SAPExport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SAPExport" msprop:Generator_DataSetName="SAPExport" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GoodsReceivingExport" msprop:Generator_UserTableName="GoodsReceivingExport" msprop:Generator_RowDeletedName="GoodsReceivingExportRowDeleted" msprop:Generator_RowChangedName="GoodsReceivingExportRowChanged" msprop:Generator_RowClassName="GoodsReceivingExportRow" msprop:Generator_RowChangingName="GoodsReceivingExportRowChanging" msprop:Generator_RowEvArgName="GoodsReceivingExportRowChangeEvent" msprop:Generator_RowEvHandlerName="GoodsReceivingExportRowChangeEventHandler" msprop:Generator_TableClassName="GoodsReceivingExportDataTable" msprop:Generator_TableVarName="tableGoodsReceivingExport" msprop:Generator_RowDeletingName="GoodsReceivingExportRowDeleting" msprop:Generator_TablePropName="GoodsReceivingExport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PONo" msprop:Generator_UserColumnName="PONo" msprop:Generator_ColumnVarNameInTable="columnPONo" msprop:Generator_ColumnPropNameInRow="PONo" msprop:Generator_ColumnPropNameInTable="PONoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeliveryNo" msprop:Generator_UserColumnName="DeliveryNo" msprop:Generator_ColumnVarNameInTable="columnDeliveryNo" msprop:Generator_ColumnPropNameInRow="DeliveryNo" msprop:Generator_ColumnPropNameInTable="DeliveryNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PostingDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PostingDate" msprop:Generator_ColumnVarNameInTable="columnPostingDate" msprop:Generator_ColumnPropNameInRow="PostingDate" msprop:Generator_ColumnPropNameInTable="PostingDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ManufacturePartNo" msprop:Generator_UserColumnName="ManufacturePartNo" msprop:Generator_ColumnVarNameInTable="columnManufacturePartNo" msprop:Generator_ColumnPropNameInRow="ManufacturePartNo" msprop:Generator_ColumnPropNameInTable="ManufacturePartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAPPartNo" msprop:Generator_UserColumnName="SAPPartNo" msprop:Generator_ColumnVarNameInTable="columnSAPPartNo" msprop:Generator_ColumnPropNameInRow="SAPPartNo" msprop:Generator_ColumnPropNameInTable="SAPPartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineItemNo" msprop:Generator_UserColumnName="LineItemNo" msprop:Generator_ColumnVarNameInTable="columnLineItemNo" msprop:Generator_ColumnPropNameInRow="LineItemNo" msprop:Generator_ColumnPropNameInTable="LineItemNoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SeqNo" msprop:Generator_UserColumnName="SeqNo" msprop:Generator_ColumnVarNameInTable="columnSeqNo" msprop:Generator_ColumnPropNameInRow="SeqNo" msprop:Generator_ColumnPropNameInTable="SeqNoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SerialNo" msprop:Generator_UserColumnName="SerialNo" msprop:Generator_ColumnVarNameInTable="columnSerialNo" msprop:Generator_ColumnPropNameInRow="SerialNo" msprop:Generator_ColumnPropNameInTable="SerialNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GoodsIssuingExport" msprop:Generator_UserTableName="GoodsIssuingExport" msprop:Generator_RowDeletedName="GoodsIssuingExportRowDeleted" msprop:Generator_RowChangedName="GoodsIssuingExportRowChanged" msprop:Generator_RowClassName="GoodsIssuingExportRow" msprop:Generator_RowChangingName="GoodsIssuingExportRowChanging" msprop:Generator_RowEvArgName="GoodsIssuingExportRowChangeEvent" msprop:Generator_RowEvHandlerName="GoodsIssuingExportRowChangeEventHandler" msprop:Generator_TableClassName="GoodsIssuingExportDataTable" msprop:Generator_TableVarName="tableGoodsIssuingExport" msprop:Generator_RowDeletingName="GoodsIssuingExportRowDeleting" msprop:Generator_TablePropName="GoodsIssuingExport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocType" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DocType" msprop:Generator_ColumnVarNameInTable="columnDocType" msprop:Generator_ColumnPropNameInRow="DocType" msprop:Generator_ColumnPropNameInTable="DocTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MovementType" msprop:Generator_UserColumnName="MovementType" msprop:Generator_ColumnVarNameInTable="columnMovementType" msprop:Generator_ColumnPropNameInRow="MovementType" msprop:Generator_ColumnPropNameInTable="MovementTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InvProposalNo" msprop:Generator_UserColumnName="InvProposalNo" msprop:Generator_ColumnVarNameInTable="columnInvProposalNo" msprop:Generator_ColumnPropNameInRow="InvProposalNo" msprop:Generator_ColumnPropNameInTable="InvProposalNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRNo" msprop:Generator_UserColumnName="PRNo" msprop:Generator_ColumnVarNameInTable="columnPRNo" msprop:Generator_ColumnPropNameInRow="PRNo" msprop:Generator_ColumnPropNameInTable="PRNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IssueDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IssueDate" msprop:Generator_ColumnVarNameInTable="columnIssueDate" msprop:Generator_ColumnPropNameInRow="IssueDate" msprop:Generator_ColumnPropNameInTable="IssueDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmpNo" msprop:Generator_UserColumnName="EmpNo" msprop:Generator_ColumnVarNameInTable="columnEmpNo" msprop:Generator_ColumnPropNameInRow="EmpNo" msprop:Generator_ColumnPropNameInTable="EmpNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AssetNo" msprop:Generator_UserColumnName="AssetNo" msprop:Generator_ColumnVarNameInTable="columnAssetNo" msprop:Generator_ColumnPropNameInRow="AssetNo" msprop:Generator_ColumnPropNameInTable="AssetNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAPPartNo" msprop:Generator_UserColumnName="SAPPartNo" msprop:Generator_ColumnVarNameInTable="columnSAPPartNo" msprop:Generator_ColumnPropNameInRow="SAPPartNo" msprop:Generator_ColumnPropNameInTable="SAPPartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ManufacturePartNo" msprop:Generator_UserColumnName="ManufacturePartNo" msprop:Generator_ColumnVarNameInTable="columnManufacturePartNo" msprop:Generator_ColumnPropNameInRow="ManufacturePartNo" msprop:Generator_ColumnPropNameInTable="ManufacturePartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SerialNo" msprop:Generator_UserColumnName="SerialNo" msprop:Generator_ColumnVarNameInTable="columnSerialNo" msprop:Generator_ColumnPropNameInRow="SerialNo" msprop:Generator_ColumnPropNameInTable="SerialNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CostCenter" msprop:Generator_UserColumnName="CostCenter" msprop:Generator_ColumnVarNameInTable="columnCostCenter" msprop:Generator_ColumnPropNameInRow="CostCenter" msprop:Generator_ColumnPropNameInTable="CostCenterColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessArea" msprop:Generator_UserColumnName="BusinessArea" msprop:Generator_ColumnVarNameInTable="columnBusinessArea" msprop:Generator_ColumnPropNameInRow="BusinessArea" msprop:Generator_ColumnPropNameInTable="BusinessAreaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GLAC" msprop:Generator_UserColumnName="GLAC" msprop:Generator_ColumnVarNameInTable="columnGLAC" msprop:Generator_ColumnPropNameInRow="GLAC" msprop:Generator_ColumnPropNameInTable="GLACColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReversalExportGI" msprop:Generator_UserTableName="ReversalExportGI" msprop:Generator_RowDeletedName="ReversalExportGIRowDeleted" msprop:Generator_RowChangedName="ReversalExportGIRowChanged" msprop:Generator_RowClassName="ReversalExportGIRow" msprop:Generator_RowChangingName="ReversalExportGIRowChanging" msprop:Generator_RowEvArgName="ReversalExportGIRowChangeEvent" msprop:Generator_RowEvHandlerName="ReversalExportGIRowChangeEventHandler" msprop:Generator_TableClassName="ReversalExportGIDataTable" msprop:Generator_TableVarName="tableReversalExportGI" msprop:Generator_RowDeletingName="ReversalExportGIRowDeleting" msprop:Generator_TablePropName="ReversalExportGI">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MovementType" msprop:Generator_UserColumnName="MovementType" msprop:Generator_ColumnVarNameInTable="columnMovementType" msprop:Generator_ColumnPropNameInRow="MovementType" msprop:Generator_ColumnPropNameInTable="MovementTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plant" msprop:Generator_UserColumnName="Plant" msprop:Generator_ColumnPropNameInRow="Plant" msprop:Generator_ColumnVarNameInTable="columnPlant" msprop:Generator_ColumnPropNameInTable="PlantColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Location" msprop:Generator_UserColumnName="Location" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInTable="LocationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReasonOfMovement" msprop:Generator_UserColumnName="ReasonOfMovement" msprop:Generator_ColumnPropNameInRow="ReasonOfMovement" msprop:Generator_ColumnVarNameInTable="columnReasonOfMovement" msprop:Generator_ColumnPropNameInTable="ReasonOfMovementColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GLAC" msprop:Generator_UserColumnName="GLAC" msprop:Generator_ColumnPropNameInRow="GLAC" msprop:Generator_ColumnVarNameInTable="columnGLAC" msprop:Generator_ColumnPropNameInTable="GLACColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CostCenter" msprop:Generator_UserColumnName="CostCenter" msprop:Generator_ColumnPropNameInRow="CostCenter" msprop:Generator_ColumnVarNameInTable="columnCostCenter" msprop:Generator_ColumnPropNameInTable="CostCenterColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessArea" msprop:Generator_UserColumnName="BusinessArea" msprop:Generator_ColumnPropNameInRow="BusinessArea" msprop:Generator_ColumnVarNameInTable="columnBusinessArea" msprop:Generator_ColumnPropNameInTable="BusinessAreaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AssetNo" msprop:Generator_UserColumnName="AssetNo" msprop:Generator_ColumnPropNameInRow="AssetNo" msprop:Generator_ColumnVarNameInTable="columnAssetNo" msprop:Generator_ColumnPropNameInTable="AssetNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAPPartNo" msprop:Generator_UserColumnName="SAPPartNo" msprop:Generator_ColumnPropNameInRow="SAPPartNo" msprop:Generator_ColumnVarNameInTable="columnSAPPartNo" msprop:Generator_ColumnPropNameInTable="SAPPartNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VendorReturnExport" msprop:Generator_UserTableName="VendorReturnExport" msprop:Generator_RowDeletedName="VendorReturnExportRowDeleted" msprop:Generator_RowChangedName="VendorReturnExportRowChanged" msprop:Generator_RowClassName="VendorReturnExportRow" msprop:Generator_RowChangingName="VendorReturnExportRowChanging" msprop:Generator_RowEvArgName="VendorReturnExportRowChangeEvent" msprop:Generator_RowEvHandlerName="VendorReturnExportRowChangeEventHandler" msprop:Generator_TableClassName="VendorReturnExportDataTable" msprop:Generator_TableVarName="tableVendorReturnExport" msprop:Generator_RowDeletingName="VendorReturnExportRowDeleting" msprop:Generator_TablePropName="VendorReturnExport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PONo" msprop:Generator_UserColumnName="PONo" msprop:Generator_ColumnVarNameInTable="columnPONo" msprop:Generator_ColumnPropNameInRow="PONo" msprop:Generator_ColumnPropNameInTable="PONoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POLineNo" msprop:Generator_UserColumnName="POLineNo" msprop:Generator_ColumnVarNameInTable="columnPOLineNo" msprop:Generator_ColumnPropNameInRow="POLineNo" msprop:Generator_ColumnPropNameInTable="POLineNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plant" msprop:Generator_UserColumnName="Plant" msprop:Generator_ColumnVarNameInTable="columnPlant" msprop:Generator_ColumnPropNameInRow="Plant" msprop:Generator_ColumnPropNameInTable="PlantColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Location" msprop:Generator_UserColumnName="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReversalExportGR" msprop:Generator_UserTableName="ReversalExportGR" msprop:Generator_RowDeletedName="ReversalExportGRRowDeleted" msprop:Generator_RowChangedName="ReversalExportGRRowChanged" msprop:Generator_RowClassName="ReversalExportGRRow" msprop:Generator_RowChangingName="ReversalExportGRRowChanging" msprop:Generator_RowEvArgName="ReversalExportGRRowChangeEvent" msprop:Generator_RowEvHandlerName="ReversalExportGRRowChangeEventHandler" msprop:Generator_TableClassName="ReversalExportGRDataTable" msprop:Generator_TableVarName="tableReversalExportGR" msprop:Generator_RowDeletingName="ReversalExportGRRowDeleting" msprop:Generator_TablePropName="ReversalExportGR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MovementType" msprop:Generator_UserColumnName="MovementType" msprop:Generator_ColumnVarNameInTable="columnMovementType" msprop:Generator_ColumnPropNameInRow="MovementType" msprop:Generator_ColumnPropNameInTable="MovementTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PONo" msprop:Generator_UserColumnName="PONo" msprop:Generator_ColumnVarNameInTable="columnPONo" msprop:Generator_ColumnPropNameInRow="PONo" msprop:Generator_ColumnPropNameInTable="PONoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineItemNo" msprop:Generator_UserColumnName="LineItemNo" msprop:Generator_ColumnVarNameInTable="columnLineItemNo" msprop:Generator_ColumnPropNameInRow="LineItemNo" msprop:Generator_ColumnPropNameInTable="LineItemNoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Plant" msprop:Generator_UserColumnName="Plant" msprop:Generator_ColumnVarNameInTable="columnPlant" msprop:Generator_ColumnPropNameInRow="Plant" msprop:Generator_ColumnPropNameInTable="PlantColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Location" msprop:Generator_UserColumnName="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReasonOfMovement" msprop:Generator_UserColumnName="ReasonOfMovement" msprop:Generator_ColumnVarNameInTable="columnReasonOfMovement" msprop:Generator_ColumnPropNameInRow="ReasonOfMovement" msprop:Generator_ColumnPropNameInTable="ReasonOfMovementColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

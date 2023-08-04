@@ -1,0 +1,12 @@
+after build the application, we must unselect the following classes from the rename in Dotfuscator program:
+
+1- zulassetsBEDataSet
+2- ZulAssets.ZulAssetsBEDataSetTableAdapters
+3- All the reports found in the application
+4- ABBIntegration->My
+5- NMCIntegration->My
+
+also must right click and
+-check all fields
+-check all methods
+

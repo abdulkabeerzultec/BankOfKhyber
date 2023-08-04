@@ -1,0 +1,14 @@
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\bin\Release\clsDAL.dll
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\bin\Release\clsDAL.pdb
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsData.Resources.resources
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsDAL.vbproj.GenerateResource.Cache
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsDAL.dll
+D:\Projects\SVN\JeddahOffice\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\bin\Release\clsDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\bin\Release\clsDAL.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsData.Resources.resources
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsDAL.vbproj.GenerateResource.Cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsDAL.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\clsDAL\clsDAL\obj\Release\clsDAL.pdb

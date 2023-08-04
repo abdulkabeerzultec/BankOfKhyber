@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{741F2DB8-4D81-44A6-AE41-6D275F205AC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SABBPlugin</RootNamespace>
+    <AssemblyName>SABBPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\ZulAssets\bin\</OutputPath>
+    <DocumentationFile>SABBPlugin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SABBPlugin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Interop.ASPEMAILLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Interop.ASPEMAILLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TaskScheduler, Version=1.0.2472.26854, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\TaskScheduler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppInterface.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppInterface.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\ColsName.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ColsName.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\DocumentNumberBLL.vb" />
+    <Compile Include="BLL\ItemsBLL.vb" />
+    <Compile Include="BLL\PurchaseOrderBLL.vb" />
+    <Compile Include="BLL\PurchaseOrderItemsBLL.vb" />
+    <Compile Include="BLL\StockTransferBLL.vb" />
+    <Compile Include="BLL\BLLStrings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BLLStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\StockTransferItemBLL.vb" />
+    <Compile Include="BLL\StockTransferItemDetails.vb" />
+    <Compile Include="rptAssetAdmin.Designer.vb">
+      <DependentUpon>rptAssetAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptAssetAdmin.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ctlPrintLabels.Designer.vb">
+      <DependentUpon>ctlPrintLabels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlPrintLabels.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlPurchaseOrder.designer.vb">
+      <DependentUpon>ctlPurchaseOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlPurchaseOrder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlSerialNumber.Designer.vb">
+      <DependentUpon>ctlSerialNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlSerialNumber.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlStockTransfer.designer.vb">
+      <DependentUpon>ctlStockTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlStockTransfer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DLL\AppSettings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppSettings.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DLL\ConnectionString.vb" />
+    <Compile Include="DLL\DataListTables.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataListTables.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DLL\Items.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Items.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DLL\PurchaseOrder.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DLL\StockTransfer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockTransfer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssetTransfer.designer.vb">
+      <DependentUpon>frmAssetTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssetTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangeValues.Designer.vb">
+      <DependentUpon>frmChangeValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangeValues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepCalc.vb" />
+    <Compile Include="frmAdmin.designer.vb">
+      <DependentUpon>frmAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssetsDetails.Designer.vb">
+      <DependentUpon>frmAssetsDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssetsDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBlkQty.designer.vb">
+      <DependentUpon>frmBlkQty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBlkQty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustodian.Designer.vb">
+      <DependentUpon>frmCustodian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustodian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExport.Designer.vb">
+      <DependentUpon>frmExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImport.designer.vb">
+      <DependentUpon>frmImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDOMaster.Designer.vb">
+      <DependentUpon>frmDOMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDOMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDOReceiving.Designer.vb">
+      <DependentUpon>frmDOReceiving.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDOReceiving.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDOTrans.Designer.vb">
+      <DependentUpon>frmDOTrans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDOTrans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPopup.designer.vb">
+      <DependentUpon>frmPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoles.designer.vb">
+      <DependentUpon>frmRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalFunctions.vb" />
+    <Compile Include="MessageBox.vb" />
+    <Compile Include="Messages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Plugin.vb" />
+    <Compile Include="rptAssetIssuance.Designer.vb">
+      <DependentUpon>rptAssetIssuance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptAssetIssuance.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Strings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools.vb" />
+    <Compile Include="ZulAssetsBEDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ZulAssetsBEDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppInterface.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppInterface.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\ColsName.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ColsName.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLL\BLLStrings.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BLLStrings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="rptAssetAdmin.resx">
+      <DependentUpon>rptAssetAdmin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlPrintLabels.resx">
+      <DependentUpon>ctlPrintLabels.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlPurchaseOrder.ar.resx">
+      <DependentUpon>ctlPurchaseOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlPurchaseOrder.resx">
+      <DependentUpon>ctlPurchaseOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlSerialNumber.resx">
+      <DependentUpon>ctlSerialNumber.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlStockTransfer.ar.resx">
+      <DependentUpon>ctlStockTransfer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlStockTransfer.resx">
+      <DependentUpon>ctlStockTransfer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssetTransfer.resx">
+      <DependentUpon>frmAssetTransfer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangeValues.resx">
+      <DependentUpon>frmChangeValues.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssetsDetails.resx">
+      <DependentUpon>frmAssetsDetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBlkQty.resx">
+      <DependentUpon>frmBlkQty.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustodian.resx">
+      <DependentUpon>frmCustodian.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExport.resx">
+      <DependentUpon>frmExport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImport.resx">
+      <DependentUpon>frmImport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOMaster.resx">
+      <DependentUpon>frmDOMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOReceiving.resx">
+      <DependentUpon>frmDOReceiving.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOTrans.resx">
+      <DependentUpon>frmDOTrans.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPopup.resx">
+      <DependentUpon>frmPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoles.resx">
+      <DependentUpon>frmRoles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptAssetIssuance.resx">
+      <DependentUpon>rptAssetIssuance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Controls\ZulHierTree\ZulHierTree.vbproj">
+      <Project>{6920EF83-AFE8-4B89-BBA8-CF90ED1E0BC6}</Project>
+      <Name>ZulHierTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Controls\ZulLOV\ZulLOV.vbproj">
+      <Project>{E4701AD0-6721-4F00-B5E5-1E6CA9FFBD95}</Project>
+      <Name>ZulLOV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Controls\ZulTree\ZulTree.vbproj">
+      <Project>{745E3B59-AEFC-4BAA-900A-92822163ECF2}</Project>
+      <Name>ZulTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GenericDAL\GenericDAL.vbproj">
+      <Project>{0F734536-2A18-4F0A-9D2C-BB0E696C55AF}</Project>
+      <Name>GenericDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZulAssetsBL\ZulAssetsBL.vbproj">
+      <Project>{0D50B773-7BD4-420F-91B4-06869F9E8F5B}</Project>
+      <Name>ZulAssetsBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZulAssetsDAL\ZulAssetsDAL.vbproj">
+      <Project>{F3239F37-C1E0-4772-8C5E-2D66446EF16E}</Project>
+      <Name>ZulAssetsDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZulLib\ZulLib.vbproj">
+      <Project>{F7B9594A-FF6A-49FE-878A-BCCAB99C2037}</Project>
+      <Name>ZulLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AddInInterface\AddInInterface.vbproj">
+      <Project>{0E797B2B-CE5D-4190-942E-FF2714B95F71}</Project>
+      <Name>AddInInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListItems16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nav-Report-Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuBar_ExportToExcel_Large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuBar_Refresh_Large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnFirst.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnLast.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnNext.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnPrev.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExportToExcel16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forms-BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invalid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Miplaced.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transfered.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\ZulAssets.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLL\DataListTables.xsc">
+      <DependentUpon>DataListTables.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\DataListTables.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataListTables.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DLL\DataListTables.xss">
+      <DependentUpon>DataListTables.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\StockTransfer.xsc">
+      <DependentUpon>StockTransfer.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\StockTransfer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StockTransfer.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DLL\StockTransfer.xss">
+      <DependentUpon>StockTransfer.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Print 16x16.png" />
+    <None Include="ZulAssetsBEDataSet.xsc">
+      <DependentUpon>ZulAssetsBEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ZulAssetsBEDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ZulAssetsBEDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ZulAssetsBEDataSet.xss">
+      <DependentUpon>ZulAssetsBEDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLL\AppSettings.xsc">
+      <DependentUpon>AppSettings.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\AppSettings.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppSettings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DLL\AppSettings.xss">
+      <DependentUpon>AppSettings.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\Items.xsc">
+      <DependentUpon>Items.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\Items.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Items.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DLL\Items.xss">
+      <DependentUpon>Items.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\PurchaseOrder.xsc">
+      <DependentUpon>PurchaseOrder.xsd</DependentUpon>
+    </None>
+    <None Include="DLL\PurchaseOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseOrder.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DLL\PurchaseOrder.xss">
+      <DependentUpon>PurchaseOrder.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\key.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

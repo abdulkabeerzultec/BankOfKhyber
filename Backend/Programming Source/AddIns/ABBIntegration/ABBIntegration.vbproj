@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F19408C4-1AA6-44E2-A4E0-A071B2248B7B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ABBIntegration</RootNamespace>
+    <AssemblyName>ABBIntegration</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\ZulAssets\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\DevExpress 2009.1\\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\DevExpress 2009.1\\Components\Sources\DevExpress.DLL\DevExpress.XtraNavBar.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Interop.ASPEMAILLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Interop.ASPEMAILLib.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Desktop.Communication, Version=2.8.1584.19264, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\OpenNETCF.Desktop.Communication.dll</HintPath>
+    </Reference>
+    <Reference Include="PingLib, Version=1.0.2174.17097, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\PingLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TaskScheduler, Version=1.0.2472.26854, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\TaskScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Ftp, Version=3.0.6173.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Xceed.Ftp.dll</HintPath>
+    </Reference>
+    <Reference Include="ZulHierTree, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Controls\ZulHierTree\bin\Release\ZulHierTree.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmABBDataProcessing.Designer.vb">
+      <DependentUpon>frmABBDataProcessing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABBDataProcessing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABBReports.Designer.vb">
+      <DependentUpon>frmABBReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABBReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnonymousRemarks.Designer.vb">
+      <DependentUpon>frmAnonymousRemarks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnonymousRemarks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssetsDetails.Designer.vb">
+      <DependentUpon>frmAssetsDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssetsDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExport.Designer.vb">
+      <DependentUpon>frmExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImport.Designer.vb">
+      <DependentUpon>frmImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABBSend.designer.vb">
+      <DependentUpon>frmABBSend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABBSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABBRoles.Designer.vb">
+      <DependentUpon>frmABBRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABBRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FtpAccessInterface.vb" />
+    <Compile Include="FtpThread.vb" />
+    <Compile Include="ICMPClass.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="LoadReports.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppConfig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ctlWarrantyReceiving.Designer.vb">
+      <DependentUpon>ctlWarrantyReceiving.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlWarrantyReceiving.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlGoodsIssue.Designer.vb">
+      <DependentUpon>ctlGoodsIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlGoodsIssue.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlGoodsReceiving.Designer.vb">
+      <DependentUpon>ctlGoodsReceiving.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlGoodsReceiving.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlReversalDoc.Designer.vb">
+      <DependentUpon>ctlReversalDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlReversalDoc.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlSAPItems.Designer.vb">
+      <DependentUpon>ctlSAPItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlSAPItems.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlVendorReturn.Designer.vb">
+      <DependentUpon>ctlVendorReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlVendorReturn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlWarrantyClaim.Designer.vb">
+      <DependentUpon>ctlWarrantyClaim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlWarrantyClaim.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlWarrantyStatus.Designer.vb">
+      <DependentUpon>ctlWarrantyStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlWarrantyStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalFunctions.vb" />
+    <Compile Include="Messages.vb" />
+    <Compile Include="PreviewControl.Designer.vb">
+      <DependentUpon>PreviewControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reports\rptAssetsLog.Designer.vb">
+      <DependentUpon>rptAssetsLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptAssetsLog.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWarrantyReceiveReplace.Designer.vb">
+      <DependentUpon>rptWarrantyReceiveReplace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWarrantyReceiveReplace.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWarrantyReceiveSame.Designer.vb">
+      <DependentUpon>rptWarrantyReceiveSame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWarrantyReceiveSame.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptWarrantyClaim.Designer.vb">
+      <DependentUpon>rptWarrantyClaim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptWarrantyClaim.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptVendorReturn.Designer.vb">
+      <DependentUpon>rptVendorReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptVendorReturn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptReversalDoc.Designer.vb">
+      <DependentUpon>rptReversalDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptReversalDoc.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptGoodsIssuance2.Designer.vb">
+      <DependentUpon>rptGoodsIssuance2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptGoodsIssuance2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptGoodsIssuance1.Designer.vb">
+      <DependentUpon>rptGoodsIssuance1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptGoodsIssuance1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptGoodsIssuanceDetails.Designer.vb">
+      <DependentUpon>rptGoodsIssuanceDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptGoodsIssuanceDetails.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptGoodsReceiveStandard.Designer.vb">
+      <DependentUpon>rptGoodsReceiveStandard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptGoodsReceiveStandard.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptGoodsReceiveDetails.Designer.vb">
+      <DependentUpon>rptGoodsReceiveDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptGoodsReceiveDetails.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptMisplacedAssets.Designer.vb">
+      <DependentUpon>rptMisplacedAssets.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptMisplacedAssets.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptAnonymousAssets.Designer.vb">
+      <DependentUpon>rptAnonymousAssets.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptAnonymousAssets.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptAssetRetirement.Designer.vb">
+      <DependentUpon>rptAssetRetirement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptAssetRetirement.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptPhysicalInventory.Designer.vb">
+      <DependentUpon>rptPhysicalInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptPhysicalInventory.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptAssetValue.Designer.vb">
+      <DependentUpon>rptAssetValue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptAssetValue.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptCompanyAssets.Designer.vb">
+      <DependentUpon>rptCompanyAssets.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptCompanyAssets.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tools.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmABBDataProcessing.resx">
+      <DependentUpon>frmABBDataProcessing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABBReports.resx">
+      <DependentUpon>frmABBReports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnonymousRemarks.resx">
+      <DependentUpon>frmAnonymousRemarks.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssetsDetails.resx">
+      <DependentUpon>frmAssetsDetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExport.resx">
+      <DependentUpon>frmExport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImport.resx">
+      <DependentUpon>frmImport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABBSend.resx">
+      <DependentUpon>frmABBSend.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABBRoles.resx">
+      <DependentUpon>frmABBRoles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlWarrantyReceiving.resx">
+      <DependentUpon>ctlWarrantyReceiving.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlGoodsIssue.resx">
+      <DependentUpon>ctlGoodsIssue.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlGoodsReceiving.resx">
+      <DependentUpon>ctlGoodsReceiving.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlReversalDoc.resx">
+      <DependentUpon>ctlReversalDoc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlSAPItems.resx">
+      <DependentUpon>ctlSAPItems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlVendorReturn.resx">
+      <DependentUpon>ctlVendorReturn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlWarrantyClaim.resx">
+      <DependentUpon>ctlWarrantyClaim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlWarrantyStatus.resx">
+      <DependentUpon>ctlWarrantyStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewControl.resx">
+      <DependentUpon>PreviewControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptAssetsLog.resx">
+      <DependentUpon>rptAssetsLog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWarrantyReceiveReplace.resx">
+      <DependentUpon>rptWarrantyReceiveReplace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWarrantyReceiveSame.resx">
+      <DependentUpon>rptWarrantyReceiveSame.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptWarrantyClaim.resx">
+      <DependentUpon>rptWarrantyClaim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptVendorReturn.resx">
+      <DependentUpon>rptVendorReturn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptReversalDoc.resx">
+      <DependentUpon>rptReversalDoc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptGoodsIssuance2.resx">
+      <DependentUpon>rptGoodsIssuance2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptGoodsIssuance1.resx">
+      <DependentUpon>rptGoodsIssuance1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptGoodsIssuanceDetails.resx">
+      <DependentUpon>rptGoodsIssuanceDetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptGoodsReceiveStandard.resx">
+      <DependentUpon>rptGoodsReceiveStandard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptGoodsReceiveDetails.resx">
+      <DependentUpon>rptGoodsReceiveDetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptMisplacedAssets.resx">
+      <DependentUpon>rptMisplacedAssets.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptAnonymousAssets.resx">
+      <DependentUpon>rptAnonymousAssets.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptAssetRetirement.resx">
+      <DependentUpon>rptAssetRetirement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPhysicalInventory.resx">
+      <DependentUpon>rptPhysicalInventory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptAssetValue.resx">
+      <DependentUpon>rptAssetValue.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptCompanyAssets.resx">
+      <DependentUpon>rptCompanyAssets.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Controls\ZulLOV\ZulLOV.vbproj">
+      <Project>{E4701AD0-6721-4F00-B5E5-1E6CA9FFBD95}</Project>
+      <Name>ZulLOV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Controls\ZulTree\ZulTree.vbproj">
+      <Project>{745E3B59-AEFC-4BAA-900A-92822163ECF2}</Project>
+      <Name>ZulTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GenericDAL\GenericDAL.vbproj">
+      <Project>{0F734536-2A18-4F0A-9D2C-BB0E696C55AF}</Project>
+      <Name>GenericDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZulAssetsBL\ZulAssetsBL.vbproj">
+      <Project>{0D50B773-7BD4-420F-91B4-06869F9E8F5B}</Project>
+      <Name>ZulAssetsBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZulAssetsDAL\ZulAssetsDAL.vbproj">
+      <Project>{F3239F37-C1E0-4772-8C5E-2D66446EF16E}</Project>
+      <Name>ZulAssetsDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZulLib\ZulLib.vbproj">
+      <Project>{F7B9594A-FF6A-49FE-878A-BCCAB99C2037}</Project>
+      <Name>ZulLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forms-BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZulAssets.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\ExportToExcel16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invalid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnFirst.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnLast.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnNext.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnPrev.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Misspalced.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuBar_Clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\ZulAssetsDAL.SAPReports.datasource" />
+    <None Include="My Project\DataSources\ZulAssetsDAL.SAPReportsTableAdapters.ReversalReportTableAdapter.datasource" />
+    <None Include="Resources\key.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview16x16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

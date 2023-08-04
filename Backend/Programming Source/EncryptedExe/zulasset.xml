@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--This is application generated code. Do not edit manually.-->
+  <input>
+    <asmlist>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZulHierTree.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZulLOV.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZulTree.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZulAssets.exe" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="clsDAL.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="CMAIntegration.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ABBIntegration.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZulLib.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="GenericDAL.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZulAssetDepreciation.exe" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="FairmontIntegration.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="NMCSync.exe" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="NMCIntegration.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZultecScreenCapture.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="RetajIntegration.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="AddInInterface.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\AbunayyanSync\bin\Release" name="AbunayyanSync.exe" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Abunayyan\bin\Release" name="AbunayyanPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug" name="ABBSync.exe" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Elaf\bin\Release" name="ElafPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\GSFMO\bin\Release" name="GSFMOPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\SABB\bin\Release" name="SABBPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Sanofi Plugin\bin\Release" name="SanofiPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Oberoi Hotel Plugin\bin\Release" name="OberoiHotelPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\CITCPlugin\bin\Release" name="CITCPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\CITCSync\bin\Release" name="CITCSync.exe" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Mezan bank\bin\Release" name="MezanPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\KPMG\bin\Release" name="KPMGPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Release" name="UBLInsurancePlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Movenpick\bin\Release" name="MovenpickPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\ARLPlugin\bin\Release" name="ARLPlugin.dll" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\ARLSync\bin\Release" name="ARLSync.exe" />
+      </inputassembly>
+      <inputassembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Release" name="PAKPOSPlugin.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <renaming>
+    <excludelist>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\ABBSync\bin\Debug" name="ABBSync.exe" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Abunayyan\bin\Release" name="AbunayyanPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\AbunayyanSync\bin\Release" name="AbunayyanSync.exe" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\ARLPlugin\bin\Release" name="ARLPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\ARLSync\bin\Release" name="ARLSync.exe" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\British Overseas School BOS\bin\Release" name="PAKPOSPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\CITCPlugin\bin\Release" name="CITCPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\CITCSync\bin\Release" name="CITCSync.exe" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Elaf\bin\Release" name="ElafPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\GSFMO\bin\Release" name="GSFMOPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\KPMG\bin\Release" name="KPMGPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Mezan bank\bin\Release" name="MezanPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Movenpick\bin\Release" name="MovenpickPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Oberoi Hotel Plugin\bin\Release" name="OberoiHotelPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\SABB\bin\Release" name="SABBPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\Sanofi Plugin\bin\Release" name="SanofiPlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\AddIns\UBLInsuranceIntegration\bin\Release" name="UBLInsurancePlugin.dll" />
+      </assembly>
+      <assembly>
+        <file dir="D:\Programming\ZulAssets4.0\Backend\Programming Source\ZulAssets\bin" name="ZulAssets.exe" />
+      </assembly>
+      <namespace name="ABBIntegration.My" />
+      <namespace name="GenericDAL" />
+      <namespace name="NMCIntegration.My" />
+      <namespace name="RetajIntegration.My" />
+      <type name="ABBIntegration.rptAnonymousAssets">
+        <method name="Dispose" signature="bool" />
+        <method name="get_Detail" signature="" />
+        <method name="get_lblCompName" signature="" />
+        <method name="get_lblSubCompName" signature="" />
+        <method name="get_NonBarCodedTempTableAdapter" signature="" />
+        <method name="get_PageFooter" signature="" />
+        <method name="get_PageHeader" signature="" />
+        <method name="get_picLogo" signature="" />
+        <method name="get_ReportFooter" signature="" />
+        <method name="get_ReportHeader" signature="" />
+        <method name="get_XrLabel1" signature="" />
+        <method name="get_XrLabel18" signature="" />
+        <method name="get_XrLabel19" signature="" />
+        <method name="get_XrLabel8" signature="" />
+        <method name="get_XrLine3" signature="" />
+        <method name="get_XrLine4" signature="" />
+        <method name="get_XrPageInfo3" signature="" />
+        <method name="get_XrPanel1" signature="" />
+        <method name="get_XrTable3" signature="" />
+        <method name="get_XrTable4" signature="" />
+        <method name="get_XrTableCell19" signature="" />
+        <method name="get_XrTableCell2" signature="" />
+        <method name="get_XrTableCell20" signature="" />
+        <method name="get_XrTableCell21" signature="" />
+        <method name="get_XrTableCell24" signature="" />
+        <method name="get_XrTableCell26" signature="" />
+        <method name="get_XrTableCell27" signature="" />
+        <method name="get_XrTableCell39" signature="" />
+        <method name="get_XrTableCell41" signature="" />
+        <method name="get_XrTableCell42" signature="" />
+        <method name="get_XrTableCell43" signature="" />
+        <method name="get_XrTableCell46" signature="" />
+        <method name="get_XrTableCell49" signature="" />
+        <method name="get_XrTableCell50" signature="" />
+        <method name="get_XrTableRow3" signature="" />
+        <method name="get_XrTableRow4" signature="" />
+        <method name="get_ZulAssetsBEDataSet1" signature="" />
+        <method name="InitializeComponent" signature="" />
+        <method name="set_Detail" signature="DevExpress.XtraReports.UI.DetailBand" />
+        <method name="set_lblCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblSubCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_NonBarCodedTempTableAdapter" signature="ABBIntegration.ZulAssetsBEDataSetTableAdapters.NonBarCodedTempTableAdapter" />
+        <method name="set_PageFooter" signature="DevExpress.XtraReports.UI.PageFooterBand" />
+        <method name="set_PageHeader" signature="DevExpress.XtraReports.UI.PageHeaderBand" />
+        <method name="set_picLogo" signature="DevExpress.XtraReports.UI.XRPictureBox" />
+        <method name="set_ReportFooter" signature="DevExpress.XtraReports.UI.ReportFooterBand" />
+        <method name="set_ReportHeader" signature="DevExpress.XtraReports.UI.ReportHeaderBand" />
+        <method name="set_XrLabel1" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel18" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel19" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel8" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLine3" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrLine4" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrPageInfo3" signature="DevExpress.XtraReports.UI.XRPageInfo" />
+        <method name="set_XrPanel1" signature="DevExpress.XtraReports.UI.XRPanel" />
+        <method name="set_XrTable3" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTable4" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTableCell19" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell2" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell20" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell21" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell24" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell26" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell27" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell39" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell41" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell42" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell43" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell46" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell49" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell50" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableRow3" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_XrTableRow4" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_ZulAssetsBEDataSet1" signature="ABBIntegration.ZulAssetsBEDataSet" />
+        <field name="_Detail" />
+        <field name="_lblCompName" />
+        <field name="_lblSubCompName" />
+        <field name="_NonBarCodedTempTableAdapter" />
+        <field name="_PageFooter" />
+        <field name="_PageHeader" />
+        <field name="_picLogo" />
+        <field name="_ReportFooter" />
+        <field name="_ReportHeader" />
+        <field name="_XrLabel1" />
+        <field name="_XrLabel18" />
+        <field name="_XrLabel19" />
+        <field name="_XrLabel8" />
+        <field name="_XrLine3" />
+        <field name="_XrLine4" />
+        <field name="_XrPageInfo3" />
+        <field name="_XrPanel1" />
+        <field name="_XrTable3" />
+        <field name="_XrTable4" />
+        <field name="_XrTableCell19" />
+        <field name="_XrTableCell2" />
+        <field name="_XrTableCell20" />
+        <field name="_XrTableCell21" />
+        <field name="_XrTableCell24" />
+        <field name="_XrTableCell26" />
+        <field name="_XrTableCell27" />
+        <field name="_XrTableCell39" />
+        <field name="_XrTableCell41" />
+        <field name="_XrTableCell42" />
+        <field name="_XrTableCell43" />
+        <field name="_XrTableCell46" />
+        <field name="_XrTableCell49" />
+        <field name="_XrTableCell50" />
+        <field name="_XrTableRow3" />
+        <field name="_XrTableRow4" />
+        <field name="_ZulAssetsBEDataSet1" />
+        <field name="components" />
+      </type>
+      <type name="ABBIntegration.rptAssetRetirement">
+        <method name="Dispose" signature="bool" />
+        <method name="get_CompanyAssetsTableAdapter" signature="" />
+        <method name="get_Detail" signature="" />
+        <method name="get_lblCompName" signature="" />
+        <method name="get_lblFilterText" signature="" />
+        <method name="get_lblFilterValue" signature="" />
+        <method name="get_lblSubCompName" signature="" />
+        <method name="get_PageFooter" signature="" />
+        <method name="get_PageHeader" signature="" />
+        <method name="get_picLogo" signature="" />
+        <method name="get_ReportFooter" signature="" />
+        <method name="get_ReportHeader" signature="" />
+        <method name="get_XrLabel1" signature="" />
+        <method name="get_XrLabel18" signature="" />
+        <method name="get_XrLabel19" signature="" />
+        <method name="get_XrLabel8" signature="" />
+        <method name="get_XrLine3" signature="" />
+        <method name="get_XrLine4" signature="" />
+        <method name="get_XrPageInfo3" signature="" />
+        <method name="get_XrPanel1" signature="" />
+        <method name="get_XrTable3" signature="" />
+        <method name="get_XrTable4" signature="" />
+        <method name="get_XrTableCell10" signature="" />
+        <method name="get_XrTableCell17" signature="" />
+        <method name="get_XrTableCell2" signature="" />
+        <method name="get_XrTableCell36" signature="" />
+        <method name="get_XrTableCell41" signature="" />
+        <method name="get_XrTableCell47" signature="" />
+        <method name="get_XrTableCell59" signature="" />
+        <method name="get_XrTableCell62" signature="" />
+        <method name="get_XrTableRow3" signature="" />
+        <method name="get_XrTableRow4" signature="" />
+        <method name="get_ZulAssetsBEDataSet1" signature="" />
+        <method name="InitializeComponent" signature="" />
+        <method name="set_CompanyAssetsTableAdapter" signature="ABBIntegration.ZulAssetsBEDataSetTableAdapters.CompanyAssetsTableAdapter" />
+        <method name="set_Detail" signature="DevExpress.XtraReports.UI.DetailBand" />
+        <method name="set_lblCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterText" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterValue" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblSubCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_PageFooter" signature="DevExpress.XtraReports.UI.PageFooterBand" />
+        <method name="set_PageHeader" signature="DevExpress.XtraReports.UI.PageHeaderBand" />
+        <method name="set_picLogo" signature="DevExpress.XtraReports.UI.XRPictureBox" />
+        <method name="set_ReportFooter" signature="DevExpress.XtraReports.UI.ReportFooterBand" />
+        <method name="set_ReportHeader" signature="DevExpress.XtraReports.UI.ReportHeaderBand" />
+        <method name="set_XrLabel1" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel18" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel19" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel8" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLine3" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrLine4" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrPageInfo3" signature="DevExpress.XtraReports.UI.XRPageInfo" />
+        <method name="set_XrPanel1" signature="DevExpress.XtraReports.UI.XRPanel" />
+        <method name="set_XrTable3" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTable4" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTableCell10" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell17" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell2" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell36" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell41" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell47" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell59" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell62" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableRow3" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_XrTableRow4" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_ZulAssetsBEDataSet1" signature="ABBIntegration.ZulAssetsBEDataSet" />
+        <field name="_CompanyAssetsTableAdapter" />
+        <field name="_Detail" />
+        <field name="_lblCompName" />
+        <field name="_lblFilterText" />
+        <field name="_lblFilterValue" />
+        <field name="_lblSubCompName" />
+        <field name="_PageFooter" />
+        <field name="_PageHeader" />
+        <field name="_picLogo" />
+        <field name="_ReportFooter" />
+        <field name="_ReportHeader" />
+        <field name="_XrLabel1" />
+        <field name="_XrLabel18" />
+        <field name="_XrLabel19" />
+        <field name="_XrLabel8" />
+        <field name="_XrLine3" />
+        <field name="_XrLine4" />
+        <field name="_XrPageInfo3" />
+        <field name="_XrPanel1" />
+        <field name="_XrTable3" />
+        <field name="_XrTable4" />
+        <field name="_XrTableCell10" />
+        <field name="_XrTableCell17" />
+        <field name="_XrTableCell2" />
+        <field name="_XrTableCell36" />
+        <field name="_XrTableCell41" />
+        <field name="_XrTableCell47" />
+        <field name="_XrTableCell59" />
+        <field name="_XrTableCell62" />
+        <field name="_XrTableRow3" />
+        <field name="_XrTableRow4" />
+        <field name="_ZulAssetsBEDataSet1" />
+        <field name="components" />
+      </type>
+      <type name="ABBIntegration.rptAssetValue">
+        <method name="Dispose" signature="bool" />
+        <method name="get_CompanyAssetsTableAdapter" signature="" />
+        <method name="get_Detail" signature="" />
+        <method name="get_lblCompName" signature="" />
+        <method name="get_lblFilterText" signature="" />
+        <method name="get_lblFilterValue" signature="" />
+        <method name="get_lblSubCompName" signature="" />
+        <method name="get_PageFooter" signature="" />
+        <method name="get_PageHeader" signature="" />
+        <method name="get_picLogo" signature="" />
+        <method name="get_ReportFooter" signature="" />
+        <method name="get_ReportHeader" signature="" />
+        <method name="get_XrLabel1" signature="" />
+        <method name="get_XrLabel18" signature="" />
+        <method name="get_XrLabel19" signature="" />
+        <method name="get_XrLabel8" signature="" />
+        <method name="get_XrLine3" signature="" />
+        <method name="get_XrLine4" signature="" />
+        <method name="get_XrPageInfo3" signature="" />
+        <method name="get_XrPanel1" signature="" />
+        <method name="get_XrTable3" signature="" />
+        <method name="get_XrTable4" signature="" />
+        <method name="get_XrTableCell10" signature="" />
+        <method name="get_XrTableCell17" signature="" />
+        <method name="get_XrTableCell2" signature="" />
+        <method name="get_XrTableCell36" signature="" />
+        <method name="get_XrTableCell41" signature="" />
+        <method name="get_XrTableCell47" signature="" />
+        <method name="get_XrTableCell59" signature="" />
+        <method name="get_XrTableCell62" signature="" />
+        <method name="get_XrTableRow3" signature="" />
+        <method name="get_XrTableRow4" signature="" />
+        <method name="get_ZulAssetsBEDataSet1" signature="" />
+        <method name="InitializeComponent" signature="" />
+        <method name="set_CompanyAssetsTableAdapter" signature="ABBIntegration.ZulAssetsBEDataSetTableAdapters.CompanyAssetsTableAdapter" />
+        <method name="set_Detail" signature="DevExpress.XtraReports.UI.DetailBand" />
+        <method name="set_lblCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterText" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterValue" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblSubCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_PageFooter" signature="DevExpress.XtraReports.UI.PageFooterBand" />
+        <method name="set_PageHeader" signature="DevExpress.XtraReports.UI.PageHeaderBand" />
+        <method name="set_picLogo" signature="DevExpress.XtraReports.UI.XRPictureBox" />
+        <method name="set_ReportFooter" signature="DevExpress.XtraReports.UI.ReportFooterBand" />
+        <method name="set_ReportHeader" signature="DevExpress.XtraReports.UI.ReportHeaderBand" />
+        <method name="set_XrLabel1" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel18" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel19" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel8" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLine3" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrLine4" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrPageInfo3" signature="DevExpress.XtraReports.UI.XRPageInfo" />
+        <method name="set_XrPanel1" signature="DevExpress.XtraReports.UI.XRPanel" />
+        <method name="set_XrTable3" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTable4" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTableCell10" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell17" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell2" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell36" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell41" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell47" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell59" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell62" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableRow3" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_XrTableRow4" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_ZulAssetsBEDataSet1" signature="ABBIntegration.ZulAssetsBEDataSet" />
+        <field name="_CompanyAssetsTableAdapter" />
+        <field name="_Detail" />
+        <field name="_lblCompName" />
+        <field name="_lblFilterText" />
+        <field name="_lblFilterValue" />
+        <field name="_lblSubCompName" />
+        <field name="_PageFooter" />
+        <field name="_PageHeader" />
+        <field name="_picLogo" />
+        <field name="_ReportFooter" />
+        <field name="_ReportHeader" />
+        <field name="_XrLabel1" />
+        <field name="_XrLabel18" />
+        <field name="_XrLabel19" />
+        <field name="_XrLabel8" />
+        <field name="_XrLine3" />
+        <field name="_XrLine4" />
+        <field name="_XrPageInfo3" />
+        <field name="_XrPanel1" />
+        <field name="_XrTable3" />
+        <field name="_XrTable4" />
+        <field name="_XrTableCell10" />
+        <field name="_XrTableCell17" />
+        <field name="_XrTableCell2" />
+        <field name="_XrTableCell36" />
+        <field name="_XrTableCell41" />
+        <field name="_XrTableCell47" />
+        <field name="_XrTableCell59" />
+        <field name="_XrTableCell62" />
+        <field name="_XrTableRow3" />
+        <field name="_XrTableRow4" />
+        <field name="_ZulAssetsBEDataSet1" />
+        <field name="components" />
+      </type>
+      <type name="ABBIntegration.rptCompanyAssets">
+        <method name="Dispose" signature="bool" />
+        <method name="get_CompanyAssetsTableAdapter" signature="" />
+        <method name="get_Detail" signature="" />
+        <method name="get_lblCompName" signature="" />
+        <method name="get_lblFilterText" signature="" />
+        <method name="get_lblFilterValue" signature="" />
+        <method name="get_lblSubCompName" signature="" />
+        <method name="get_PageFooter" signature="" />
+        <method name="get_PageHeader" signature="" />
+        <method name="get_picLogo" signature="" />
+        <method name="get_ReportFooter" signature="" />
+        <method name="get_ReportHeader" signature="" />
+        <method name="get_XrLabel1" signature="" />
+        <method name="get_XrLabel18" signature="" />
+        <method name="get_XrLabel19" signature="" />
+        <method name="get_XrLabel8" signature="" />
+        <method name="get_XrLine3" signature="" />
+        <method name="get_XrLine4" signature="" />
+        <method name="get_XrPageInfo3" signature="" />
+        <method name="get_XrPanel1" signature="" />
+        <method name="get_XrTable3" signature="" />
+        <method name="get_XrTable4" signature="" />
+        <method name="get_XrTableCell10" signature="" />
+        <method name="get_XrTableCell17" signature="" />
+        <method name="get_XrTableCell18" signature="" />
+        <method name="get_XrTableCell19" signature="" />
+        <method name="get_XrTableCell2" signature="" />
+        <method name="get_XrTableCell20" signature="" />
+        <method name="get_XrTableCell21" signature="" />
+        <method name="get_XrTableCell22" signature="" />
+        <method name="get_XrTableCell23" signature="" />
+        <method name="get_XrTableCell24" signature="" />
+        <method name="get_XrTableCell25" signature="" />
+        <method name="get_XrTableCell26" signature="" />
+        <method name="get_XrTableCell27" signature="" />
+        <method name="get_XrTableCell28" signature="" />
+        <method name="get_XrTableCell29" signature="" />
+        <method name="get_XrTableCell30" signature="" />
+        <method name="get_XrTableCell31" signature="" />
+        <method name="get_XrTableCell33" signature="" />
+        <method name="get_XrTableCell34" signature="" />
+        <method name="get_XrTableCell35" signature="" />
+        <method name="get_XrTableCell36" signature="" />
+        <method name="get_XrTableCell37" signature="" />
+        <method name="get_XrTableCell38" signature="" />
+        <method name="get_XrTableCell39" signature="" />
+        <method name="get_XrTableCell40" signature="" />
+        <method name="get_XrTableCell41" signature="" />
+        <method name="get_XrTableCell42" signature="" />
+        <method name="get_XrTableCell43" signature="" />
+        <method name="get_XrTableCell44" signature="" />
+        <method name="get_XrTableCell45" signature="" />
+        <method name="get_XrTableCell46" signature="" />
+        <method name="get_XrTableCell47" signature="" />
+        <method name="get_XrTableCell48" signature="" />
+        <method name="get_XrTableCell49" signature="" />
+        <method name="get_XrTableCell50" signature="" />
+        <method name="get_XrTableCell51" signature="" />
+        <method name="get_XrTableCell52" signature="" />
+        <method name="get_XrTableCell53" signature="" />
+        <method name="get_XrTableCell54" signature="" />
+        <method name="get_XrTableCell55" signature="" />
+        <method name="get_XrTableCell57" signature="" />
+        <method name="get_XrTableCell58" signature="" />
+        <method name="get_XrTableCell59" signature="" />
+        <method name="get_XrTableCell60" signature="" />
+        <method name="get_XrTableCell61" signature="" />
+        <method name="get_XrTableCell62" signature="" />
+        <method name="get_XrTableRow3" signature="" />
+        <method name="get_XrTableRow4" signature="" />
+        <method name="get_ZulAssetsBEDataSet1" signature="" />
+        <method name="InitializeComponent" signature="" />
+        <method name="set_CompanyAssetsTableAdapter" signature="ABBIntegration.ZulAssetsBEDataSetTableAdapters.CompanyAssetsTableAdapter" />
+        <method name="set_Detail" signature="DevExpress.XtraReports.UI.DetailBand" />
+        <method name="set_lblCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterText" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterValue" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblSubCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_PageFooter" signature="DevExpress.XtraReports.UI.PageFooterBand" />
+        <method name="set_PageHeader" signature="DevExpress.XtraReports.UI.PageHeaderBand" />
+        <method name="set_picLogo" signature="DevExpress.XtraReports.UI.XRPictureBox" />
+        <method name="set_ReportFooter" signature="DevExpress.XtraReports.UI.ReportFooterBand" />
+        <method name="set_ReportHeader" signature="DevExpress.XtraReports.UI.ReportHeaderBand" />
+        <method name="set_XrLabel1" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel18" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel19" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel8" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLine3" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrLine4" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrPageInfo3" signature="DevExpress.XtraReports.UI.XRPageInfo" />
+        <method name="set_XrPanel1" signature="DevExpress.XtraReports.UI.XRPanel" />
+        <method name="set_XrTable3" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTable4" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTableCell10" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell17" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell18" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell19" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell2" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell20" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell21" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell22" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell23" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell24" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell25" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell26" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell27" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell28" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell29" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell30" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell31" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell33" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell34" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell35" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell36" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell37" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell38" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell39" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell40" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell41" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell42" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell43" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell44" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell45" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell46" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell47" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell48" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell49" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell50" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell51" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell52" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell53" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell54" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell55" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell57" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell58" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell59" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell60" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell61" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell62" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableRow3" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_XrTableRow4" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_ZulAssetsBEDataSet1" signature="ABBIntegration.ZulAssetsBEDataSet" />
+        <field name="_CompanyAssetsTableAdapter" />
+        <field name="_Detail" />
+        <field name="_lblCompName" />
+        <field name="_lblFilterText" />
+        <field name="_lblFilterValue" />
+        <field name="_lblSubCompName" />
+        <field name="_PageFooter" />
+        <field name="_PageHeader" />
+        <field name="_picLogo" />
+        <field name="_ReportFooter" />
+        <field name="_ReportHeader" />
+        <field name="_XrLabel1" />
+        <field name="_XrLabel18" />
+        <field name="_XrLabel19" />
+        <field name="_XrLabel8" />
+        <field name="_XrLine3" />
+        <field name="_XrLine4" />
+        <field name="_XrPageInfo3" />
+        <field name="_XrPanel1" />
+        <field name="_XrTable3" />
+        <field name="_XrTable4" />
+        <field name="_XrTableCell10" />
+        <field name="_XrTableCell17" />
+        <field name="_XrTableCell18" />
+        <field name="_XrTableCell19" />
+        <field name="_XrTableCell2" />
+        <field name="_XrTableCell20" />
+        <field name="_XrTableCell21" />
+        <field name="_XrTableCell22" />
+        <field name="_XrTableCell23" />
+        <field name="_XrTableCell24" />
+        <field name="_XrTableCell25" />
+        <field name="_XrTableCell26" />
+        <field name="_XrTableCell27" />
+        <field name="_XrTableCell28" />
+        <field name="_XrTableCell29" />
+        <field name="_XrTableCell30" />
+        <field name="_XrTableCell31" />
+        <field name="_XrTableCell33" />
+        <field name="_XrTableCell34" />
+        <field name="_XrTableCell35" />
+        <field name="_XrTableCell36" />
+        <field name="_XrTableCell37" />
+        <field name="_XrTableCell38" />
+        <field name="_XrTableCell39" />
+        <field name="_XrTableCell40" />
+        <field name="_XrTableCell41" />
+        <field name="_XrTableCell42" />
+        <field name="_XrTableCell43" />
+        <field name="_XrTableCell44" />
+        <field name="_XrTableCell45" />
+        <field name="_XrTableCell46" />
+        <field name="_XrTableCell47" />
+        <field name="_XrTableCell48" />
+        <field name="_XrTableCell49" />
+        <field name="_XrTableCell50" />
+        <field name="_XrTableCell51" />
+        <field name="_XrTableCell52" />
+        <field name="_XrTableCell53" />
+        <field name="_XrTableCell54" />
+        <field name="_XrTableCell55" />
+        <field name="_XrTableCell57" />
+        <field name="_XrTableCell58" />
+        <field name="_XrTableCell59" />
+        <field name="_XrTableCell60" />
+        <field name="_XrTableCell61" />
+        <field name="_XrTableCell62" />
+        <field name="_XrTableRow3" />
+        <field name="_XrTableRow4" />
+        <field name="_ZulAssetsBEDataSet1" />
+        <field name="components" />
+      </type>
+      <type name="ABBIntegration.rptMisplacedAssets">
+        <method name="Dispose" signature="bool" />
+        <method name="get_CompanyAssetsTableAdapter" signature="" />
+        <method name="get_Detail" signature="" />
+        <method name="get_lblCompName" signature="" />
+        <method name="get_lblFilterText" signature="" />
+        <method name="get_lblFilterValue" signature="" />
+        <method name="get_lblSubCompName" signature="" />
+        <method name="get_PageFooter" signature="" />
+        <method name="get_PageHeader" signature="" />
+        <method name="get_picLogo" signature="" />
+        <method name="get_ReportFooter" signature="" />
+        <method name="get_ReportHeader" signature="" />
+        <method name="get_XrLabel1" signature="" />
+        <method name="get_XrLabel18" signature="" />
+        <method name="get_XrLabel19" signature="" />
+        <method name="get_XrLabel8" signature="" />
+        <method name="get_XrLine3" signature="" />
+        <method name="get_XrLine4" signature="" />
+        <method name="get_XrPageInfo3" signature="" />
+        <method name="get_XrPanel1" signature="" />
+        <method name="get_XrTable3" signature="" />
+        <method name="get_XrTable4" signature="" />
+        <method name="get_XrTableCell10" signature="" />
+        <method name="get_XrTableCell17" signature="" />
+        <method name="get_XrTableCell18" signature="" />
+        <method name="get_XrTableCell19" signature="" />
+        <method name="get_XrTableCell2" signature="" />
+        <method name="get_XrTableCell20" signature="" />
+        <method name="get_XrTableCell21" signature="" />
+        <method name="get_XrTableCell24" signature="" />
+        <method name="get_XrTableCell26" signature="" />
+        <method name="get_XrTableCell27" signature="" />
+        <method name="get_XrTableCell33" signature="" />
+        <method name="get_XrTableCell34" signature="" />
+        <method name="get_XrTableCell39" signature="" />
+        <method name="get_XrTableCell40" signature="" />
+        <method name="get_XrTableCell41" signature="" />
+        <method name="get_XrTableCell42" signature="" />
+        <method name="get_XrTableCell43" signature="" />
+        <method name="get_XrTableCell46" signature="" />
+        <method name="get_XrTableCell47" signature="" />
+        <method name="get_XrTableCell49" signature="" />
+        <method name="get_XrTableCell50" signature="" />
+        <method name="get_XrTableCell55" signature="" />
+        <method name="get_XrTableCell57" signature="" />
+        <method name="get_XrTableCell62" signature="" />
+        <method name="get_XrTableRow3" signature="" />
+        <method name="get_XrTableRow4" signature="" />
+        <method name="get_ZulAssetsBEDataSet1" signature="" />
+        <method name="InitializeComponent" signature="" />
+        <method name="set_CompanyAssetsTableAdapter" signature="ABBIntegration.ZulAssetsBEDataSetTableAdapters.CompanyAssetsTableAdapter" />
+        <method name="set_Detail" signature="DevExpress.XtraReports.UI.DetailBand" />
+        <method name="set_lblCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterText" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterValue" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblSubCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_PageFooter" signature="DevExpress.XtraReports.UI.PageFooterBand" />
+        <method name="set_PageHeader" signature="DevExpress.XtraReports.UI.PageHeaderBand" />
+        <method name="set_picLogo" signature="DevExpress.XtraReports.UI.XRPictureBox" />
+        <method name="set_ReportFooter" signature="DevExpress.XtraReports.UI.ReportFooterBand" />
+        <method name="set_ReportHeader" signature="DevExpress.XtraReports.UI.ReportHeaderBand" />
+        <method name="set_XrLabel1" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel18" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel19" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel8" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLine3" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrLine4" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrPageInfo3" signature="DevExpress.XtraReports.UI.XRPageInfo" />
+        <method name="set_XrPanel1" signature="DevExpress.XtraReports.UI.XRPanel" />
+        <method name="set_XrTable3" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTable4" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTableCell10" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell17" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell18" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell19" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell2" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell20" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell21" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell24" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell26" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell27" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell33" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell34" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell39" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell40" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell41" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell42" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell43" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell46" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell47" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell49" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell50" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell55" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell57" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell62" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableRow3" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_XrTableRow4" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_ZulAssetsBEDataSet1" signature="ABBIntegration.ZulAssetsBEDataSet" />
+        <field name="_CompanyAssetsTableAdapter" />
+        <field name="_Detail" />
+        <field name="_lblCompName" />
+        <field name="_lblFilterText" />
+        <field name="_lblFilterValue" />
+        <field name="_lblSubCompName" />
+        <field name="_PageFooter" />
+        <field name="_PageHeader" />
+        <field name="_picLogo" />
+        <field name="_ReportFooter" />
+        <field name="_ReportHeader" />
+        <field name="_XrLabel1" />
+        <field name="_XrLabel18" />
+        <field name="_XrLabel19" />
+        <field name="_XrLabel8" />
+        <field name="_XrLine3" />
+        <field name="_XrLine4" />
+        <field name="_XrPageInfo3" />
+        <field name="_XrPanel1" />
+        <field name="_XrTable3" />
+        <field name="_XrTable4" />
+        <field name="_XrTableCell10" />
+        <field name="_XrTableCell17" />
+        <field name="_XrTableCell18" />
+        <field name="_XrTableCell19" />
+        <field name="_XrTableCell2" />
+        <field name="_XrTableCell20" />
+        <field name="_XrTableCell21" />
+        <field name="_XrTableCell24" />
+        <field name="_XrTableCell26" />
+        <field name="_XrTableCell27" />
+        <field name="_XrTableCell33" />
+        <field name="_XrTableCell34" />
+        <field name="_XrTableCell39" />
+        <field name="_XrTableCell40" />
+        <field name="_XrTableCell41" />
+        <field name="_XrTableCell42" />
+        <field name="_XrTableCell43" />
+        <field name="_XrTableCell46" />
+        <field name="_XrTableCell47" />
+        <field name="_XrTableCell49" />
+        <field name="_XrTableCell50" />
+        <field name="_XrTableCell55" />
+        <field name="_XrTableCell57" />
+        <field name="_XrTableCell62" />
+        <field name="_XrTableRow3" />
+        <field name="_XrTableRow4" />
+        <field name="_ZulAssetsBEDataSet1" />
+        <field name="components" />
+      </type>
+      <type name="ABBIntegration.rptMissingAssets">
+        <method name="Dispose" signature="bool" />
+        <method name="get_CompanyAssetsTableAdapter" signature="" />
+        <method name="get_Detail" signature="" />
+        <method name="get_lblCompName" signature="" />
+        <method name="get_lblFilterText" signature="" />
+        <method name="get_lblFilterValue" signature="" />
+        <method name="get_lblSubCompName" signature="" />
+        <method name="get_PageFooter" signature="" />
+        <method name="get_PageHeader" signature="" />
+        <method name="get_picLogo" signature="" />
+        <method name="get_ReportFooter" signature="" />
+        <method name="get_ReportHeader" signature="" />
+        <method name="get_XrLabel1" signature="" />
+        <method name="get_XrLabel18" signature="" />
+        <method name="get_XrLabel19" signature="" />
+        <method name="get_XrLabel8" signature="" />
+        <method name="get_XrLine3" signature="" />
+        <method name="get_XrLine4" signature="" />
+        <method name="get_XrPageInfo3" signature="" />
+        <method name="get_XrPanel1" signature="" />
+        <method name="get_XrTable3" signature="" />
+        <method name="get_XrTable4" signature="" />
+        <method name="get_XrTableCell10" signature="" />
+        <method name="get_XrTableCell17" signature="" />
+        <method name="get_XrTableCell18" signature="" />
+        <method name="get_XrTableCell19" signature="" />
+        <method name="get_XrTableCell2" signature="" />
+        <method name="get_XrTableCell20" signature="" />
+        <method name="get_XrTableCell21" signature="" />
+        <method name="get_XrTableCell24" signature="" />
+        <method name="get_XrTableCell26" signature="" />
+        <method name="get_XrTableCell27" signature="" />
+        <method name="get_XrTableCell33" signature="" />
+        <method name="get_XrTableCell34" signature="" />
+        <method name="get_XrTableCell37" signature="" />
+        <method name="get_XrTableCell38" signature="" />
+        <method name="get_XrTableCell39" signature="" />
+        <method name="get_XrTableCell40" signature="" />
+        <method name="get_XrTableCell41" signature="" />
+        <method name="get_XrTableCell42" signature="" />
+        <method name="get_XrTableCell43" signature="" />
+        <method name="get_XrTableCell46" signature="" />
+        <method name="get_XrTableCell47" signature="" />
+        <method name="get_XrTableCell49" signature="" />
+        <method name="get_XrTableCell50" signature="" />
+        <method name="get_XrTableCell55" signature="" />
+        <method name="get_XrTableCell57" signature="" />
+        <method name="get_XrTableCell60" signature="" />
+        <method name="get_XrTableCell61" signature="" />
+        <method name="get_XrTableCell62" signature="" />
+        <method name="get_XrTableRow3" signature="" />
+        <method name="get_XrTableRow4" signature="" />
+        <method name="get_ZulAssetsBEDataSet1" signature="" />
+        <method name="InitializeComponent" signature="" />
+        <method name="set_CompanyAssetsTableAdapter" signature="ABBIntegration.ZulAssetsBEDataSetTableAdapters.CompanyAssetsTableAdapter" />
+        <method name="set_Detail" signature="DevExpress.XtraReports.UI.DetailBand" />
+        <method name="set_lblCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterText" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblFilterValue" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblSubCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_PageFooter" signature="DevExpress.XtraReports.UI.PageFooterBand" />
+        <method name="set_PageHeader" signature="DevExpress.XtraReports.UI.PageHeaderBand" />
+        <method name="set_picLogo" signature="DevExpress.XtraReports.UI.XRPictureBox" />
+        <method name="set_ReportFooter" signature="DevExpress.XtraReports.UI.ReportFooterBand" />
+        <method name="set_ReportHeader" signature="DevExpress.XtraReports.UI.ReportHeaderBand" />
+        <method name="set_XrLabel1" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel18" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel19" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel8" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLine3" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrLine4" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrPageInfo3" signature="DevExpress.XtraReports.UI.XRPageInfo" />
+        <method name="set_XrPanel1" signature="DevExpress.XtraReports.UI.XRPanel" />
+        <method name="set_XrTable3" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTable4" signature="DevExpress.XtraReports.UI.XRTable" />
+        <method name="set_XrTableCell10" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell17" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell18" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell19" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell2" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell20" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell21" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell24" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell26" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell27" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell33" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell34" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell37" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell38" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell39" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell40" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell41" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell42" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell43" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell46" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell47" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell49" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell50" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell55" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell57" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell60" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell61" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableCell62" signature="DevExpress.XtraReports.UI.XRTableCell" />
+        <method name="set_XrTableRow3" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_XrTableRow4" signature="DevExpress.XtraReports.UI.XRTableRow" />
+        <method name="set_ZulAssetsBEDataSet1" signature="ABBIntegration.ZulAssetsBEDataSet" />
+        <field name="_CompanyAssetsTableAdapter" />
+        <field name="_Detail" />
+        <field name="_lblCompName" />
+        <field name="_lblFilterText" />
+        <field name="_lblFilterValue" />
+        <field name="_lblSubCompName" />
+        <field name="_PageFooter" />
+        <field name="_PageHeader" />
+        <field name="_picLogo" />
+        <field name="_ReportFooter" />
+        <field name="_ReportHeader" />
+        <field name="_XrLabel1" />
+        <field name="_XrLabel18" />
+        <field name="_XrLabel19" />
+        <field name="_XrLabel8" />
+        <field name="_XrLine3" />
+        <field name="_XrLine4" />
+        <field name="_XrPageInfo3" />
+        <field name="_XrPanel1" />
+        <field name="_XrTable3" />
+        <field name="_XrTable4" />
+        <field name="_XrTableCell10" />
+        <field name="_XrTableCell17" />
+        <field name="_XrTableCell18" />
+        <field name="_XrTableCell19" />
+        <field name="_XrTableCell2" />
+        <field name="_XrTableCell20" />
+        <field name="_XrTableCell21" />
+        <field name="_XrTableCell24" />
+        <field name="_XrTableCell26" />
+        <field name="_XrTableCell27" />
+        <field name="_XrTableCell33" />
+        <field name="_XrTableCell34" />
+        <field name="_XrTableCell37" />
+        <field name="_XrTableCell38" />
+        <field name="_XrTableCell39" />
+        <field name="_XrTableCell40" />
+        <field name="_XrTableCell41" />
+        <field name="_XrTableCell42" />
+        <field name="_XrTableCell43" />
+        <field name="_XrTableCell46" />
+        <field name="_XrTableCell47" />
+        <field name="_XrTableCell49" />
+        <field name="_XrTableCell50" />
+        <field name="_XrTableCell55" />
+        <field name="_XrTableCell57" />
+        <field name="_XrTableCell60" />
+        <field name="_XrTableCell61" />
+        <field name="_XrTableCell62" />
+        <field name="_XrTableRow3" />
+        <field name="_XrTableRow4" />
+        <field name="_ZulAssetsBEDataSet1" />
+        <field name="components" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsDataTable">
+        <method name="add_CompanyAssetsRowChanged" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="add_CompanyAssetsRowChanging" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="add_CompanyAssetsRowDeleted" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="add_CompanyAssetsRowDeleting" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="AddCompanyAssetsRow" signature="string,string,string,string,string,string,string,string,System.DateTime,string,string,System.DateTime,string,string,string,string,string,string,string,string,int32,bool,int32,System.DateTime,System.DateTime" />
+        <method name="AddCompanyAssetsRow" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRow" />
+        <method name="Clone" signature="" />
+        <method name="CreateInstance" signature="" />
+        <method name="FindBybarcode" signature="string" />
+        <method name="get_Assetdetailsdesc1Column" signature="" />
+        <method name="get_Assetdetailsdesc2Column" signature="" />
+        <method name="get_AssetNumberColumn" signature="" />
+        <method name="get_AssetWithValueColumn" signature="" />
+        <method name="get_barcodeColumn" signature="" />
+        <method name="get_BussinessAreaColumn" signature="" />
+        <method name="get_CapitalizationDateColumn" signature="" />
+        <method name="get_CatFullPathColumn" signature="" />
+        <method name="get_CompanyCodeColumn" signature="" />
+        <method name="get_CostNumberColumn" signature="" />
+        <method name="get_Count" signature="" />
+        <method name="get_CreatedBYColumn" signature="" />
+        <method name="get_CreationDateColumn" signature="" />
+        <method name="get_CustodianIDColumn" signature="" />
+        <method name="get_EvaluationGroup1Column" signature="" />
+        <method name="get_EvaluationGroup2Column" signature="" />
+        <method name="get_EvaluationGroup3Column" signature="" />
+        <method name="get_EvaluationGroup4Column" signature="" />
+        <method name="get_HisDateColumn" signature="" />
+        <method name="get_InventoryNumberColumn" signature="" />
+        <method name="get_InvStatusColumn" signature="" />
+        <method name="get_Item" signature="int32" />
+        <method name="get_LocationFullPathColumn" signature="" />
+        <method name="get_RetirementDateColumn" signature="" />
+        <method name="get_SalvageYearColumn" signature="" />
+        <method name="get_SerailNoColumn" signature="" />
+        <method name="get_SubNumberColumn" signature="" />
+        <method name="GetEnumerator" signature="" />
+        <method name="GetRowType" signature="" />
+        <method name="GetTypedTableSchema" signature="System.Xml.Schema.XmlSchemaSet" />
+        <method name="InitClass" signature="" />
+        <method name="InitVars" signature="" />
+        <method name="NewCompanyAssetsRow" signature="" />
+        <method name="NewRowFromBuilder" signature="System.Data.DataRowBuilder" />
+        <method name="OnRowChanged" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="OnRowChanging" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="OnRowDeleted" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="OnRowDeleting" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="remove_CompanyAssetsRowChanged" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="remove_CompanyAssetsRowChanging" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="remove_CompanyAssetsRowDeleted" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="remove_CompanyAssetsRowDeleting" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+        <method name="RemoveCompanyAssetsRow" signature="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRow" />
+        <field name="columnAssetdetailsdesc1" />
+        <field name="columnAssetdetailsdesc2" />
+        <field name="columnAssetNumber" />
+        <field name="columnAssetWithValue" />
+        <field name="columnbarcode" />
+        <field name="columnBussinessArea" />
+        <field name="columnCapitalizationDate" />
+        <field name="columnCatFullPath" />
+        <field name="columnCompanyCode" />
+        <field name="columnCostNumber" />
+        <field name="columnCreatedBY" />
+        <field name="columnCreationDate" />
+        <field name="columnCustodianID" />
+        <field name="columnEvaluationGroup1" />
+        <field name="columnEvaluationGroup2" />
+        <field name="columnEvaluationGroup3" />
+        <field name="columnEvaluationGroup4" />
+        <field name="columnHisDate" />
+        <field name="columnInventoryNumber" />
+        <field name="columnInvStatus" />
+        <field name="columnLocationFullPath" />
+        <field name="columnRetirementDate" />
+        <field name="columnSalvageYear" />
+        <field name="columnSerailNo" />
+        <field name="columnSubNumber" />
+        <field name="CompanyAssetsRowChangedEvent" />
+        <field name="CompanyAssetsRowChangingEvent" />
+        <field name="CompanyAssetsRowDeletedEvent" />
+        <field name="CompanyAssetsRowDeletingEvent" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempDataTable">
+        <method name="add_NonBarCodedTempRowChanged" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="add_NonBarCodedTempRowChanging" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="add_NonBarCodedTempRowDeleted" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="add_NonBarCodedTempRowDeleting" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="AddNonBarCodedTempRow" signature="string,int32,string,string,string,string,string,System.DateTime,string,string,string,string,string" />
+        <method name="AddNonBarCodedTempRow" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRow" />
+        <method name="Clone" signature="" />
+        <method name="CreateInstance" signature="" />
+        <method name="get_AstCatIDColumn" signature="" />
+        <method name="get_AstModelColumn" signature="" />
+        <method name="get_CatFullPathColumn" signature="" />
+        <method name="get_Count" signature="" />
+        <method name="get_DescriptionColumn" signature="" />
+        <method name="get_DeviceIDColumn" signature="" />
+        <method name="get_HisDateColumn" signature="" />
+        <method name="get_Item" signature="int32" />
+        <method name="get_LocationColumn" signature="" />
+        <method name="get_LocIDColumn" signature="" />
+        <method name="get_NonBCodeColumn" signature="" />
+        <method name="get_PlantColumn" signature="" />
+        <method name="get_RefNoColumn" signature="" />
+        <method name="get_RemarksColumn" signature="" />
+        <method name="get_SerailNoColumn" signature="" />
+        <method name="GetEnumerator" signature="" />
+        <method name="GetRowType" signature="" />
+        <method name="GetTypedTableSchema" signature="System.Xml.Schema.XmlSchemaSet" />
+        <method name="InitClass" signature="" />
+        <method name="InitVars" signature="" />
+        <method name="NewNonBarCodedTempRow" signature="" />
+        <method name="NewRowFromBuilder" signature="System.Data.DataRowBuilder" />
+        <method name="OnRowChanged" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="OnRowChanging" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="OnRowDeleted" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="OnRowDeleting" signature="System.Data.DataRowChangeEventArgs" />
+        <method name="remove_NonBarCodedTempRowChanged" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="remove_NonBarCodedTempRowChanging" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="remove_NonBarCodedTempRowDeleted" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="remove_NonBarCodedTempRowDeleting" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+        <method name="RemoveNonBarCodedTempRow" signature="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRow" />
+        <field name="columnAstCatID" />
+        <field name="columnAstModel" />
+        <field name="columnCatFullPath" />
+        <field name="columnDescription" />
+        <field name="columnDeviceID" />
+        <field name="columnHisDate" />
+        <field name="columnLocation" />
+        <field name="columnLocID" />
+        <field name="columnNonBCode" />
+        <field name="columnPlant" />
+        <field name="columnRefNo" />
+        <field name="columnRemarks" />
+        <field name="columnSerailNo" />
+        <field name="NonBarCodedTempRowChangedEvent" />
+        <field name="NonBarCodedTempRowChangingEvent" />
+        <field name="NonBarCodedTempRowDeletedEvent" />
+        <field name="NonBarCodedTempRowDeletingEvent" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet">
+        <method name="Clone" signature="" />
+        <method name="get_CompanyAssets" signature="" />
+        <method name="get_NonBarCodedTemp" signature="" />
+        <method name="get_Relations" signature="" />
+        <method name="get_SchemaSerializationMode" signature="" />
+        <method name="get_Tables" signature="" />
+        <method name="GetSchemaSerializable" signature="" />
+        <method name="GetTypedDataSetSchema" signature="System.Xml.Schema.XmlSchemaSet" />
+        <method name="InitClass" signature="" />
+        <method name="InitializeDerivedDataSet" signature="" />
+        <method name="InitVars" signature="" />
+        <method name="InitVars" signature="bool" />
+        <method name="ReadXmlSerializable" signature="System.Xml.XmlReader" />
+        <method name="SchemaChanged" signature="object,System.ComponentModel.CollectionChangeEventArgs" />
+        <method name="set_SchemaSerializationMode" signature="System.Data.SchemaSerializationMode" />
+        <method name="ShouldSerializeCompanyAssets" signature="" />
+        <method name="ShouldSerializeNonBarCodedTemp" signature="" />
+        <method name="ShouldSerializeRelations" signature="" />
+        <method name="ShouldSerializeTables" signature="" />
+        <field name="_schemaSerializationMode" />
+        <field name="tableCompanyAssets" />
+        <field name="tableNonBarCodedTemp" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRow">
+        <method name="get_Assetdetailsdesc1" signature="" />
+        <method name="get_Assetdetailsdesc2" signature="" />
+        <method name="get_AssetNumber" signature="" />
+        <method name="get_AssetWithValue" signature="" />
+        <method name="get_barcode" signature="" />
+        <method name="get_BussinessArea" signature="" />
+        <method name="get_CapitalizationDate" signature="" />
+        <method name="get_CatFullPath" signature="" />
+        <method name="get_CompanyCode" signature="" />
+        <method name="get_CostNumber" signature="" />
+        <method name="get_CreatedBY" signature="" />
+        <method name="get_CreationDate" signature="" />
+        <method name="get_CustodianID" signature="" />
+        <method name="get_EvaluationGroup1" signature="" />
+        <method name="get_EvaluationGroup2" signature="" />
+        <method name="get_EvaluationGroup3" signature="" />
+        <method name="get_EvaluationGroup4" signature="" />
+        <method name="get_HisDate" signature="" />
+        <method name="get_InventoryNumber" signature="" />
+        <method name="get_InvStatus" signature="" />
+        <method name="get_LocationFullPath" signature="" />
+        <method name="get_RetirementDate" signature="" />
+        <method name="get_SalvageYear" signature="" />
+        <method name="get_SerailNo" signature="" />
+        <method name="get_SubNumber" signature="" />
+        <method name="IsAssetdetailsdesc1Null" signature="" />
+        <method name="IsAssetdetailsdesc2Null" signature="" />
+        <method name="IsAssetNumberNull" signature="" />
+        <method name="IsAssetWithValueNull" signature="" />
+        <method name="IsBussinessAreaNull" signature="" />
+        <method name="IsCapitalizationDateNull" signature="" />
+        <method name="IsCatFullPathNull" signature="" />
+        <method name="IsCompanyCodeNull" signature="" />
+        <method name="IsCostNumberNull" signature="" />
+        <method name="IsCreatedBYNull" signature="" />
+        <method name="IsCreationDateNull" signature="" />
+        <method name="IsCustodianIDNull" signature="" />
+        <method name="IsEvaluationGroup1Null" signature="" />
+        <method name="IsEvaluationGroup2Null" signature="" />
+        <method name="IsEvaluationGroup3Null" signature="" />
+        <method name="IsEvaluationGroup4Null" signature="" />
+        <method name="IsHisDateNull" signature="" />
+        <method name="IsInventoryNumberNull" signature="" />
+        <method name="IsInvStatusNull" signature="" />
+        <method name="IsLocationFullPathNull" signature="" />
+        <method name="IsRetirementDateNull" signature="" />
+        <method name="IsSalvageYearNull" signature="" />
+        <method name="IsSerailNoNull" signature="" />
+        <method name="IsSubNumberNull" signature="" />
+        <method name="set_Assetdetailsdesc1" signature="string" />
+        <method name="set_Assetdetailsdesc2" signature="string" />
+        <method name="set_AssetNumber" signature="string" />
+        <method name="set_AssetWithValue" signature="bool" />
+        <method name="set_barcode" signature="string" />
+        <method name="set_BussinessArea" signature="string" />
+        <method name="set_CapitalizationDate" signature="System.DateTime" />
+        <method name="set_CatFullPath" signature="string" />
+        <method name="set_CompanyCode" signature="string" />
+        <method name="set_CostNumber" signature="string" />
+        <method name="set_CreatedBY" signature="string" />
+        <method name="set_CreationDate" signature="System.DateTime" />
+        <method name="set_CustodianID" signature="string" />
+        <method name="set_EvaluationGroup1" signature="string" />
+        <method name="set_EvaluationGroup2" signature="string" />
+        <method name="set_EvaluationGroup3" signature="string" />
+        <method name="set_EvaluationGroup4" signature="string" />
+        <method name="set_HisDate" signature="System.DateTime" />
+        <method name="set_InventoryNumber" signature="string" />
+        <method name="set_InvStatus" signature="int32" />
+        <method name="set_LocationFullPath" signature="string" />
+        <method name="set_RetirementDate" signature="System.DateTime" />
+        <method name="set_SalvageYear" signature="int32" />
+        <method name="set_SerailNo" signature="string" />
+        <method name="set_SubNumber" signature="string" />
+        <method name="SetAssetdetailsdesc1Null" signature="" />
+        <method name="SetAssetdetailsdesc2Null" signature="" />
+        <method name="SetAssetNumberNull" signature="" />
+        <method name="SetAssetWithValueNull" signature="" />
+        <method name="SetBussinessAreaNull" signature="" />
+        <method name="SetCapitalizationDateNull" signature="" />
+        <method name="SetCatFullPathNull" signature="" />
+        <method name="SetCompanyCodeNull" signature="" />
+        <method name="SetCostNumberNull" signature="" />
+        <method name="SetCreatedBYNull" signature="" />
+        <method name="SetCreationDateNull" signature="" />
+        <method name="SetCustodianIDNull" signature="" />
+        <method name="SetEvaluationGroup1Null" signature="" />
+        <method name="SetEvaluationGroup2Null" signature="" />
+        <method name="SetEvaluationGroup3Null" signature="" />
+        <method name="SetEvaluationGroup4Null" signature="" />
+        <method name="SetHisDateNull" signature="" />
+        <method name="SetInventoryNumberNull" signature="" />
+        <method name="SetInvStatusNull" signature="" />
+        <method name="SetLocationFullPathNull" signature="" />
+        <method name="SetRetirementDateNull" signature="" />
+        <method name="SetSalvageYearNull" signature="" />
+        <method name="SetSerailNoNull" signature="" />
+        <method name="SetSubNumberNull" signature="" />
+        <field name="tableCompanyAssets" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEvent">
+        <method name="get_Action" signature="" />
+        <method name="get_Row" signature="" />
+        <field name="eventAction" />
+        <field name="eventRow" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet/CompanyAssetsRowChangeEventHandler" />
+      <type name="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRow">
+        <method name="get_AstCatID" signature="" />
+        <method name="get_AstModel" signature="" />
+        <method name="get_CatFullPath" signature="" />
+        <method name="get_Description" signature="" />
+        <method name="get_DeviceID" signature="" />
+        <method name="get_HisDate" signature="" />
+        <method name="get_Location" signature="" />
+        <method name="get_LocID" signature="" />
+        <method name="get_NonBCode" signature="" />
+        <method name="get_Plant" signature="" />
+        <method name="get_RefNo" signature="" />
+        <method name="get_Remarks" signature="" />
+        <method name="get_SerailNo" signature="" />
+        <method name="IsAstCatIDNull" signature="" />
+        <method name="IsAstModelNull" signature="" />
+        <method name="IsCatFullPathNull" signature="" />
+        <method name="IsDescriptionNull" signature="" />
+        <method name="IsHisDateNull" signature="" />
+        <method name="IsLocationNull" signature="" />
+        <method name="IsLocIDNull" signature="" />
+        <method name="IsPlantNull" signature="" />
+        <method name="IsRefNoNull" signature="" />
+        <method name="IsRemarksNull" signature="" />
+        <method name="IsSerailNoNull" signature="" />
+        <method name="set_AstCatID" signature="string" />
+        <method name="set_AstModel" signature="string" />
+        <method name="set_CatFullPath" signature="string" />
+        <method name="set_Description" signature="string" />
+        <method name="set_DeviceID" signature="int32" />
+        <method name="set_HisDate" signature="System.DateTime" />
+        <method name="set_Location" signature="string" />
+        <method name="set_LocID" signature="string" />
+        <method name="set_NonBCode" signature="string" />
+        <method name="set_Plant" signature="string" />
+        <method name="set_RefNo" signature="string" />
+        <method name="set_Remarks" signature="string" />
+        <method name="set_SerailNo" signature="string" />
+        <method name="SetAstCatIDNull" signature="" />
+        <method name="SetAstModelNull" signature="" />
+        <method name="SetCatFullPathNull" signature="" />
+        <method name="SetDescriptionNull" signature="" />
+        <method name="SetHisDateNull" signature="" />
+        <method name="SetLocationNull" signature="" />
+        <method name="SetLocIDNull" signature="" />
+        <method name="SetPlantNull" signature="" />
+        <method name="SetRefNoNull" signature="" />
+        <method name="SetRemarksNull" signature="" />
+        <method name="SetSerailNoNull" signature="" />
+        <field name="tableNonBarCodedTemp" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEvent">
+        <method name="get_Action" signature="" />
+        <method name="get_Row" signature="" />
+        <field name="eventAction" />
+        <field name="eventRow" />
+      </type>
+      <type name="ABBIntegration.ZulAssetsBEDataSet/NonBarCodedTempRowChangeEventHandler" />
+      <type name="bw/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="ZulAssets.rptAssetDetail">
+        <method name="Dispose" signature="bool" />
+        <method name="get_AssetDetailTableAdapter" signature="" />
+        <method name="get_Detail" signature="" />
+        <method name="get_lblCompName" signature="" />
+        <method name="get_lblCost" signature="" />
+        <method name="get_lblPurDate" signature="" />
+        <method name="get_lblSrvDate" signature="" />
+        <method name="get_PageFooter" signature="" />
+        <method name="get_picLogo" signature="" />
+        <method name="get_ReportHeader" signature="" />
+        <method name="get_TotalCost" signature="" />
+        <method name="get_XrLabel1" signature="" />
+        <method name="get_XrLabel10" signature="" />
+        <method name="get_XrLabel11" signature="" />
+        <method name="get_XrLabel12" signature="" />
+        <method name="get_XrLabel13" signature="" />
+        <method name="get_XrLabel14" signature="" />
+        <method name="get_XrLabel15" signature="" />
+        <method name="get_XrLabel16" signature="" />
+        <method name="get_XrLabel17" signature="" />
+        <method name="get_XrLabel18" signature="" />
+        <method name="get_XrLabel19" signature="" />
+        <method name="get_XrLabel2" signature="" />
+        <method name="get_XrLabel20" signature="" />
+        <method name="get_XrLabel21" signature="" />
+        <method name="get_XrLabel22" signature="" />
+        <method name="get_XrLabel23" signature="" />
+        <method name="get_XrLabel24" signature="" />
+        <method name="get_XrLabel25" signature="" />
+        <method name="get_XrLabel26" signature="" />
+        <method name="get_XrLabel27" signature="" />
+        <method name="get_XrLabel28" signature="" />
+        <method name="get_XrLabel29" signature="" />
+        <method name="get_XrLabel3" signature="" />
+        <method name="get_XrLabel30" signature="" />
+        <method name="get_XrLabel31" signature="" />
+        <method name="get_XrLabel32" signature="" />
+        <method name="get_XrLabel33" signature="" />
+        <method name="get_XrLabel34" signature="" />
+        <method name="get_XrLabel35" signature="" />
+        <method name="get_XrLabel36" signature="" />
+        <method name="get_XrLabel37" signature="" />
+        <method name="get_XrLabel4" signature="" />
+        <method name="get_XrLabel5" signature="" />
+        <method name="get_XrLabel6" signature="" />
+        <method name="get_xrLabel7" signature="" />
+        <method name="get_XrLabel8" signature="" />
+        <method name="get_XrLabel9" signature="" />
+        <method name="get_XrLine3" signature="" />
+        <method name="get_XrLine4" signature="" />
+        <method name="get_XrPageInfo3" signature="" />
+        <method name="get_xrPanel2" signature="" />
+        <method name="get_ZulAssetsBEDataSet1" signature="" />
+        <method name="InitializeComponent" signature="" />
+        <method name="set_AssetDetailTableAdapter" signature="ZulAssets.ZulAssetsBEDataSetTableAdapters.AssetDetailTableAdapter" />
+        <method name="set_Detail" signature="DevExpress.XtraReports.UI.DetailBand" />
+        <method name="set_lblCompName" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblCost" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblPurDate" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_lblSrvDate" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_PageFooter" signature="DevExpress.XtraReports.UI.PageFooterBand" />
+        <method name="set_picLogo" signature="DevExpress.XtraReports.UI.XRPictureBox" />
+        <method name="set_ReportHeader" signature="DevExpress.XtraReports.UI.ReportHeaderBand" />
+        <method name="set_TotalCost" signature="DevExpress.XtraReports.UI.CalculatedField" />
+        <method name="set_XrLabel1" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel10" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel11" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel12" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel13" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel14" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel15" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel16" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel17" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel18" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel19" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel2" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel20" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel21" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel22" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel23" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel24" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel25" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel26" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel27" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel28" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel29" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel3" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel30" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel31" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel32" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel33" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel34" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel35" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel36" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel37" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel4" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel5" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel6" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_xrLabel7" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel8" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLabel9" signature="DevExpress.XtraReports.UI.XRLabel" />
+        <method name="set_XrLine3" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrLine4" signature="DevExpress.XtraReports.UI.XRLine" />
+        <method name="set_XrPageInfo3" signature="DevExpress.XtraReports.UI.XRPageInfo" />
+        <method name="set_xrPanel2" signature="DevExpress.XtraReports.UI.XRPanel" />
+        <method name="set_ZulAssetsBEDataSet1" signature="ZulAssets.ZulAssetsBEDataSet" />
+        <field name="_AssetDetailTableAdapter" />
+        <field name="_Detail" />
+        <field name="_lblCompName" />
+        <field name="_lblCost" />
+        <field name="_lblPurDate" />
+        <field name="_lblSrvDate" />
+        <field name="_PageFooter" />
+        <field name="_picLogo" />
+        <field name="_ReportHeader" />
+        <field name="_TotalCost" />
+        <field name="_XrLabel1" />
+        <field name="_XrLabel10" />
+        <field name="_XrLabel11" />
+        <field name="_XrLabel12" />
+        <field name="_XrLabel13" />
+        <field name="_XrLabel14" />
+        <field name="_XrLabel15" />
+        <field name="_XrLabel16" />
+        <field name="_XrLabel17" />
+        <field name="_XrLabel18" />
+        <field name="_XrLabel19" />
+        <field name="_XrLabel2" />
+        <field name="_XrLabel20" />
+        <field name="_XrLabel21" />
+        <field name="_XrLabel22" />
+        <field name="_XrLabel23" />
+        <field name="_XrLabel24" />
+        <field name="_XrLabel25" />
+        <field name="_XrLabel26" />
+        <field name="_XrLabel27" />
+        <field name="_XrLabel28" />
+        <field name="_XrLabel29" />
+        <field name="_XrLabel3" />
+        <field name="_XrLabel30" />
+        <field name="_XrLabel31" />
+        <field name="_XrLabel32" />
+        <field name="_XrLabel33" />
+        <field name="_XrLabel34" />
+        <field name="_XrLabel35" />
+        <field name="_XrLabel36" />
+        <field name="_XrLabel37" />
+        <field name="_XrLabel4" />
+        <field name="_XrLabel5" />
+        <field name="_XrLabel6" />
+        <field name="_xrLabel7" />
+        <field name="_XrLabel8" />
+        <field name="_XrLabel9" />
+        <field name="_XrLine3" />
+        <field name="_XrLine4" />
+        <field name="_XrPageInfo3" />
+        <field name="_xrPanel2" />
+        <field name="_ZulAssetsBEDataSet1" />
+        <field name="components" />
+      </type>
+      <type name="Zultec.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="AddInInterface.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="clsData.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="CMAIntegration.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="FairmontIntegration.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="GenericDAL.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="NMCSync.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="ZulAssetDepreciation.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="ZulHierTree.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="ZulLib.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="ZulLOV.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+      <type name="ZulTree.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="true">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+</dotfuscator>

@@ -1,0 +1,15 @@
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Debug\ZultecScreenCapture.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Debug\ZultecScreenCapture.pdb
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ZultecScreenCapture.dll
+F:\Projects\Jeddah\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ZultecScreenCapture.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Debug\ZultecScreenCapture.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Debug\ZultecScreenCapture.pdb
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ResolveAssemblyReference.cache
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ZultecScreenCapture.dll
+F:\Docs_Source Codes_SDKs\Zultec_KHI_JEDDAH\ZulAssets\Source Code\ZulAssets\ZulAssets4.0\ZulAssets4.0\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ZultecScreenCapture.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Debug\ZultecScreenCapture.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\Controls\ZultecScreenCapture\bin\Debug\ZultecScreenCapture.pdb
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ResolveAssemblyReference.cache
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ZultecScreenCapture.dll
+D:\Desktopprojects\Projects\BankOfKhaybar\Backend\Programming Source\Controls\ZultecScreenCapture\obj\Debug\ZultecScreenCapture.pdb
