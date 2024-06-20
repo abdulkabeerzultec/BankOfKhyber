@@ -634,7 +634,13 @@ Public Class frmDashboard
         grdAssetsView.Columns(11).Caption = "BarCode"
         grdAssetsView.Columns(11).Width = 100
         grdAssetsView.Columns(11).Name = "BarCode"
-
+        grdAssetsView.Columns(57).Caption = "AssetStatus"
+        grdAssetsView.Columns(57).Width = 100
+        grdAssetsView.Columns(57).Name = "AssetStatus"
+        grdAssetsView.Columns(58).Caption = "CurrentStatus"
+        grdAssetsView.Columns(58).Width = 100
+        grdAssetsView.Columns(58).Name = "CurrentStatus"
+        
         grdAssetsView.Columns(12).Visible = False
         grdAssetsView.Columns(13).Visible = False
         grdAssetsView.Columns(14).Visible = False
@@ -663,6 +669,7 @@ Public Class frmDashboard
         grdAssetsView.Columns(37).Visible = False
         grdAssetsView.Columns(38).Visible = False
         grdAssetsView.Columns(39).Visible = False
+        
 
         GetGridColumn(grdAssetsView, "CapitalizationDate").Visible = False
         GetGridColumn(grdAssetsView, "BussinessArea").Visible = False
@@ -673,11 +680,15 @@ Public Class frmDashboard
         GetGridColumn(grdAssetsView, "EvaluationGroup2").Visible = False
         GetGridColumn(grdAssetsView, "EvaluationGroup3").Visible = False
         GetGridColumn(grdAssetsView, "EvaluationGroup4").Visible = False
+        GetGridColumn(grdAssetsView, "CostName").Visible = False
+        GetGridColumn(grdAssetsView, "CostNumber").Visible = False
+        GetGridColumn(grdAssetsView, "Warranty").Visible = False
+        GetGridColumn(grdAssetsView, "Status").Visible = False
         GetGridColumn(grdAssetsView, "CreatedBY").Visible = False
         GetGridColumn(grdAssetsView, "CapitalizationDate").Visible = False
 
-        GetGridColumn(grdAssetsView, "CustomFld1").Visible = False
-        GetGridColumn(grdAssetsView, "CustomFld2").Visible = False
+        'GetGridColumn(grdAssetsView, "CustomFld1").Visible = True
+        'GetGridColumn(grdAssetsView, "CustomFld2").Visible = True
         GetGridColumn(grdAssetsView, "CustomFld3").Visible = False
         GetGridColumn(grdAssetsView, "CustomFld4").Visible = False
         GetGridColumn(grdAssetsView, "CustomFld5").Visible = False
@@ -693,6 +704,7 @@ Public Class frmDashboard
         grdAssetsView.Columns(40).VisibleIndex = grdAssetsView.Columns.Count - 1
         grdAssetsView.Columns(41).Visible = False
         grdAssetsView.Columns(42).Visible = False
+       
 
         GetGridColumn(grdAssetsView, "CatFullPath").Caption = "Full Category"
         GetGridColumn(grdAssetsView, "LocationFullPath").Caption = "Full Location"

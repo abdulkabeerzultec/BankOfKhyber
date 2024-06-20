@@ -22,7 +22,7 @@ Partial Class frmImportData
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim StyleFormatCondition2 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition
+        Dim StyleFormatCondition1 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition
         Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup
         Me.LayoutControlItem4 = New DevExpress.XtraLayout.LayoutControlItem
         Me.lstTables = New DevExpress.XtraEditors.ListBoxControl
@@ -68,7 +68,7 @@ Partial Class frmImportData
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem4, Me.LayoutControlItem6, Me.LayoutControlItem2})
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 34)
         Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(179, 500)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(179, 499)
         Me.LayoutControlGroup2.Text = "Sheets List"
         '
         'LayoutControlItem4
@@ -77,7 +77,7 @@ Partial Class frmImportData
         Me.LayoutControlItem4.CustomizationFormText = "LayoutControlItem4"
         Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(173, 408)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(173, 407)
         Me.LayoutControlItem4.Text = "LayoutControlItem4"
         Me.LayoutControlItem4.TextLocation = DevExpress.Utils.Locations.Left
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(0, 0)
@@ -89,7 +89,7 @@ Partial Class frmImportData
         Me.lstTables.Location = New System.Drawing.Point(10, 62)
         Me.lstTables.MinimumSize = New System.Drawing.Size(162, 111)
         Me.lstTables.Name = "lstTables"
-        Me.lstTables.Size = New System.Drawing.Size(162, 397)
+        Me.lstTables.Size = New System.Drawing.Size(162, 396)
         Me.lstTables.StyleController = Me.LayoutControl1
         Me.lstTables.TabIndex = 8
         '
@@ -116,7 +116,7 @@ Partial Class frmImportData
         '
         'btnProcess
         '
-        Me.btnProcess.Location = New System.Drawing.Point(10, 470)
+        Me.btnProcess.Location = New System.Drawing.Point(10, 469)
         Me.btnProcess.MaximumSize = New System.Drawing.Size(150, 23)
         Me.btnProcess.MinimumSize = New System.Drawing.Size(150, 23)
         Me.btnProcess.Name = "btnProcess"
@@ -133,7 +133,7 @@ Partial Class frmImportData
         Me.grd.Location = New System.Drawing.Point(186, 41)
         Me.grd.MainView = Me.grdView
         Me.grd.Name = "grd"
-        Me.grd.Size = New System.Drawing.Size(659, 489)
+        Me.grd.Size = New System.Drawing.Size(659, 488)
         Me.grd.TabIndex = 51
         Me.grd.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grdView})
         '
@@ -144,9 +144,9 @@ Partial Class frmImportData
         Me.grdView.Appearance.HeaderPanel.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grdView.Appearance.HeaderPanel.Options.UseFont = True
         Me.grdView.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
-        StyleFormatCondition2.Appearance.BackColor = System.Drawing.Color.OrangeRed
-        StyleFormatCondition2.Appearance.Options.UseBackColor = True
-        Me.grdView.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition2})
+        StyleFormatCondition1.Appearance.BackColor = System.Drawing.Color.OrangeRed
+        StyleFormatCondition1.Appearance.Options.UseBackColor = True
+        Me.grdView.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition1})
         Me.grdView.GridControl = Me.grd
         Me.grdView.HorzScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always
         Me.grdView.Name = "grdView"
@@ -163,7 +163,7 @@ Partial Class frmImportData
         '
         'pbImport
         '
-        Me.pbImport.Location = New System.Drawing.Point(7, 541)
+        Me.pbImport.Location = New System.Drawing.Point(7, 540)
         Me.pbImport.MaximumSize = New System.Drawing.Size(0, 19)
         Me.pbImport.Name = "pbImport"
         Me.pbImport.Properties.ShowTitle = True
@@ -193,7 +193,7 @@ Partial Class frmImportData
         'btnImport
         '
         Me.btnImport.Enabled = False
-        Me.btnImport.Location = New System.Drawing.Point(10, 504)
+        Me.btnImport.Location = New System.Drawing.Point(10, 503)
         Me.btnImport.MaximumSize = New System.Drawing.Size(150, 23)
         Me.btnImport.MinimumSize = New System.Drawing.Size(150, 23)
         Me.btnImport.Name = "btnImport"
@@ -243,7 +243,7 @@ Partial Class frmImportData
         Me.LayoutControlItem5.CustomizationFormText = "LayoutControlItem5"
         Me.LayoutControlItem5.Location = New System.Drawing.Point(179, 34)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(670, 500)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(670, 499)
         Me.LayoutControlItem5.Text = "LayoutControlItem5"
         Me.LayoutControlItem5.TextLocation = DevExpress.Utils.Locations.Left
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
@@ -254,9 +254,9 @@ Partial Class frmImportData
         '
         Me.layoutImportProgress.Control = Me.pbImport
         Me.layoutImportProgress.CustomizationFormText = "LayoutControlItem4"
-        Me.layoutImportProgress.Location = New System.Drawing.Point(0, 534)
+        Me.layoutImportProgress.Location = New System.Drawing.Point(0, 533)
         Me.layoutImportProgress.Name = "layoutImportProgressLabel"
-        Me.layoutImportProgress.Size = New System.Drawing.Size(849, 30)
+        Me.layoutImportProgress.Size = New System.Drawing.Size(849, 31)
         Me.layoutImportProgress.Text = "layoutImportProgressLabel"
         Me.layoutImportProgress.TextLocation = DevExpress.Utils.Locations.Left
         Me.layoutImportProgress.TextSize = New System.Drawing.Size(0, 0)
@@ -280,7 +280,7 @@ Partial Class frmImportData
         '
         Me.LayoutControlItem6.Control = Me.btnProcess
         Me.LayoutControlItem6.CustomizationFormText = "LayoutControlItem6"
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 408)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 407)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
         Me.LayoutControlItem6.Size = New System.Drawing.Size(173, 34)
         Me.LayoutControlItem6.Text = "LayoutControlItem6"
@@ -293,7 +293,7 @@ Partial Class frmImportData
         '
         Me.LayoutControlItem2.Control = Me.btnImport
         Me.LayoutControlItem2.CustomizationFormText = "LayoutControlItem2"
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 442)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 441)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
         Me.LayoutControlItem2.Size = New System.Drawing.Size(173, 34)
         Me.LayoutControlItem2.Text = "LayoutControlItem2"

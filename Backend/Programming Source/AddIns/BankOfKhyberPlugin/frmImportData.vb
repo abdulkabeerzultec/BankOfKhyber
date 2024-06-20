@@ -19,7 +19,7 @@ Public Class frmImportData
     Dim AssetTagNotExistMessage As String = "AssetTag not exist. Ignored"
 
     Private Sub ctlImportData_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        MessageBox.Show("Bank of khyber")
+        'MessageBox.Show("Bank of khyber")
         Me.ParentForm.Text = "Import data from Excel"
         Me.ParentForm.Size = New System.Drawing.Size(722, 532)
         Me.ParentForm.WindowState = FormWindowState.Maximized
@@ -141,9 +141,9 @@ Public Class frmImportData
         End If
 
 
-        If dt.Columns("Serial") Is Nothing Then
-            Result = False
-        End If
+        'If dt.Columns("Serial") Is Nothing Then
+        '    Result = False
+        'End If
 
         Return Result
     End Function
@@ -183,16 +183,18 @@ Public Class frmImportData
             For i As Integer = 0 To grdView.RowCount - 1
 
                 'Import Company
-                Dim CompanyID As String = ImportCompany("1", "Aramco")
+                Dim CompanyID As String = ImportCompany("1", "BOK")
 
                 'Dim CompanyID As String = "1"
                 Dim CatID As String = 1
                 If Not String.IsNullOrEmpty(grdView.GetRowCellValue(i, ("CATEGORY")).ToString.Trim) Then
+                 
+
                     CatID = ImportCategory(grdView.GetRowCellValue(i, ("CATEGORY")).ToString.Trim, processYears(grdView.GetRowCellValue(i, ("Salvage Year")).ToString.Trim), "0")
 
                 End If
                 'Import location.
-                If i = 2220 Then
+                If i = 26 Then
                     Dim Stri As String = "Idhar Agaya"
                 End If
 
@@ -549,7 +551,16 @@ Public Class frmImportData
             objattAssetDetails.CompanyID = CompanyID
             objattAssetDetails.AstBrandID = AstBrandID
             objattAssetDetails.AstDesc = ItemDesc
-            objattAssetDetails.AstDesc2 = String.Empty
+            If Not String.IsNullOrEmpty(grdView.GetRowCellValue(FocuseRowHandel, ("New Asset Description")).ToString.Trim) Then
+                objattAssetDetails.AstDesc2 = grdView.GetRowCellDisplayText(FocuseRowHandel, ("New Asset Description")).ToString.Trim
+            Else
+                objattAssetDetails.AstDesc2 = String.Empty
+
+                'SupplierID = ImportSupplier(grdView.GetRowCellValue(i, ("Vendor")).ToString.Trim)
+
+            End If
+
+            'objattAssetDetails.AstDesc2 = grdView.GetRowCellDisplayText(FocuseRowHandel, ("New Asset Description")).ToString.Trim
             objattAssetDetails.AstModel = String.Empty
             objattAssetDetails.GLCode = GLCode
 
@@ -574,11 +585,12 @@ Public Class frmImportData
             objattAssetDetails.RefNo = AssetRefNumber
             objattAssetDetails.AstNum = AssetRefNumber
             objattAssetDetails.PKeyCode = AssetID
-            objattAssetDetails.BarCode = AssetID
+
+            objattAssetDetails.BarCode = Barcode
             objattAssetDetails.IsDataChanged = False
 
-            objattAssetDetails.CustomFld1 = String.Empty
-            objattAssetDetails.CustomFld2 = String.Empty
+            objattAssetDetails.CustomFld1 = grdView.GetRowCellDisplayText(FocuseRowHandel, ("ASSET STATUS")).ToString.Trim
+            objattAssetDetails.CustomFld2 = grdView.GetRowCellDisplayText(FocuseRowHandel, ("CURRENT STATUS")).ToString.Trim
             objattAssetDetails.CustomFld3 = String.Empty
             objattAssetDetails.CustomFld4 = String.Empty
             objattAssetDetails.CustomFld5 = String.Empty
@@ -591,7 +603,7 @@ Public Class frmImportData
             'shahroz
             'Dim UsefulLife As Integer = processYears(grdView.GetRowCellValue(FocuseRowHandel, ("Salvage Year")).ToString.Trim)
             Dim UsefulLife As Integer = processYears(grdView.GetRowCellValue(FocuseRowHandel, ("Salvage Year")).ToString.Trim)
-            Dim DetailsRows As DataRow() = dtAssetDetails.Select("AstNum = '" & AssetRefNumber & "'")
+            Dim DetailsRows As DataRow() = dtAssetDetails.Select("BarCode = '" & objattAssetDetails.BarCode & "'")
             objattAssetDetails.BaseCost = grdView.GetRowCellDisplayText(FocuseRowHandel, ("Cost")).ToString.Trim
             If DetailsRows.Length > 0 Then
                 objattAssetDetails.PKeyCode = DetailsRows(0)("AstID")
@@ -642,11 +654,13 @@ Public Class frmImportData
                 objattAssetDetails.InvSchCode = 1
                 objattAssetDetails.InvStatus = 0
                 objattAssetDetails.StatusID = 1
-                objattAssetDetails.BarCode = Barcode
                 Dim DepDate As DateTime = PDate
                 objattAssetDetails.SuppID = Supplier
+                Dim total As Integer = processYears(grdView.GetRowCellValue(FocuseRowHandel, ("Salvage Year")).ToString.Trim)
+                Dim years As Integer = total / 12
+                Dim monthh As Integer = total Mod 12
                 If objBALAssetDetails.Insert_AssetDetails(objattAssetDetails, False) Then
-                    objBALAssetDetails.Add_AstBooks(objattAssetDetails.PKeyCode, grdView.GetRowCellDisplayText(FocuseRowHandel, ("Cost")).ToString.Trim, objattAssetDetails.CompanyID, "0", UsefulLife, 0, DepDate, False)
+                    objBALAssetDetails.Add_AstBooks(objattAssetDetails.PKeyCode, grdView.GetRowCellDisplayText(FocuseRowHandel, ("Cost")).ToString.Trim, objattAssetDetails.CompanyID, "0", years, monthh, DepDate, False)
 
                     'Dim objattAstHistory As attAstHistory
                     'Dim objBALAst_History As New BALAst_History

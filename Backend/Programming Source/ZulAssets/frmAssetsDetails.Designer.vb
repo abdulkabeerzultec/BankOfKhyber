@@ -78,6 +78,8 @@ Partial Class frmAssetsDetails
         Me.Label10 = New System.Windows.Forms.Label
         Me.Label7 = New System.Windows.Forms.Label
         Me.MainGroup = New System.Windows.Forms.GroupBox
+        Me.txtInventoryNumber = New DevExpress.XtraEditors.TextEdit
+        Me.Label70 = New System.Windows.Forms.Label
         Me.txtAssetStatus = New ZulLOV.ZulLOV
         Me.Label78 = New System.Windows.Forms.Label
         Me.btnAddCostCenter = New System.Windows.Forms.Button
@@ -292,8 +294,6 @@ Partial Class frmAssetsDetails
         Me.btn = New System.Windows.Forms.Button
         Me.dlgFile = New System.Windows.Forms.OpenFileDialog
         Me.btnPrintLabel = New System.Windows.Forms.Button
-        Me.txtInventoryNumber = New DevExpress.XtraEditors.TextEdit
-        Me.Label70 = New System.Windows.Forms.Label
         CType(Me.txtSales.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtbase.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtSalValPercent.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -316,6 +316,7 @@ Partial Class frmAssetsDetails
         CType(Me.txtCategory.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtItemDesc.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MainGroup.SuspendLayout()
+        CType(Me.txtInventoryNumber.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPieceNo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtBarCode.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtCustHier.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -409,7 +410,6 @@ Partial Class frmAssetsDetails
         CType(Me.txtSoldto.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPrice.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtInventoryNumber.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtSales
@@ -1041,6 +1041,25 @@ Partial Class frmAssetsDetails
         Me.MainGroup.TabStop = False
         Me.MainGroup.Text = "Details"
         '
+        'txtInventoryNumber
+        '
+        Me.txtInventoryNumber.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtInventoryNumber.Location = New System.Drawing.Point(104, 275)
+        Me.txtInventoryNumber.Name = "txtInventoryNumber"
+        Me.txtInventoryNumber.Properties.MaxLength = 25
+        Me.txtInventoryNumber.Size = New System.Drawing.Size(665, 19)
+        Me.txtInventoryNumber.TabIndex = 80
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Location = New System.Drawing.Point(43, 276)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(48, 13)
+        Me.Label70.TabIndex = 81
+        Me.Label70.Text = "Remarks"
+        '
         'txtAssetStatus
         '
         Me.txtAssetStatus.BackColor = System.Drawing.Color.White
@@ -1193,7 +1212,7 @@ Partial Class frmAssetsDetails
         '
         'txtAstDesc2
         '
-        Me.txtAstDesc2.Location = New System.Drawing.Point(104, 249)
+        Me.txtAstDesc2.Location = New System.Drawing.Point(104, 225)
         Me.txtAstDesc2.Name = "txtAstDesc2"
         Me.txtAstDesc2.Properties.MaxLength = 200
         Me.txtAstDesc2.Size = New System.Drawing.Size(664, 19)
@@ -1202,11 +1221,11 @@ Partial Class frmAssetsDetails
         'Label68
         '
         Me.Label68.AutoSize = True
-        Me.Label68.Location = New System.Drawing.Point(29, 252)
+        Me.Label68.Location = New System.Drawing.Point(11, 228)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(66, 13)
+        Me.Label68.Size = New System.Drawing.Size(84, 13)
         Me.Label68.TabIndex = 76
-        Me.Label68.Text = "Description2"
+        Me.Label68.Text = "New Description"
         '
         'cmbGLCode
         '
@@ -1290,7 +1309,7 @@ Partial Class frmAssetsDetails
         '
         'txtAstDesc
         '
-        Me.txtAstDesc.Location = New System.Drawing.Point(104, 222)
+        Me.txtAstDesc.Location = New System.Drawing.Point(104, 250)
         Me.txtAstDesc.Name = "txtAstDesc"
         Me.txtAstDesc.Properties.MaxLength = 200
         Me.txtAstDesc.Size = New System.Drawing.Size(664, 19)
@@ -1520,11 +1539,11 @@ Partial Class frmAssetsDetails
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(29, 225)
+        Me.Label44.Location = New System.Drawing.Point(19, 253)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(66, 13)
+        Me.Label44.Size = New System.Drawing.Size(79, 13)
         Me.Label44.TabIndex = 55
-        Me.Label44.Text = "Description1"
+        Me.Label44.Text = "Old Description"
         '
         'txtRef
         '
@@ -3348,25 +3367,6 @@ Partial Class frmAssetsDetails
         Me.btnPrintLabel.Text = "&Print Label"
         Me.btnPrintLabel.UseVisualStyleBackColor = True
         '
-        'txtInventoryNumber
-        '
-        Me.txtInventoryNumber.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtInventoryNumber.Location = New System.Drawing.Point(104, 275)
-        Me.txtInventoryNumber.Name = "txtInventoryNumber"
-        Me.txtInventoryNumber.Properties.MaxLength = 25
-        Me.txtInventoryNumber.Size = New System.Drawing.Size(665, 19)
-        Me.txtInventoryNumber.TabIndex = 80
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Location = New System.Drawing.Point(43, 276)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(48, 13)
-        Me.Label70.TabIndex = 81
-        Me.Label70.Text = "Remarks"
-        '
         'frmAssetsDetails
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -3412,6 +3412,7 @@ Partial Class frmAssetsDetails
         CType(Me.txtItemDesc.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MainGroup.ResumeLayout(False)
         Me.MainGroup.PerformLayout()
+        CType(Me.txtInventoryNumber.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPieceNo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtBarCode.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtCustHier.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3517,7 +3518,6 @@ Partial Class frmAssetsDetails
         CType(Me.txtSoldto.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPrice.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtInventoryNumber.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

@@ -387,6 +387,9 @@
     <Compile Include="frmAssetsDetails.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reports\ZulAssetsBEDataSet.vb">
+      <DependentUpon>ZulAssetsBEDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Settings.vb" />
     <Compile Include="Wizards\frmConfigWizard.Designer.vb">
       <DependentUpon>frmConfigWizard.vb</DependentUpon>

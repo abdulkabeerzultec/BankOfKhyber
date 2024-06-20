@@ -46,6 +46,112 @@ Namespace ZulAssetBAL
 
                     depValue = ((LastBookValue - SalValue) / (SalYr * 12 + SalMon))
                     depValue = depValue * MnthLeft
+                    'depValue = depValue * MnthLeft
+                    'Sum Of Years
+                ElseIf intDeptype = 2 Then
+                    Dim Sumofyr As Double
+                    Dim yrleft As Double
+                    Dim PrYrDepVal As Double = 0.0
+                    Dim MnthLeft As Int32
+                    yrleft = SalYr - DateDiff(DateInterval.Year, ServiceDate, fiscalYr)
+                    For a As Double = 1 To SalYr
+                        Sumofyr += a
+                    Next
+                    For i As Integer = 0 To (SalYr - yrleft - 1)
+                        PrYrDepVal += ((LastBookValue - SalValue) * (SalYr - i)) / Sumofyr
+                    Next
+                    MnthLeft = Fix(DateDiff(DateInterval.Day, ServiceDate, fiscalYr) / 30) Mod 12
+                    depValue = ((LastBookValue - SalValue) * (yrleft)) / (Sumofyr)
+                    depValue = (depValue / 12) * MnthLeft
+                    depValue = PrYrDepVal + depValue
+
+                    'Double Declining
+                ElseIf intDeptype = 3 Then
+                    Dim yrleft As Double
+                    Dim PrYrDepVal As Double = 0.0
+                    Dim MnthLeft As Int32
+                    yrleft = SalYr - DateDiff(DateInterval.Year, ServiceDate, fiscalYr)
+                    depValue = 0.0
+                    For i As Double = 0 To (SalYr - yrleft - 1)
+                        PrYrDepVal += (LastBookValue - PrYrDepVal) / SalYr
+                    Next
+                    MnthLeft = Fix(DateDiff(DateInterval.Day, ServiceDate, fiscalYr) / 30) Mod 12
+                    depValue = (LastBookValue - PrYrDepVal) / SalYr
+                    depValue = (depValue / 12) * MnthLeft
+                    depValue = PrYrDepVal + depValue
+
+                    '150%
+                ElseIf intDeptype = 3 Then
+                    Dim yrleft As Double
+                    Dim PrYrDepVal As Double = 0.0
+                    Dim MnthLeft As Int32
+                    yrleft = SalYr - DateDiff(DateInterval.Year, ServiceDate, fiscalYr)
+                    depValue = 0.0
+                    For i As Double = 0 To (SalYr - yrleft - 1)
+                        PrYrDepVal += (LastBookValue - PrYrDepVal) * (1.5) / SalYr
+                    Next
+                    MnthLeft = Fix(DateDiff(DateInterval.Day, ServiceDate, fiscalYr) / 30) Mod 12
+                    depValue = (LastBookValue - PrYrDepVal) / SalYr
+                    depValue = (depValue / 12) * MnthLeft
+                    depValue = PrYrDepVal + depValue
+
+                    '175%
+                ElseIf intDeptype = 3 Then
+                    Dim yrleft As Double
+                    Dim PrYrDepVal As Double = 0.0
+                    Dim MnthLeft As Int32
+                    yrleft = SalYr - DateDiff(DateInterval.Year, ServiceDate, fiscalYr)
+                    depValue = 0.0
+                    For i As Double = 0 To (SalYr - yrleft - 1)
+                        PrYrDepVal += (LastBookValue - PrYrDepVal) * (1.75) / SalYr
+                    Next
+                    MnthLeft = Fix(DateDiff(DateInterval.Day, ServiceDate, fiscalYr) / 30) Mod 12
+                    depValue = (LastBookValue - PrYrDepVal) / SalYr
+                    depValue = (depValue / 12) * MnthLeft
+                    depValue = PrYrDepVal + depValue
+
+                    '200%
+                ElseIf intDeptype = 3 Then
+                    Dim yrleft As Double
+                    Dim PrYrDepVal As Double = 0.0
+                    Dim MnthLeft As Int32
+                    yrleft = SalYr - DateDiff(DateInterval.Year, ServiceDate, fiscalYr)
+                    depValue = 0.0
+                    For i As Integer = 0 To (SalYr - yrleft - 1)
+                        PrYrDepVal += (LastBookValue - PrYrDepVal) * (2.0) / SalYr
+                    Next
+                    MnthLeft = Fix(DateDiff(DateInterval.Day, ServiceDate, fiscalYr) / 30) Mod 12
+                    depValue = (LastBookValue - PrYrDepVal) / SalYr
+                    depValue = (depValue / 12) * MnthLeft
+                    depValue = PrYrDepVal + depValue
+                End If
+
+                Return depValue
+            Catch ex As Exception
+                Throw ex
+            End Try
+        End Function
+        Private Function CalcDepValueM(ByVal SalYr As Int16, ByVal SalMon As Int16, ByVal intDeptype As Integer, ByVal LastBookValue As Double, ByVal SalValue As Double, ByVal fiscalYr As Date, ByVal ServiceDate As Date) As Double
+            Try
+                Dim depValue As Double = 0.0
+                If Monthconfig = DepMonthConfig.HalfMonth Then
+                    If ServiceDate.Day > 15 Then
+                        ServiceDate = ServiceDate.AddMonths(1)
+                    End If
+                    If fiscalYr.Day > 15 Then
+                        fiscalYr = fiscalYr.AddMonths(1)
+                    End If
+                End If
+
+                'Straight Line
+                If intDeptype = 1 Then
+                    Dim MnthLeft As Integer
+                    ' MnthLeft =  Math.Ceiling(DateDiff(DateInterval.Day, ServiceDate, fiscalYr) / 30.5)
+                    MnthLeft = monthDifference(ServiceDate, fiscalYr)
+
+                    depValue = ((LastBookValue - SalValue) / (SalYr * 12 + SalMon))
+                    depValue = depValue
+                    'depValue = depValue * MnthLeft
                     'Sum Of Years
                 ElseIf intDeptype = 2 Then
                     Dim Sumofyr As Double
@@ -131,7 +237,6 @@ Namespace ZulAssetBAL
             End Try
         End Function
 
-
         Private Function GetLastDayInMonth(ByVal dt As Date) As Date
             'get the last day in month 
             Return dt.AddDays(Date.DaysInMonth(dt.Year, dt.Month) - dt.Day)
@@ -167,7 +272,7 @@ Namespace ZulAssetBAL
 
                     If MnthLeft > 0 Then
                         For i As Integer = 0 To MnthLeft - 1
-                            depValue = CalcDepValue(SalYr, SalMon, intDeptype, TotalCost, SalValue, endOfMonth, startOfMonth)
+                            depValue = CalcDepValueM(SalYr, SalMon, intDeptype, TotalCost, SalValue, endOfMonth, startOfMonth)
                             If CDbl(CurBookValue - accDepValue - depValue) >= SalValue Then
                                 accDepValue += depValue
                                 dt.Rows.Add(startOfMonth, CDbl(CurBookValue - accDepValue + depValue), CDbl(depValue), CDbl(accDepValue), CDbl(CurBookValue - accDepValue))
